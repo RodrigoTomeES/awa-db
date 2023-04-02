@@ -1,3 +1,4 @@
+// Get marketplace data snippet
 const ALIENWARE_DATA = "marketplace-alienware";
 
 const recoverData = () => {
@@ -20,30 +21,18 @@ const getData = () => {
 };
 
 const getDataAllPages = () => {
-  const firstPage = 1;
-  const currentPage = parseInt(
-    document.getElementsByClassName("page-item active")[0].textContent ??
-      firstPage.toString()
-  );
-  const lastPage = parseInt(
-    document.getElementsByClassName("page-item next")[0].previousSibling
-      .textContent
-  );
   const data = recoverData();
-
   const linkToNextPage = document.getElementsByClassName("page-item next");
+  const newData = getData();
 
-  while (currentPage < lastPage) {
-    const newData = getData();
+  saveData([...data, ...newData]);
 
-    saveData([...data, ...newData]);
-    if (linkToNextPage) linkToNextPage[0].childNodes[0].click();
-  }
+  if (linkToNextPage) linkToNextPage[0].childNodes[0].click();
 };
 
 getDataAllPages();
 
-//---------------------
+// Save data snippet
 const getUniqueData = () => {
   const data = recoverData();
   const uniqueData = new Map();
