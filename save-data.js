@@ -1,10 +1,11 @@
-const getUniqueData = () => {
-  const data = recoverData();
+const getUniqueData = (...args) => {
   const uniqueData = new Map();
 
-  data.forEach((item) => {
-    if (!uniqueData.has(item.id)) uniqueData.set(item.id, item);
-  });
+  args.forEach((data) =>
+    data.forEach((item) => {
+      if (!uniqueData.has(item.id)) uniqueData.set(item.id, item);
+    })
+  );
 
   return {
     data: [...uniqueData.values()].sort((a, b) => a.id - b.id),
@@ -20,5 +21,7 @@ const findMissingNumbers = (arr) => {
   return all.filter((e) => !arr.includes(e));
 };
 
-const uniqueData = getUniqueData();
+const db = [];
+const data = recoverData();
+const uniqueData = getUniqueData(data, db);
 const missingIDs = findMissingNumbers(uniqueData.ids);

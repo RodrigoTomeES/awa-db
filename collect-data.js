@@ -15,7 +15,10 @@ const getData = () => {
 
   return Array.from(elements).map((element) => ({
     id: parseInt(element.dataset.productId),
+    image: element.dataset.productImage,
     name: element.dataset.productName,
+    description: element.dataset.productDescription,
+    price: parseInt(element.dataset.productPrice),
   }));
 };
 
@@ -26,7 +29,7 @@ const getDataAllPages = () => {
 
   saveData([...data, ...newData]);
 
-  if (linkToNextPage) linkToNextPage[0].childNodes[0].click();
+  if (linkToNextPage.length > 0) linkToNextPage[0].childNodes[0].click();
 };
 
 getDataAllPages();

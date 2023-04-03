@@ -1,799 +1,1396 @@
 [
   {
     "id": 35,
-    "name": "Hypnotic Rainbow Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/519a648e6bb1b4df183b95fb84d3d6a5.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Hypnotic Rainbow Border (Animated)",
+    "description": "Gaze into infinity!",
+    "price": 400
   },
   {
     "id": 36,
-    "name": "Dancing Crab Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/2dadcc4c70fc5de8e4e3aa63c2aa2dd2.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Dancing Crab Border (Animated)",
+    "description": "All Hail The Crab",
+    "price": 350
   },
   {
     "id": 37,
-    "name": "Blinking Cat Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/43bf50bf1472f984777c761505b012e4.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Blinking Cat Border (Animated)",
+    "description": "#Judging",
+    "price": 300
   },
   {
     "id": 38,
-    "name": "Hacker Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/f3b0f7b9cb469804863ba3f377716df0.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Hacker Border (Animated)",
+    "description": "Red pill or blue pill?",
+    "price": 300
   },
   {
     "id": 39,
-    "name": "Schrödinger's Cat Frame (Animated)"
+    "image": "https://media.alienwarearena.com/media/60f6f5b8531e885d6d7f351340c3f9a5.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Schrödinger's Cat Frame (Animated)",
+    "description": "The cat is running inside and outside the frame simultaneously.",
+    "price": 250
   },
   {
     "id": 40,
-    "name": "Summer Lantern Border"
+    "image": "https://media.alienwarearena.com/media/6dbac5719aead9e55e22f68cfe47ff93.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Summer Lantern Border",
+    "description": "Just needs some firelies.",
+    "price": 15
   },
   {
     "id": 41,
-    "name": "Blade of Destiny Badge"
+    "image": "https://media.alienwarearena.com/media/632a5960b1572eb64ac088793137e8af.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Blade of Destiny Badge",
+    "description": "Legend holds that there's a really dope sword out there, somewhere.",
+    "price": 150
   },
   {
     "id": 42,
-    "name": "Crown Badge"
+    "image": "https://media.alienwarearena.com/media/1581ac73db090ac911da0fa3c289dc97.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Crown Badge",
+    "description": "Swear fealty!",
+    "price": 50
   },
   {
     "id": 43,
-    "name": "Street Art Badge"
+    "image": "https://media.alienwarearena.com/media/83e16a5b6af144f59d8ba4739fbb5acf.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Street Art Badge",
+    "description": "Rep the streets.",
+    "price": 25
   },
   {
     "id": 44,
-    "name": "Impressionism Badge"
+    "image": "https://media.alienwarearena.com/media/15dcf10dcdf5edd8f28a8816043539cf.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Impressionism Badge",
+    "description": "Museum-worthy.",
+    "price": 25
   },
   {
     "id": 45,
-    "name": "Dog Badge"
+    "image": "https://media.alienwarearena.com/media/fdcc9c0b4003d3da2e33f210422581b1.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Dog Badge",
+    "description": "Match our Cat Month badge with a badge dedicated to man's best friend!",
+    "price": 25
   },
   {
     "id": 46,
-    "name": "Stone Age Badge"
+    "image": "https://media.alienwarearena.com/media/39a2ee1bec929b0b29bf346c8eb0efd7.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Stone Age Badge",
+    "description": "That's a neat rock.",
+    "price": 15
   },
   {
     "id": 119,
-    "name": "Cyborg Pants"
+    "image": "https://media.alienwarearena.com/media/4801dc2ed0ff7d9b1fd2780a04a8aae1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cyborg Pants",
+    "description": "Need tight pants to do robo-slayer things.",
+    "price": 40
   },
   {
     "id": 120,
-    "name": "Cyborg Boots"
+    "image": "https://media.alienwarearena.com/media/df9b26c492d43c31db1aed5d95f60429.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cyborg Boots",
+    "description": "The leather is extra squeaky.",
+    "price": 40
   },
   {
     "id": 121,
-    "name": "Cyborg Jacket"
+    "image": "https://media.alienwarearena.com/media/c19ab1bfcbba69ddeb63609e6e3fcded.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cyborg Jacket",
+    "description": "+1 to shotgun accuracy",
+    "price": 40
   },
   {
     "id": 122,
-    "name": "Cyborg Shades"
+    "image": "https://media.alienwarearena.com/media/43e530a8699f5fcf75d668ba47e0765c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cyborg Shades",
+    "description": "I wear my sunglasses at night",
+    "price": 40
   },
   {
     "id": 123,
-    "name": "Mummy Head"
+    "image": "https://media.alienwarearena.com/media/1e2ac8f632ba28d9201a273b0fdf5a7b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Mummy Head",
+    "description": "I can't hear you, you're muffled.",
+    "price": 35
   },
   {
     "id": 124,
-    "name": "Mummy Body"
+    "image": "https://media.alienwarearena.com/media/3998c07dc1078746bd98ee994e3449d3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Mummy Body",
+    "description": "Rockin' it crypt style.",
+    "price": 35
   },
   {
     "id": 125,
-    "name": "Mummy Legs"
+    "image": "https://media.alienwarearena.com/media/1c04f03f08abf4bdec3676fac4fb2511.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Mummy Legs",
+    "description": "Nice wraps, man.",
+    "price": 35
   },
   {
     "id": 126,
-    "name": "Vampire Boots"
+    "image": "https://media.alienwarearena.com/media/e44f1f4862610aa8e27841aee4e88f2f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Vampire Boots",
+    "description": "Perfect for moody nightcrawlers",
+    "price": 45
   },
   {
     "id": 127,
-    "name": "Vampire Pants"
+    "image": "https://media.alienwarearena.com/media/04fabd53f7365476615e3481a37a2db3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Vampire Pants",
+    "description": "Alucard called, he wants his pants back.",
+    "price": 45
   },
   {
     "id": 128,
-    "name": "Vampire Teeth"
+    "image": "https://media.alienwarearena.com/media/3b4ab3512e679dec663471f3d633c9ba.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Vampire Teeth",
+    "description": "I vant to svuck ya blud.",
+    "price": 45
   },
   {
     "id": 129,
-    "name": "Vampire Top"
+    "image": "https://media.alienwarearena.com/media/c701a73d7fac5cd9e45479631486b29a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Vampire Top",
+    "description": "The most popular outfit in Castle Volkihar",
+    "price": 45
   },
   {
     "id": 131,
-    "name": "Rockefeller Opera Gloves"
+    "image": "https://media.alienwarearena.com/media/bdd81ca17945a7936f0d20d41b61b4a3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Rockefeller Opera Gloves",
+    "description": "Fit for the Ritz.",
+    "price": 40
   },
   {
     "id": 132,
-    "name": "Rockefeller Dress"
+    "image": "https://media.alienwarearena.com/media/9cabbce2d761abad7a51995a3d689834.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Rockefeller Dress",
+    "description": "Perfect for eating croissants and window shopping at jewelry stores.",
+    "price": 40
   },
   {
     "id": 133,
-    "name": "Rockefeller Hair"
+    "image": "https://media.alienwarearena.com/media/147e97c63351d51dee6c8ed1a97bc533.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Rockefeller Hair",
+    "description": "Tall hair, don't care",
+    "price": 40
   },
   {
     "id": 134,
-    "name": "Rockefeller Shoes"
+    "image": "https://media.alienwarearena.com/media/5f26dace07ea24f254afedecd027644f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Rockefeller Shoes",
+    "description": "Chic.",
+    "price": 40
   },
   {
     "id": 135,
-    "name": "Spaghetti Western Boots"
+    "image": "https://media.alienwarearena.com/media/929f457609f037e7c221f05f4f7f8b74.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaghetti Western Boots",
+    "description": "Perfect for kicking dirt.",
+    "price": 40
   },
   {
     "id": 136,
-    "name": "Spaghetti Western Jeans"
+    "image": "https://media.alienwarearena.com/media/eedf30e9dce780d3d5b2fc1f52d3b417.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaghetti Western Jeans",
+    "description": "Rough and tumble denim for rough and tumble aliens.",
+    "price": 40
   },
   {
     "id": 137,
-    "name": "Spaghetti Western Shirt"
+    "image": "https://media.alienwarearena.com/media/76d2d58dd88286129cbb85124b752b85.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaghetti Western Shirt",
+    "description": "Ride like the wind, cowboy.",
+    "price": 40
   },
   {
     "id": 138,
-    "name": "Spaghetti Western Hat"
+    "image": "https://media.alienwarearena.com/media/25831eb5123a11b592131d17ce6fc09d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaghetti Western Hat",
+    "description": "Even if you wear this hat, you'll still have to squint your eyes.",
+    "price": 40
   },
   {
     "id": 139,
-    "name": "Business Shoes"
+    "image": "https://media.alienwarearena.com/media/dd89eddcf94e1c68669303bce0b8cd5a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Business Shoes",
+    "description": "No funny business here!",
+    "price": 40
   },
   {
     "id": 140,
-    "name": "Business Slacks"
+    "image": "https://media.alienwarearena.com/media/bf636e923709633cc2003bb85be510ea.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Business Slacks",
+    "description": "Gettin' down to business.",
+    "price": 40
   },
   {
     "id": 141,
-    "name": "Business Jacket"
+    "image": "https://media.alienwarearena.com/media/685ce0719f66a838aca0e0347d9af85e.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Business Jacket",
+    "description": "Fancy schmancy",
+    "price": 40
   },
   {
     "id": 142,
-    "name": "Spaceman Pants"
+    "image": "https://media.alienwarearena.com/media/39904749172a6a96bd0238498097ba7d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaceman Pants",
+    "description": "One small step for man...",
+    "price": 35
   },
   {
     "id": 143,
-    "name": "Spaceman Suit"
+    "image": "https://media.alienwarearena.com/media/bcba6d1342543e66a64e84b6541e63a0.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaceman Suit",
+    "description": "Shoot for the stars",
+    "price": 35
   },
   {
     "id": 144,
-    "name": "Spaceman Helm"
+    "image": "https://media.alienwarearena.com/media/aea1658e7581ad8011eeba4775a83fe5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Spaceman Helm",
+    "description": "Can you hear me, Major Tom?",
+    "price": 35
   },
   {
     "id": 145,
-    "name": "Knight Sword and Shield"
+    "image": "https://media.alienwarearena.com/media/1556d3458c45d715df368eb6ab83b0d9.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Knight Sword and Shield",
+    "description": "M'Lord!",
+    "price": 50
   },
   {
     "id": 146,
-    "name": "Knight Boots"
+    "image": "https://media.alienwarearena.com/media/78f16a486bd99ada0809c0086b9bfd04.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Knight Boots",
+    "description": "+5 Speed bonus",
+    "price": 50
   },
   {
     "id": 147,
-    "name": "Knight Greaves"
+    "image": "https://media.alienwarearena.com/media/c137c61c27489405eb533ecc7f0c77ac.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Knight Greaves",
+    "description": "Tough guys wear shiny pants.",
+    "price": 50
   },
   {
     "id": 148,
-    "name": "Knight Armor"
+    "image": "https://media.alienwarearena.com/media/09d602b358994da1cc942484fdd03160.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Knight Armor",
+    "description": "Protect the realm!",
+    "price": 50
   },
   {
     "id": 150,
-    "name": "Knight Helm"
+    "image": "https://media.alienwarearena.com/media/7a870751807fc556660fc5e8a428348d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Knight Helm",
+    "description": "Metaknight is jealous.",
+    "price": 50
   },
   {
     "id": 151,
-    "name": "Maid Shoes"
+    "image": "https://media.alienwarearena.com/media/8d3926ee55aef1b118433e446c9e2f41.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Maid Shoes",
+    "description": "Clean kicks for the cleaning lady",
+    "price": 30
   },
   {
     "id": 152,
-    "name": "Maid Dress"
+    "image": "https://media.alienwarearena.com/media/d84ccc4feb75e1e23c9a9747c208e1d1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Maid Dress",
+    "description": "Scrub a dub dub",
+    "price": 30
   },
   {
     "id": 153,
-    "name": "Feather Duster"
+    "image": "https://media.alienwarearena.com/media/d0e2c8d70e3d279f93e8fa05a0d568a1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Feather Duster",
+    "description": "I want this place looking spick and span!",
+    "price": 30
   },
   {
     "id": 154,
-    "name": "Hazmat Boots"
+    "image": "https://media.alienwarearena.com/media/7f5657f0c00f8e0a04ddef8b763569a1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Hazmat Boots",
+    "description": "DANGER!",
+    "price": 35
   },
   {
     "id": 155,
-    "name": "Hazmat Suit"
+    "image": "https://media.alienwarearena.com/media/d7b415fdd1aa5a3dd5e419f126ea6b83.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Hazmat Suit",
+    "description": "CAUTION!",
+    "price": 35
   },
   {
     "id": 156,
-    "name": "Hazmat Gloves"
+    "image": "https://media.alienwarearena.com/media/7991229e544e3b29e88bfc99044c8d41.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Hazmat Gloves",
+    "description": "WARNING!",
+    "price": 35
   },
   {
     "id": 157,
-    "name": "Hazmat Mask"
+    "image": "https://media.alienwarearena.com/media/950375615c4bd7b0fe9dc537945f35ae.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Hazmat Mask",
+    "description": "Enter at your own risk!",
+    "price": 35
   },
   {
     "id": 158,
-    "name": "Sadie Hawkins Dress"
+    "image": "https://media.alienwarearena.com/media/d0ca735f95a5ab03af53210b7bb7801b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sadie Hawkins Dress",
+    "description": "Get ready to whirl!",
+    "price": 30
   },
   {
     "id": 159,
-    "name": "Sadie Hawkins Shoes"
+    "image": "https://media.alienwarearena.com/media/f4da4318560848ea094f50b7441cd9e9.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sadie Hawkins Shoes",
+    "description": "Get ready to tap tap tap!",
+    "price": 30
   },
   {
     "id": 160,
-    "name": "Doomsday Sign"
+    "image": "https://media.alienwarearena.com/media/41e7687e290326d2b06f78c1e7c50ea4.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Doomsday Sign",
+    "description": "The end is nigh!",
+    "price": 40
   },
   {
     "id": 161,
-    "name": "Doomsday Bell"
+    "image": "https://media.alienwarearena.com/media/22babb5e8bbded5674dedea5c9e6fdcd.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Doomsday Bell",
+    "description": "If you ring it hard enough, maybe the apocalypse won't come?",
+    "price": 40
   },
   {
     "id": 162,
-    "name": "Tinfoil hat"
+    "image": "https://media.alienwarearena.com/media/4c6f9032095103aa36714d7cc656b753.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Tinfoil hat",
+    "description": "A Doomsday necessity.",
+    "price": 40
   },
   {
     "id": 163,
-    "name": "Día de los Muertos Shoes"
+    "image": "https://media.alienwarearena.com/media/d4c138f76f5fda86123383343bd9b924.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "DÃ­a de los Muertos Shoes",
+    "description": "Ay caramba!",
+    "price": 35
   },
   {
     "id": 164,
-    "name": "Día de los Muertos Sugar Skull Mask"
+    "image": "https://media.alienwarearena.com/media/51d33782fb30bd4dce4c14321e8f06f4.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "DÃ­a de los Muertos Sugar Skull Mask",
+    "description": "Look and taste sweet!",
+    "price": 35
   },
   {
     "id": 165,
-    "name": "Día de los Muertos Skeleton Suit"
+    "image": "https://media.alienwarearena.com/media/009c8ff3abcdf788eeff2ba944c4d7f1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "DÃ­a de los Muertos Skeleton Suit",
+    "description": "Skeleton boogie",
+    "price": 35
   },
   {
     "id": 166,
-    "name": "Sadie Hawkins Hair"
+    "image": "https://media.alienwarearena.com/media/eb1d6fa88620d650ed9bb4c4798f7058.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sadie Hawkins Hair",
+    "description": "Some like it hot!",
+    "price": 20
   },
   {
     "id": 167,
-    "name": "Bob Haircut"
+    "image": "https://media.alienwarearena.com/media/1eee7bf4bae9ffb2821b3275cf00f691.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Bob Haircut",
+    "description": "Channel your inner Karen",
+    "price": 20
   },
   {
     "id": 168,
-    "name": "Girl Next Door Hair"
+    "image": "https://media.alienwarearena.com/media/bcb7887fb617645e7928f61d1cfa0d45.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Girl Next Door Hair",
+    "description": "Straight out of a 2000s rom-com.",
+    "price": 20
   },
   {
     "id": 169,
-    "name": "Gigantic Handlebar Moustache"
+    "image": "https://media.alienwarearena.com/media/c23f19e4492711c53b92fb6670ae4480.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gigantic Handlebar Moustache",
+    "description": "I moustache you a question",
+    "price": 15
   },
   {
     "id": 170,
-    "name": "Curled Brown Stache"
+    "image": "https://media.alienwarearena.com/media/2c9ff6c466eed3867b53388a97be7bfa.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Curled Brown Stache",
+    "description": "Taking no shave November to the moon",
+    "price": 15
   },
   {
     "id": 171,
-    "name": "Groucho Glasses"
+    "image": "https://media.alienwarearena.com/media/627fb2bc208c2ce145223cf1a9b3dc5e.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Groucho Glasses",
+    "description": "Comedy at its finest.",
+    "price": 15
   },
   {
     "id": 172,
-    "name": "Flip-flops"
+    "image": "https://media.alienwarearena.com/media/1ac75c453553d196eeebf8714ebcd242.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Flip-flops",
+    "description": "For flipping and flopping.",
+    "price": 15
   },
   {
     "id": 173,
-    "name": "White Socks"
+    "image": "https://media.alienwarearena.com/media/e37f5b82620c2e3f2bea3417cf1f3a42.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "White Socks",
+    "description": "#1 Dad Essential",
+    "price": 15
   },
   {
     "id": 174,
-    "name": "Black Socks"
+    "image": "https://media.alienwarearena.com/media/e8075b41bf0d7a9685117b269331997e.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Black Socks",
+    "description": "Because a true Goth wears black from head to toe, even when their socks are hidden in chunky boots.",
+    "price": 15
   },
   {
     "id": 175,
-    "name": "Pink Heels"
+    "image": "https://media.alienwarearena.com/media/48639382e7dee97222830138f2f77fc8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Pink Heels",
+    "description": "Pretty in pink",
+    "price": 15
   },
   {
     "id": 176,
-    "name": "Red Heels"
+    "image": "https://media.alienwarearena.com/media/8120eaec4870ecd9cb179e680e982da7.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Red Heels",
+    "description": "Anyone here feeling like doing a little dirty dancing?",
+    "price": 15
   },
   {
     "id": 177,
-    "name": "White Slippers"
+    "image": "https://media.alienwarearena.com/media/f4da4318560848ea094f50b7441cd9e9.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "White Slippers",
+    "description": "So dainty",
+    "price": 15
   },
   {
     "id": 178,
-    "name": "T-Rex Suit"
+    "image": "https://media.alienwarearena.com/media/21192ec78fe96255a6ed40c12d061b6a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "T-Rex Suit",
+    "description": "RAWR!",
+    "price": 50
   },
   {
     "id": 179,
-    "name": "Toga"
+    "image": "https://media.alienwarearena.com/media/fc3a6a0d0fb4e57817adf3cde012d922.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Toga",
+    "description": "Do as the Greeks do",
+    "price": 45
   },
   {
     "id": 180,
-    "name": "Green Man Suit"
+    "image": "https://media.alienwarearena.com/media/d0677ab651dfffaa331256770e96b692.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Green Man Suit",
+    "description": "Pink Guy's nemesis",
+    "price": 25
   },
   {
     "id": 181,
-    "name": "Fire Starter"
+    "image": "https://media.alienwarearena.com/media/520e134b47a07906a808f1d4ba7ef860.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Fire Starter",
+    "description": "For all the firecrackers out there",
+    "price": 25
   },
   {
     "id": 182,
-    "name": "Cowboy Hat"
+    "image": "https://media.alienwarearena.com/media/14ad49c40b2e16afc6891a00a937ecb5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cowboy Hat",
+    "description": "Yeehaw!",
+    "price": 20
   },
   {
     "id": 183,
-    "name": "Blade Hands"
+    "image": "https://media.alienwarearena.com/media/791f60bb3e37de59d2df59e4f3aca763.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Blade Hands",
+    "description": "Why have hands when you can have deadly weapons?",
+    "price": 15
   },
   {
     "id": 184,
-    "name": "Pink Bathrobe"
+    "image": "https://media.alienwarearena.com/media/e3b7b6e3aed5dae5d35db02e933ea6f4.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Pink Bathrobe",
+    "description": "Give me a little privacy, please.",
+    "price": 30
   },
   {
     "id": 185,
-    "name": "Banana Suit"
+    "image": "https://media.alienwarearena.com/media/e1015afe3e483fb47f291dc14bb5fb28.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Banana Suit",
+    "description": "Make sure you get your daily intake of potassium, kids.",
+    "price": 75
   },
   {
     "id": 186,
-    "name": "Mummy Hands"
+    "image": "https://media.alienwarearena.com/media/f276264141a74f948c31fafb75b7bf66.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Mummy Hands",
+    "description": "Time to wrap it up.",
+    "price": 35
   },
   {
     "id": 187,
-    "name": "Handyman Boots"
+    "image": "https://media.alienwarearena.com/media/d511daa97a125a8e479d32da5953062c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Handyman Boots",
+    "description": "These boots were made for working",
+    "price": 35
   },
   {
     "id": 188,
-    "name": "Handyman Pants"
+    "image": "https://media.alienwarearena.com/media/ef0247e519399ad5da6e66a32650562a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Handyman Pants",
+    "description": "Sturdy",
+    "price": 35
   },
   {
     "id": 190,
-    "name": "Handyman Top"
+    "image": "https://media.alienwarearena.com/media/7dad8ee05c595bb6cc54eb1701cad9af.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Handyman Top",
+    "description": "You could say these overalls are pretty.... handy.",
+    "price": 35
   },
   {
     "id": 191,
-    "name": "Handyman Belt"
+    "image": "https://media.alienwarearena.com/media/fe7a5a63861b35311f0e0ee129326c65.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Handyman Belt",
+    "description": "It's a belt, and it is handy. Pretty neat!",
+    "price": 35
   },
   {
     "id": 195,
-    "name": "Time Jumper Border"
+    "image": "https://media.alienwarearena.com/media/0f7a5a5cec7ba98f3d31304a0148df65.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Time Jumper Border",
+    "description": "Tick tock.",
+    "price": 400
   },
   {
     "id": 196,
-    "name": "DIY Border"
+    "image": "https://media.alienwarearena.com/media/7c160d4c7656432ee299df4fcb592072.png?fit=crop&width=300&height=300&quality=75",
+    "name": "DIY Border",
+    "description": "Do it yourself!",
+    "price": 75
   },
   {
     "id": 197,
-    "name": "Spring Cleaning"
+    "image": "https://media.alienwarearena.com/media/7c6f76917d44fe4862581e653b2c5295.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Spring Cleaning",
+    "description": "Looking cleeeeeeeeeaaaaaaaaaaaaaan.",
+    "price": 25
   },
   {
     "id": 198,
-    "name": "Daisy Border"
+    "image": "https://media.alienwarearena.com/media/d64e5fd06775a984dc038d13e90ae908.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Daisy Border",
+    "description": "Look as fresh as a daisy with this cutesy border.",
+    "price": 50
   },
   {
     "id": 199,
-    "name": "Goldfish Border"
+    "image": "https://media.alienwarearena.com/media/c677a5ff2539b5a0579d57f229620ebf.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Goldfish Border",
+    "description": "His name is Harold, and he likes to jump.",
+    "price": 450
   },
   {
     "id": 200,
-    "name": "Elven Crown"
+    "image": "https://media.alienwarearena.com/media/8cff4c5ad3e7956f63a8519bf349efa2.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Elven Crown",
+    "description": "Show the peasants your rightful place.",
+    "price": 25
   },
   {
     "id": 201,
-    "name": "Elven Hair"
+    "image": "https://media.alienwarearena.com/media/977fb2615802e432c770284eab3bdb39.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Elven Hair",
+    "description": "Elrond is jelly of these flowing locs.",
+    "price": 25
   },
   {
     "id": 202,
-    "name": "Elven Silk Robes"
+    "image": "https://media.alienwarearena.com/media/5c8431f3d229a8333bd3c990169b588b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Elven Silk Robes",
+    "description": "Only the finest silks for the finest elves.",
+    "price": 25
   },
   {
     "id": 203,
-    "name": "Elven Leather Robes"
+    "image": "https://media.alienwarearena.com/media/ee20ce00b334c82a9d8b3fa0bc0e2735.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Elven Leather Robes",
+    "description": "Both practical and ornate.",
+    "price": 25
   },
   {
     "id": 207,
-    "name": "Ocean Waves Badge"
+    "image": "https://media.alienwarearena.com/media/e80115ad38fe13b2b9402e07e2bccef4.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Ocean Waves Badge",
+    "description": "Peaceful waves, crested by a setting sun.",
+    "price": 20
   },
   {
     "id": 212,
-    "name": "Shooting Stars Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/98ac4cfed40d102cbec217c80829f788.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Shooting Stars Border (Animated)",
+    "description": "Make a wish.",
+    "price": 85
   },
   {
     "id": 213,
-    "name": "Morning Light Border"
+    "image": "https://media.alienwarearena.com/media/3f011a6c4fbd9d6efffb44f387f93671.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Morning Light Border",
+    "description": "It's a brand new day",
+    "price": 40
   },
   {
     "id": 214,
-    "name": "Cat Headphones"
+    "image": "https://media.alienwarearena.com/media/a60857429a1b266020385dc5b0d681fe.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cat Headphones",
+    "description": "For the feline-loving gamers.",
+    "price": 35
   },
   {
     "id": 215,
-    "name": "Blue Pullover Hoodie"
+    "image": "https://media.alienwarearena.com/media/d712018f9f2a67e5ca2b982cc5b30089.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Blue Pullover Hoodie",
+    "description": "It's soft and cozy.",
+    "price": 25
   },
   {
     "id": 216,
-    "name": "Purse"
+    "image": "https://media.alienwarearena.com/media/705750dd59d93305eb3d87079d5a3bb3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Purse",
+    "description": "It's not a purse, it's a man-satchel.",
+    "price": 25
   },
   {
     "id": 217,
-    "name": "Aviator Cap"
+    "image": "https://media.alienwarearena.com/media/f919ae24425460e2bbe82301994edbd1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Aviator Cap",
+    "description": "I have a need for speed.",
+    "price": 20
   },
   {
     "id": 218,
-    "name": "Mohawk"
+    "image": "https://media.alienwarearena.com/media/e26011875a83b32464332004ceb516a0.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Mohawk",
+    "description": "How else will anyone know you're a punk?",
+    "price": 20
   },
   {
     "id": 219,
-    "name": "Grill Master"
+    "image": "https://media.alienwarearena.com/media/26746903da89e031ceb1a477b1dcce8a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Grill Master",
+    "description": "Gordon Ramsay is shaking in his boots.",
+    "price": 30
   },
   {
     "id": 220,
-    "name": "Vacation Sundress"
+    "image": "https://media.alienwarearena.com/media/e6c2809b70f1610b89ea544c9be1dd18.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Vacation Sundress",
+    "description": "Go soak up the sunshine",
+    "price": 20
   },
   {
     "id": 221,
-    "name": "Black Beret"
+    "image": "https://media.alienwarearena.com/media/3e59373c6c194840718b2beacb1e832d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Black Beret",
+    "description": "Only for the most erudite, hip urbanites.",
+    "price": 15
   },
   {
     "id": 222,
-    "name": "Grill Master BBQ"
+    "image": "https://media.alienwarearena.com/media/4d8d57f487a6c5d0403f1a71b65cbbc4.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Grill Master BBQ",
+    "description": "Only the Master Griller can be honored with such a badge. Or, you know, you can buy it too.",
+    "price": 30
   },
   {
     "id": 223,
-    "name": "Hippy Glasses"
+    "image": "https://media.alienwarearena.com/media/44d67428196eb062a53fc850659330b5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Hippy Glasses",
+    "description": "It's all love, baby.",
+    "price": 20
   },
   {
     "id": 224,
-    "name": "Stylish Glasses"
+    "image": "https://media.alienwarearena.com/media/6a2378aa4d7d40f89fe2dc8511fef37a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Stylish Glasses",
+    "description": "Be the drippiest grandma at Mahjong.",
+    "price": 15
   },
   {
     "id": 225,
-    "name": "Tabletop Dice"
+    "image": "https://media.alienwarearena.com/media/16423ed8d0ca35c12704d045e952a91a.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Tabletop Dice",
+    "description": "Let's hope it's a Nat 20.",
+    "price": 20
   },
   {
     "id": 226,
-    "name": "Flower Petal Animated Border"
+    "image": "https://media.alienwarearena.com/media/44b41f82006c3952cdbf565a25897b99.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Flower Petal Animated Border",
+    "description": "All we are are petals in the wind.",
+    "price": 350
   },
   {
     "id": 227,
-    "name": "Amadeus Shoes"
+    "image": "https://media.alienwarearena.com/media/c7d1cbfe7d467d6597ef3c69fe38dc14.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Amadeus Shoes",
+    "description": "Only the finest kicks for making the finest tunes.",
+    "price": 45
   },
   {
     "id": 228,
-    "name": "Amadeus Breeches"
+    "image": "https://media.alienwarearena.com/media/391c2f18fc7ef809ee288e5914681673.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Amadeus Breeches",
+    "description": "Socks are looking crisp.",
+    "price": 45
   },
   {
     "id": 229,
-    "name": "Amadeus Coat"
+    "image": "https://media.alienwarearena.com/media/564f4108712447448390f5f98a97f117.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Amadeus Coat",
+    "description": "One must look presentable for the concert, after all.",
+    "price": 45
   },
   {
     "id": 230,
-    "name": "Amadeus Wig"
+    "image": "https://media.alienwarearena.com/media/c01e147b9bd0d10a9ac437b1b767f84f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Amadeus Wig",
+    "description": "The higher the hair, the better the music.",
+    "price": 45
   },
   {
     "id": 231,
-    "name": "Superhero Boots"
+    "image": "https://media.alienwarearena.com/media/e50b08ed1fa800b538682e31654e8963.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Superhero Boots",
+    "description": "Get ready to kick crime!",
+    "price": 35
   },
   {
     "id": 232,
-    "name": "Superhero Pants"
+    "image": "https://media.alienwarearena.com/media/3b22ac2fe01f72fa8f77b5de2f4e8e51.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Superhero Pants",
+    "description": "Nice and stretchy.",
+    "price": 35
   },
   {
     "id": 233,
-    "name": "Superhero Cape and Armor"
+    "image": "https://media.alienwarearena.com/media/33f9bb1f6be87c4a1cf63983acf10cc8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Superhero Cape and Armor",
+    "description": "You can fight crime and look good while doing it.",
+    "price": 35
   },
   {
     "id": 240,
-    "name": "Ink Well Border"
+    "image": "https://media.alienwarearena.com/media/ee9701058dafe378783594026bde3e15.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Ink Well Border",
+    "description": "Ample ink to pen all your deepest thoughts.",
+    "price": 45
   },
   {
     "id": 241,
-    "name": "Smart Plant Badge"
+    "image": "https://media.alienwarearena.com/media/6683e6472c10a20a2a39d003d3d685dc.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Smart Plant Badge",
+    "description": "His name is Hector. He wears glasses, eats sunlight, and tells you fun facts about grass.",
+    "price": 30
   },
   {
     "id": 242,
-    "name": "Chess Border"
+    "image": "https://media.alienwarearena.com/media/7cfcb7411d5979a1dd65261ae0363803.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Chess Border",
+    "description": "The game of kings, scholars, and paupers.",
+    "price": 35
   },
   {
     "id": 243,
-    "name": "Viking Boots"
+    "image": "https://media.alienwarearena.com/media/7a10c7cbabc4a77490fd67562558d050.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Viking Boots",
+    "description": "Viking Boots - Perfect for raiding villages!",
+    "price": 45
   },
   {
     "id": 244,
-    "name": "Viking Pants"
+    "image": "https://media.alienwarearena.com/media/6d64ac1054ba6d1d28ade24f6c97c968.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Viking Pants",
+    "description": "Viking Trousers - They're quite warm.",
+    "price": 45
   },
   {
     "id": 245,
-    "name": "Viking Fur Armor"
+    "image": "https://media.alienwarearena.com/media/d0952c7dcea8384bde79a480a225d2ee.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Viking Fur Armor",
+    "description": "Viking Fur Armor, to keep the chill of Norse nights off.",
+    "price": 45
   },
   {
     "id": 246,
-    "name": "Viking Hair"
+    "image": "https://media.alienwarearena.com/media/e704a338eb846bcd03c2862a203e076b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Viking Hair",
+    "description": "Don the golden locs of warriors old.",
+    "price": 45
   },
   {
     "id": 247,
-    "name": "Viking Helm"
+    "image": "https://media.alienwarearena.com/media/47f1d50f40d5763e5a44a90e6ee8dff7.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Viking Helm",
+    "description": "Viking Helmet, because you should never raid without protection.",
+    "price": 45
   },
   {
     "id": 248,
-    "name": "70s Fish Platforms"
+    "image": "https://media.alienwarearena.com/media/7f4e7865a508537884e485a618fea495.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "70s Fish Platforms",
+    "description": "Perfect for burning up the dance floor and housing your pet goldfish.",
+    "price": 55
   },
   {
     "id": 249,
-    "name": "70s Jumpsuit"
+    "image": "https://media.alienwarearena.com/media/cfd8e2f77408674db35aa2dbf96e7659.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "70s Jumpsuit",
+    "description": "Night fever, night fever.",
+    "price": 55
   },
   {
     "id": 250,
-    "name": "70s Hair"
+    "image": "https://media.alienwarearena.com/media/0d6cdca67b606d86782725947cad39b1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "70s Hair",
+    "description": "This hair would make Cher jealous.",
+    "price": 55
   },
   {
     "id": 251,
-    "name": "Samurai Geta"
+    "image": "https://media.alienwarearena.com/media/f0b2ac848499cf691eb55418a0140b1b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Samurai Geta",
+    "description": "Channel the balance of a samurai.",
+    "price": 85
   },
   {
     "id": 252,
-    "name": "Samurai Greaves"
+    "image": "https://media.alienwarearena.com/media/f5d82f7b90766f0904c828adedab62dd.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Samurai Greaves",
+    "description": "Channel the swiftness of a samurai.",
+    "price": 85
   },
   {
     "id": 253,
-    "name": "Samurai Vestements"
+    "image": "https://media.alienwarearena.com/media/784d9594509d49389cf8b34124b43a3f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Samurai Vestements",
+    "description": "Channel the strength of a samurai.",
+    "price": 85
   },
   {
     "id": 254,
-    "name": "Samurai Helmet and Mask"
+    "image": "https://media.alienwarearena.com/media/80fb8bd09b1f8c02d342d4786c9341c3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Samurai Helmet and Mask",
+    "description": "Channel the wisdom of a samurai.",
+    "price": 85
   },
   {
     "id": 255,
-    "name": "Ancient Skull Badge"
+    "image": "https://media.alienwarearena.com/media/458125fbd5a6e9f86b717cd41e371967.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Ancient Skull Badge",
+    "description": "This skull calls out across the expanse of time.",
+    "price": 100
   },
   {
     "id": 256,
-    "name": "Cosmic Stone Stein"
+    "image": "https://media.alienwarearena.com/media/b69e095ffcea143ce61601a0d9040662.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Cosmic Stone Stein",
+    "description": "Skald!",
+    "price": 50
   },
   {
     "id": 257,
-    "name": "Skull Bonfire Border"
+    "image": "https://media.alienwarearena.com/media/43554ac915e6c24c028b52726d2b0b1f.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Skull Bonfire Border",
+    "description": "Makes for some excellent smores roasting.",
+    "price": 350
   },
   {
     "id": 260,
-    "name": "Witch Hat"
+    "image": "https://media.alienwarearena.com/media/f0223bfef4e3ccfdcb26f1d00c54c378.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Witch Hat",
+    "description": "No Witch's fit is complete without a pointy hat.",
+    "price": 50
   },
   {
     "id": 261,
-    "name": "Witch Dress"
+    "image": "https://media.alienwarearena.com/media/ab0dff663f3c35cbaf9ca24a9eb6b312.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Witch Dress",
+    "description": "This wicked dress is 90% silk, 10% magically-produced raylon.",
+    "price": 50
   },
   {
     "id": 262,
-    "name": "Plague Doctor Hat and Mask"
+    "image": "https://media.alienwarearena.com/media/0a7a70aee6c1968e604cca78f586d1dc.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Plague Doctor Hat and Mask",
+    "description": "Nothin' like the smell of death in the air to wake one up.",
+    "price": 50
   },
   {
     "id": 263,
-    "name": "Plague Doctor Tunic"
+    "image": "https://media.alienwarearena.com/media/e6fe8ab8818258bbf2cccc3cd1d8448c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Plague Doctor Tunic",
+    "description": "Every medical professional needs a haunted tunic to complete the job.",
+    "price": 50
   },
   {
     "id": 264,
-    "name": "Plague Doctor Vestments"
+    "image": "https://media.alienwarearena.com/media/9468e8f3554de10758426194d9e5de3d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Plague Doctor Vestments",
+    "description": "They say to dress for the job you want, not what you have.",
+    "price": 50
   },
   {
     "id": 265,
-    "name": "Plague Doctor Boots"
+    "image": "https://media.alienwarearena.com/media/0831837f27c2dedc7ee32c3eff019d2c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Plague Doctor Boots",
+    "description": "They're waterproofed for... reasons.",
+    "price": 50
   },
   {
     "id": 266,
-    "name": "Scarecrow Cap"
+    "image": "https://media.alienwarearena.com/media/67d9c9dcd5f392c2f3603ea2142a396c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Scarecrow Cap",
+    "description": "Help keep the sun and bird beaks out from your eyes.",
+    "price": 50
   },
   {
     "id": 267,
-    "name": "Scarecrow Body"
+    "image": "https://media.alienwarearena.com/media/9af44bdb2f1cb97b89faa315929ea4e8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Scarecrow Body",
+    "description": "Comes with complimentary straw.",
+    "price": 65
   },
   {
     "id": 268,
-    "name": "Pumpkin Man"
+    "image": "https://media.alienwarearena.com/media/032f552aa6696c63a55cdf9a5fe02961.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Pumpkin Man",
+    "description": "He's the Great Pumpkin's first cousin. Nice guy.",
+    "price": 65
   },
   {
     "id": 269,
-    "name": "Clown Balloon"
+    "image": "https://media.alienwarearena.com/media/7e8ac8d4b77ea3da55e45e5ca1879f70.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Clown Balloon",
+    "description": "I'm still learning how to make animals out of these.",
+    "price": 30
   },
   {
     "id": 270,
-    "name": "Clown Shoes"
+    "image": "https://media.alienwarearena.com/media/f6655791ed0aa04ef6113d0d9eddf1d1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Clown Shoes",
+    "description": "They jingle when you walk.",
+    "price": 75
   },
   {
     "id": 271,
-    "name": "Clown Breeches"
+    "image": "https://media.alienwarearena.com/media/55289cb266c14b59f386abfaff76ffd5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Clown Breeches",
+    "description": "What is he hiding in there?",
+    "price": 75
   },
   {
     "id": 272,
-    "name": "Clown Frock"
+    "image": "https://media.alienwarearena.com/media/bb0dbc67cd559b81621f6abf2c1cf226.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Clown Frock",
+    "description": "Don't mind those red stains.",
+    "price": 75
   },
   {
     "id": 273,
-    "name": "Clown Makeup"
+    "image": "https://media.alienwarearena.com/media/043f9da9125536351430ee9fafc94998.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Clown Makeup",
+    "description": "The perfect casual makeup look.",
+    "price": 50
   },
   {
     "id": 274,
-    "name": "Possession Hair"
+    "image": "https://media.alienwarearena.com/media/adf884c609a559fcad005de3226029c8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Possession Hair",
+    "description": "My hair stylist really went all out on this one.",
+    "price": 55
   },
   {
     "id": 275,
-    "name": "Possession Dress"
+    "image": "https://media.alienwarearena.com/media/3832cf09f29e8a898879aae538dcccd1.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Possession Dress",
+    "description": "Perfect for walking around creepy, dark hallways.",
+    "price": 55
   },
   {
     "id": 276,
-    "name": "Day of the Dead Sugar Skull"
+    "image": "https://media.alienwarearena.com/media/4ff313d73b5324399811b297793969f8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Day of the Dead Sugar Skull",
+    "description": "In remembrance and celebration",
+    "price": 35
   },
   {
     "id": 277,
-    "name": "Day of the Dead Dress"
+    "image": "https://media.alienwarearena.com/media/6945bf9e957ff02fef8504c9407271dd.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Day of the Dead Dress",
+    "description": "For a lovely, dead senorita.",
+    "price": 35
   },
   {
     "id": 283,
-    "name": "Candlelight Border"
+    "image": "https://media.alienwarearena.com/media/e54ad9a2d489ba3f5b07961e6761773e.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Candlelight Border",
+    "description": "Light the way with a flickering flame.",
+    "price": 150
   },
   {
     "id": 284,
-    "name": "Yeti Suit Head"
+    "image": "https://media.alienwarearena.com/media/510e56f4899c5bdc56a9e6b220fa1f0b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Yeti Suit Head",
+    "description": "Become a fearsome winter guardian.",
+    "price": 50
   },
   {
     "id": 285,
-    "name": "Yeti Suit Chest"
+    "image": "https://media.alienwarearena.com/media/6c403c3b5def46614be4eaf6e4fb45d3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Yeti Suit Chest",
+    "description": "\"Raaaaaaaaaaaaaaaaaah!\" - Quote from a Yeti we interviewed.",
+    "price": 50
   },
   {
     "id": 286,
-    "name": "Yeti Suit Legs"
+    "image": "https://media.alienwarearena.com/media/8f2a426c9c91373e746fefcff09b7e81.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Yeti Suit Legs",
+    "description": "Stay frosty. (Or, warm, I guess?)",
+    "price": 50
   },
   {
     "id": 287,
-    "name": "Yeti Suit Hands"
+    "image": "https://media.alienwarearena.com/media/ff7a0eb37fdc0fa1c6ba4428a4916d31.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Yeti Suit Hands",
+    "description": "Perfect for throwing snowballs.",
+    "price": 50
   },
   {
     "id": 288,
-    "name": "Yeti Suit Feet"
+    "image": "https://media.alienwarearena.com/media/18fc7d42fde632b917300cbb8788e555.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Yeti Suit Feet",
+    "description": "Brrrrrrrrr.",
+    "price": 50
   },
   {
     "id": 289,
-    "name": "Sasquatch Head"
+    "image": "https://media.alienwarearena.com/media/910b8909e1f057061d0526e5ffeec824.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sasquatch Head",
+    "description": "Bold to assume the 'quatch is just an urban myth.",
+    "price": 50
   },
   {
     "id": 290,
-    "name": "Sasquatch Chest"
+    "image": "https://media.alienwarearena.com/media/f2e213c28d3bacff785fde97cb3603f7.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sasquatch Chest",
+    "description": "I want jerky.",
+    "price": 50
   },
   {
     "id": 291,
-    "name": "Sasquatch Legs"
+    "image": "https://media.alienwarearena.com/media/a51a41ec9d77f428a24c9d09caf48fd4.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sasquatch Legs",
+    "description": "Frolic through the woods.",
+    "price": 50
   },
   {
     "id": 292,
-    "name": "Sasquatch Hands"
+    "image": "https://media.alienwarearena.com/media/c9e006e3d356273ed524d1fb79e0afcd.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sasquatch Hands",
+    "description": "Are they gloves? Or real hands? Buy it to see.",
+    "price": 50
   },
   {
     "id": 293,
-    "name": "Sasquatch Feet"
+    "image": "https://media.alienwarearena.com/media/78d0bcbfbd04d4badf3bccb864dae808.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sasquatch Feet",
+    "description": "Impressively fuzzy.",
+    "price": 50
   },
   {
     "id": 294,
-    "name": "Gorilla Head"
+    "image": "https://media.alienwarearena.com/media/24ab51178be76002cbbc64deca579176.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gorilla Head",
+    "description": "Got a spare banana?",
+    "price": 50
   },
   {
     "id": 295,
-    "name": "Gorilla Chest"
+    "image": "https://media.alienwarearena.com/media/a06dd1fde854e343b34bad86afdd1935.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gorilla Chest",
+    "description": "Nature's original warrior.",
+    "price": 50
   },
   {
     "id": 296,
-    "name": "Gorilla Legs"
+    "image": "https://media.alienwarearena.com/media/ea45157a07fc16613a789cb8ad2c0fa4.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gorilla Legs",
+    "description": "The gains are hidden under a mountain of fur, but they're there.",
+    "price": 50
   },
   {
     "id": 297,
-    "name": "Gorilla Hands"
+    "image": "https://media.alienwarearena.com/media/c7910d3c5d261f6eec103098ebc58231.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gorilla Hands",
+    "description": "Soft and fuzz.",
+    "price": 50
   },
   {
     "id": 298,
-    "name": "Gorilla Feet"
+    "image": "https://media.alienwarearena.com/media/dfaee154576fe7f6621a1b888ff61ff5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Gorilla Feet",
+    "description": "+1 to running and leaping. -1 to wearing shoes.",
+    "price": 50
   },
   {
     "id": 299,
-    "name": "Nature Calls Border"
+    "image": "https://media.alienwarearena.com/media/a425bb192b7577adb4f2e1d4d53074d1.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Nature Calls Border",
+    "description": "I want to go where nature calls me.",
+    "price": 75
   },
   {
     "id": 300,
-    "name": "Killer Kitty Badge"
+    "image": "https://media.alienwarearena.com/media/607e3e30fd4ec85a7b3b31fbcf333ce8.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Killer Kitty Badge",
+    "description": "We always knew the robots would turn against us, but never in such cuddly, feline form!",
+    "price": 35
   },
   {
     "id": 312,
-    "name": "Italian Leg Lamp"
+    "image": "https://media.alienwarearena.com/media/931df67585fc6fe91871acd822363560.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Italian Leg Lamp",
+    "description": "I won it as a major award.",
+    "price": 75
   },
   {
     "id": 313,
-    "name": "Pink Bunny Suit"
+    "image": "https://media.alienwarearena.com/media/fe9a8545fc67d5874be9aed2926a44d8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Pink Bunny Suit",
+    "description": "Also known as a \"Pink Nightmare.\"",
+    "price": 75
   },
   {
     "id": 314,
-    "name": "Ugly Holiday Sweater"
+    "image": "https://media.alienwarearena.com/media/333c37d00dd3f79fa2fff9bd41c58ca8.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Ugly Holiday Sweater",
+    "description": "Happy holidays!",
+    "price": 55
   },
   {
     "id": 315,
-    "name": "Wearable Wreath"
+    "image": "https://media.alienwarearena.com/media/40419c3aad0537255b4c2febcfc02f5e.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Wearable Wreath",
+    "description": "Like a prickly, sparkly scarf.",
+    "price": 45
   },
   {
     "id": 316,
-    "name": "Winter Lights Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/629d68af44f25af14b72af9792460904.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Winter Lights Border (Animated)",
+    "description": "Glow up the frosty nights with a rainbow show!",
+    "price": 450
   },
   {
     "id": 317,
-    "name": "Snow Storm Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/50654c1a02dc4bc8917a5a945aeccf7e.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Snow Storm Border (Animated)",
+    "description": "Bundle up.",
+    "price": 350
   },
   {
     "id": 318,
-    "name": "Holiday Fire Badge"
+    "image": "https://media.alienwarearena.com/media/1999d3141ab4e50581a6b11284ec887f.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Holiday Fire Badge",
+    "description": "Warm your bones and alight your spirit.",
+    "price": 50
   },
   {
     "id": 319,
-    "name": "Dead by Daylight Huntress Border (Animated)"
+    "image": "https://media.alienwarearena.com/media/2a12a636dbc6f99c4f0705cbc354805c.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Dead by Daylight Huntress Border (Animated)",
+    "description": "Let your hatchet fly.",
+    "price": 500
   },
   {
     "id": 320,
-    "name": "Anna the Huntress Sarafan"
+    "image": "https://media.alienwarearena.com/media/48226542ac4bdb3c20aaeb18381fe6a3.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Anna the Huntress Sarafan",
+    "description": "A torn sarafan, customized with pillaged soldier utility belts.",
+    "price": 80
   },
   {
     "id": 321,
-    "name": "Anna the Huntress Hatchet and Broad Axe"
+    "image": "https://media.alienwarearena.com/media/819d042bd818db9a9a6c14606814720f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Anna the Huntress Hatchet and Broad Axe",
+    "description": "Don't be afraid child. The gentle Hare will take good care of you.",
+    "price": 80
   },
   {
     "id": 325,
-    "name": "Swirl Guitar Badge"
+    "image": "https://media.alienwarearena.com/media/dc32e8600c07a5c0d002730cf68d24bf.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Swirl Guitar Badge",
+    "description": "Those are some elegant riffs.",
+    "price": 45
   },
   {
     "id": 326,
-    "name": "Pinball Machine (Animated)"
+    "image": "https://media.alienwarearena.com/media/8f73542f9f594ad42610be730bb1a50d.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "Pinball Machine (Animated)",
+    "description": "Become the Pinball Wizard.",
+    "price": 425
   },
   {
     "id": 327,
-    "name": "Morning Coffee Border"
+    "image": "https://media.alienwarearena.com/media/1ecbb494f14b3ce67e401b8eae2f7a41.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Morning Coffee Border",
+    "description": "It's a peaceful life.",
+    "price": 75
   },
   {
     "id": 328,
-    "name": "Muscle Suit"
+    "image": "https://media.alienwarearena.com/media/aa0ca89055cce6d5702be3be8533968a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Muscle Suit",
+    "description": "I'm getting to my New Year's resolution to get abs one way or another.",
+    "price": 75
   },
   {
     "id": 329,
-    "name": "Inflatable Dumbbells"
+    "image": "https://media.alienwarearena.com/media/560ee21993dffc3bd30ca609ab429b39.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Inflatable Dumbbells",
+    "description": "The real workout is blowing them up.",
+    "price": 35
   },
   {
     "id": 330,
-    "name": "Black and White Cat"
+    "image": "https://media.alienwarearena.com/media/1ae9b4251c6773671c51d36f1ed8572f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Black and White Cat",
+    "description": "A fuzzy feline friend!",
+    "price": 100
   },
   {
     "id": 331,
-    "name": "Blue and Gray Scarf"
+    "image": "https://media.alienwarearena.com/media/b96f1317a2c1488bee63bf7f5e20c131.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Blue and Gray Scarf",
+    "description": "100% cashmere.",
+    "price": 35
   },
   {
     "id": 332,
-    "name": "Cherry Blossom Monster Head"
+    "image": "https://media.alienwarearena.com/media/6ef2a32bdc0cbd3db1151b91b6770f27.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cherry Blossom Monster Head",
+    "description": "Fight for Nature.",
+    "price": 85
   },
   {
     "id": 333,
-    "name": "Cherry Blossom Monster Core"
+    "image": "https://media.alienwarearena.com/media/244df11a3b4f29b5569a0c44663a9bee.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cherry Blossom Monster Core",
+    "description": "My heart beats for Nature.",
+    "price": 85
   },
   {
     "id": 334,
-    "name": "Cherry Blossom Monster Trunks"
+    "image": "https://media.alienwarearena.com/media/74aa1e6307f8bfe531a13ad1c12a4a84.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cherry Blossom Monster Trunks",
+    "description": "Be one with Nature.",
+    "price": 85
   },
   {
     "id": 336,
-    "name": "Water Ribbons"
+    "image": "https://media.alienwarearena.com/media/0d5cbeae56851e0327cfcb26a80baff5.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Water Ribbons",
+    "description": "Learn the Way of Water and you too can acquire the power to shape water into cool swirls.",
+    "price": 50
   },
   {
     "id": 341,
-    "name": "Sleepy Time Nightcap"
+    "image": "https://media.alienwarearena.com/media/85663bd88dbe5e5147263feb3b2b8706.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sleepy Time Nightcap",
+    "description": "Fill your head with the most wonderful dreams.",
+    "price": 35
   },
   {
     "id": 342,
-    "name": "Sleepy Time Pajama Shirt"
+    "image": "https://media.alienwarearena.com/media/5db2c285f5d118283ea024b51367652c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sleepy Time Pajama Shirt",
+    "description": "It's like being hugged in a silky embrace.",
+    "price": 35
   },
   {
     "id": 343,
-    "name": "Sleepy Time Pajama Pants"
+    "image": "https://media.alienwarearena.com/media/572be030dc11282a767b9fddbee1fbef.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sleepy Time Pajama Pants",
+    "description": "Stay nice and snug.",
+    "price": 35
   },
   {
     "id": 344,
-    "name": "Sleepy Time Teddy Bear"
+    "image": "https://media.alienwarearena.com/media/81498f25cd9ecabe2e2dfed85245051c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sleepy Time Teddy Bear",
+    "description": "A fuzzy friend and fierce protector.",
+    "price": 50
   },
   {
     "id": 345,
-    "name": "Chocolate Box Border"
+    "image": "https://media.alienwarearena.com/media/3a47c127a671127aff0e04cc42b63b66.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Chocolate Box Border",
+    "description": "Equal parts tasty and tasteful.",
+    "price": 75
   },
   {
     "id": 346,
-    "name": "Golden Concerto Border"
+    "image": "https://media.alienwarearena.com/media/9599bcaaac5ab60188ce21cb369430e6.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Golden Concerto Border",
+    "description": "What is that melody?",
+    "price": 85
   },
   {
     "id": 347,
-    "name": "Tea Time Badge"
+    "image": "https://media.alienwarearena.com/media/7e41429d4037f27ca6223bf827cfb21d.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Tea Time Badge",
+    "description": "Care for a spot of Earl Grey?",
+    "price": 50
   },
   {
     "id": 352,
-    "name": "Valentine's Day Shirt"
+    "image": "https://media.alienwarearena.com/media/5cb1af05e3eac57a70f1905aa9a80352.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Valentine's Day Shirt",
+    "description": "Happy Valentine's Day!",
+    "price": 15
   },
   {
     "id": 353,
-    "name": "Alien Cupid"
+    "image": "https://media.alienwarearena.com/media/f30034aaab2d041728eb2b185974007b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Alien Cupid",
+    "description": "I have my aim on you, Valentine!",
+    "price": 95
   },
   {
     "id": 354,
-    "name": "Fragments"
+    "image": "https://media.alienwarearena.com/media/48d34ed0be4922fa82ee7597deca9a1c.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Fragments",
+    "description": "Ten(10) Fragments used to upgrade your Chaotic Artifacts.",
+    "price": 100
   },
   {
     "id": 355,
@@ -817,43 +1414,73 @@
   },
   {
     "id": 360,
-    "name": "March Madness Fan Glove"
+    "image": "https://media.alienwarearena.com/media/2ce495913f93d57979f86d968a4a132b.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "March Madness Fan Glove",
+    "description": "Who's #1?",
+    "price": 75
   },
   {
     "id": 361,
-    "name": "March Madness Basketball"
+    "image": "https://media.alienwarearena.com/media/84539c938826c7225e778c947c67059f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "March Madness Basketball",
+    "description": "Get your head in the game!",
+    "price": 75
   },
   {
     "id": 362,
-    "name": "March Madness Kicks"
+    "image": "https://media.alienwarearena.com/media/8f59a6f5a4cc7a3eabda791650d80844.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "March Madness Kicks",
+    "description": "Ideal for squeaking across the court.",
+    "price": 75
   },
   {
     "id": 363,
-    "name": "March Madness Shorts"
+    "image": "https://media.alienwarearena.com/media/ae8ba741a2970b459c96e11c732a0df0.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "March Madness Shorts",
+    "description": "Swish!",
+    "price": 73
   },
   {
     "id": 364,
-    "name": "March Madness Jersey"
+    "image": "https://media.alienwarearena.com/media/6b618f761a54ccc2066ada52a118bdda.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "March Madness Jersey",
+    "description": "Score!",
+    "price": 75
   },
   {
     "id": 365,
-    "name": "St. Patrick's Day Cap"
+    "image": "https://media.alienwarearena.com/media/a82980f198bb84ea5c83d48bf4a1a54d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "St. Patrick's Day Cap",
+    "description": "Thinking of lucky thoughts.",
+    "price": 50
   },
   {
     "id": 366,
-    "name": "St. Patrick's Day Coat"
+    "image": "https://media.alienwarearena.com/media/da96a0cea3d6d54d15c3f8fc962e37e7.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "St. Patrick's Day Coat",
+    "description": "The finest, greenest coat around.",
+    "price": 50
   },
   {
     "id": 367,
-    "name": "St. Patrick's Day Trousers"
+    "image": "https://media.alienwarearena.com/media/95cff91e69441c430f9694a9331a8674.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "St. Patrick's Day Trousers",
+    "description": "For carrying coins",
+    "price": 46
   },
   {
     "id": 368,
-    "name": "St. Patrick's Day Slides"
+    "image": "https://media.alienwarearena.com/media/39dff0e63c3059752280d3e851b5fdf9.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "St. Patrick's Day Slides",
+    "description": "Cushioned and snappy",
+    "price": 50
   },
   {
     "id": 369,
-    "name": "Rainbow Valley Badge"
+    "image": "https://media.alienwarearena.com/media/758a7dacc94a053e545bb550452ca57d.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Rainbow Valley Badge",
+    "description": "Ride the Rainbow!",
+    "price": 35
   },
   {
     "id": 370,
@@ -861,7 +1488,10 @@
   },
   {
     "id": 371,
-    "name": "Dead by Daylight Logo T-Shirt"
+    "image": "https://media.alienwarearena.com/media/1a37bbb055c817d5ac52ea3737fbb3ef.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dead by Daylight Logo T-Shirt",
+    "description": "Represent your favorite game of hide-and-seek.",
+    "price": 25
   },
   {
     "id": 372,
@@ -917,31 +1547,52 @@
   },
   {
     "id": 385,
-    "name": "Kerbal Space Program 2"
+    "image": "https://media.alienwarearena.com/media/28966a3df8b371b518b4ef0e0b642e22.jpg?quality=75",
+    "name": "Kerbal Space Program 2",
+    "description": "<p>Kerbal Space Program 2 is the sequel to the acclaimed space-flight simulation game Kerbal Space Program. Enter the next generation of space adventure with exciting new parts, stunning visuals, fully revamped UI and Map View, and rich new environments to explore.</p>\n\n<p>For Steam. </p>",
+    "price": "2900"
   },
   {
     "id": 386,
-    "name": "Crime Boss: Rockay City"
+    "image": "https://media.alienwarearena.com/media/29e7cdce3f935b06b77da443e74b44d7.jpg?quality=75",
+    "name": "Crime Boss: Rockay City",
+    "description": "<p>Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker – a man with his sights set on becoming the new King of Rockay City, one crime at a time…</p>\n\n<p>For Epic</p>",
+    "price": "3200"
   },
   {
     "id": 387,
-    "name": "System Shock Enhanced Edition"
+    "image": "https://media.alienwarearena.com/media/3db8bae94e1dda39bb9d4bcfc307b8ca.jpg?quality=75",
+    "name": "System Shock Enhanced Edition",
+    "description": "<p>Re-discover what made System Shock the first of it's kind, a ground breaking immersive sim that would inspire a generation of games to come....</p>\n\n<p>For Steam</p>",
+    "price": "2100"
   },
   {
     "id": 388,
-    "name": "Hotel Renovator"
+    "image": "https://media.alienwarearena.com/media/5579385ca1fda6ae59ec77c44f996b42.jpg?quality=75",
+    "name": "Hotel Renovator",
+    "description": "<p>Unleash your inner designer and renovate the hotel of your dreams! Embark on a makeover journey to turn this worn-out place into a successful getaway. Play with thousands of furniture pieces and accessories, and manage the hotel to get 5-star reviews!</p>\n\n<p>For Steam</p>",
+    "price": "2400"
   },
   {
     "id": 389,
-    "name": "Jurassic World Evolution 2: Feathered Species Pack"
+    "image": "https://media.alienwarearena.com/media/1f5dea3cd514ab525ee8fb110ac0f30a.jpg?quality=75",
+    "name": "Jurassic World Evolution 2: Feathered Species Pack",
+    "description": "<p>Expand your Jurassic World with the incredible Jurassic World Evolution 2: Feathered Species Pack. Featuring three land-dwelling dinosaurs and one flying reptile, these four new eye-catching prehistoric species all exhibit magnificent plumage, ranging from dense coverings to fine coats. Evolve your park like never before and give your guests an experience they won’t forget with these captivating feathered additions.</p>\n\n<p>For Steam</p>",
+    "price": "1900"
   },
   {
     "id": 390,
-    "name": "Deceive Inc."
+    "image": "https://media.alienwarearena.com/media/0591a67c60147628160f39610725d1aa.jpg?quality=75",
+    "name": "Deceive Inc.",
+    "description": "<p>Go undercover as the world’s greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.</p>\n\n<p>For Steam.</p>",
+    "price": "2500"
   },
   {
     "id": 391,
-    "name": "Voodolls"
+    "image": "https://media.alienwarearena.com/media/5be9e21e892c7517fe9363532e7f300f.jpg?quality=75",
+    "name": "Voodolls",
+    "description": "<p>Voodolls is a co-op tower defence experience steeped in the dark &amp; mysterious world of voodoo. Trapped in the jaws of hell, four souls are given the chance of freedom by a mysterious Puppet Master who distils their essence into Voodolls. Take up their offer and begin your break for freedom!</p>\n\n<p>For Steam. </p>\n\n<p>Note: This game will be released on May 11th, 2023. You can activate your key early. </p>",
+    "price": "2300"
   },
   {
     "id": 392,
@@ -965,46 +1616,79 @@
   },
   {
     "id": 397,
-    "name": "Bunny Ears"
+    "image": "https://media.alienwarearena.com/media/3d68f5b44a7051643f8d54fb3ecde469.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Bunny Ears",
+    "description": "So fluffy!",
+    "price": 35
   },
   {
     "id": 398,
-    "name": "Blue Dress Pants"
+    "image": "https://media.alienwarearena.com/media/e7f1772893b02d069b9f629b7e663437.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Blue Dress Pants",
+    "description": "Simple yet refined.",
+    "price": 35
   },
   {
     "id": 399,
-    "name": "Presidential Dress Jacket"
+    "image": "https://media.alienwarearena.com/media/a886d804a40f52e02f98e266b1fb1d9a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Presidential Dress Jacket",
+    "description": "Did you tie that tie yourself?",
+    "price": 50
   },
   {
     "id": 400,
-    "name": "Dress Loafers"
+    "image": "https://media.alienwarearena.com/media/79441d078571823f2685eeb9a5d49b48.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dress Loafers",
+    "description": "Simple yet refined.",
+    "price": 25
   },
   {
     "id": 401,
-    "name": "Podium"
+    "image": "https://media.alienwarearena.com/media/bfd985d222f4ab26ff3a14d4fc110949.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Podium",
+    "description": "Is... this thing on?",
+    "price": 75
   },
   {
     "id": 402,
-    "name": "Space Bunny"
+    "image": "https://media.alienwarearena.com/media/95d2764f93d745c869650d72b0bd0d81.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Space Bunny",
+    "description": "Just look at that smile!",
+    "price": 50
   },
   {
     "id": 403,
-    "name": "April Showers"
+    "image": "https://media.alienwarearena.com/media/f0577d59cc14cb5605ceeb19f01f0189.gif?fit=crop&width=300&height=300&quality=75",
+    "name": "April Showers",
+    "description": "The grass really needed this.",
+    "price": 200
   },
   {
     "id": 404,
-    "name": "Sunny Tulips"
+    "image": "https://media.alienwarearena.com/media/9cdd77dd7fa0e17966145acc9cf3ae5f.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Sunny Tulips",
+    "description": "Golden Hour!",
+    "price": 25
   },
   {
     "id": 405,
-    "name": "Mysterious Text"
+    "image": "https://media.alienwarearena.com/media/d333919cbecdb5134160e50fce717d65.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Mysterious Text",
+    "description": "Origins of the mysterious language have eluded us. We are unable to decipher this text.",
+    "price": 1
   },
   {
     "id": 406,
-    "name": "H`erkow Warrior Script"
+    "image": "https://media.alienwarearena.com/media/c7b7972d0629d5957dd879d5e076af83.png?fit=crop&width=300&height=300&quality=75",
+    "name": "H`erkow Warrior Script",
+    "description": "This chant is used before battle to calm anxiety. Attempts to increase its power have failed to this point.",
+    "price": 1
   },
   {
     "id": 407,
-    "name": "Scion of the Light"
+    "image": "https://media.alienwarearena.com/media/9a3f83fb08f076b57c4d729fd82f87bc.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Scion of the Light",
+    "description": "[Expedition Team Report] Our attempts to research this celestial body has proven difficult. We are unable to approach it without experiencing massive trauma. Symptoms include hallucinations and eventually an intercranial hematoma.",
+    "price": 1
   }
 ]
