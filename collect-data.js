@@ -14,7 +14,7 @@ const getData = () => {
   const elements = document.querySelectorAll("[data-product-id]:not(.timer)");
 
   return Array.from(elements).map((element) => ({
-    id: element.dataset.productId,
+    id: parseInt(element.dataset.productId),
     name: element.dataset.productName,
   }));
 };
