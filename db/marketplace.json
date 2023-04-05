@@ -1,5 +1,68 @@
 [
   {
+    "id": 11,
+    "image": "https://media.alienwarearena.com/media/408d41e8f13bd69a70235fd0c7ef5365.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Sticker Pack",
+    "description": "Perfect for decking out a water bottle or gaming laptop.",
+    "price": 300
+  },
+  {
+    "id": 12,
+    "image": "https://media.alienwarearena.com/media/93c93d4a236fd42219699110f6892454.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Lanyard",
+    "description": "The coolest key holder in the West.",
+    "price": 400
+  },
+  {
+    "id": 13,
+    "image": "https://media.alienwarearena.com/media/8d942f449c1f7d40f703ae8cf90448f9.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Banner",
+    "description": "Represent the best.",
+    "price": 900
+  },
+  {
+    "id": 14,
+    "image": "https://media.alienwarearena.com/media/d52c33c813a72772a260544020e24002.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Wristband",
+    "description": "Gain a +1 to unarmed attacks.",
+    "price": 800
+  },
+  {
+    "id": 15,
+    "image": "https://media.alienwarearena.com/media/a90300397ed9ef29ce1a5da9c4b9a2a1.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Keychain",
+    "description": "It's a good luck charm.",
+    "price": 800
+  },
+  {
+    "id": 16,
+    "image": "https://media.alienwarearena.com/media/4fc8ddf50cbf09911ff7dbf131dfe290.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Socks",
+    "description": "Because no gaming session is complete without cozy toes.",
+    "price": 1200
+  },
+  {
+    "id": 17,
+    "image": "https://media.alienwarearena.com/media/8bd3033c61e878f56eba6ed2f957afb9.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Pin",
+    "description": "The equivalent of a VIP badge.",
+    "price": 500
+  },
+  {
+    "id": 18,
+    "image": "https://media.alienwarearena.com/media/4ce1af8dde146ce0158ee80a41be274b.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Hat",
+    "description": "This is the best hat out there, no cap.",
+    "price": 1800
+  },
+  {
+    "id": 19,
+    "image": "https://media.alienwarearena.com/media/9f52b04db08b1710a1dd1da4ae50c99e.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Beanie",
+    "description": "Clear eyes, cozy head, can't lose.",
+    "price": 2000
+  },
+  {
     "id": 35,
     "image": "https://media.alienwarearena.com/media/519a648e6bb1b4df183b95fb84d3d6a5.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Hypnotic Rainbow Border (Animated)",
@@ -1176,6 +1239,27 @@
     "price": 35
   },
   {
+    "id": 305,
+    "image": "https://media.alienwarearena.com/media/7fcb642e03736419c3bbddfe6a5e52a8.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware XL Mousepad",
+    "description": "XL is 14x27.5\" (36x70mm)\n\nYour mouse will thank you.",
+    "price": 1600
+  },
+  {
+    "id": 306,
+    "image": "https://media.alienwarearena.com/media/d7f7c4c355c7051ca46153080e2f705c.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Mouse Pad",
+    "description": "12x13.5\" (30x34mm)\n\nA smooth runway for your mouse.",
+    "price": 1400
+  },
+  {
+    "id": 307,
+    "image": "https://media.alienwarearena.com/media/08421bcce64f4898e210f3ac121e91af.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Alienware Fidget Spinner",
+    "description": "You spin me right round, like a record, right round, round round.",
+    "price": 1450
+  },
+  {
     "id": 312,
     "image": "https://media.alienwarearena.com/media/931df67585fc6fe91871acd822363560.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Italian Leg Lamp",
@@ -1495,19 +1579,31 @@
   },
   {
     "id": 372,
-    "name": "422"
+    "image": "https://media.alienwarearena.com/media/7e7b31aff5b27a08c5f9df5d8581c155.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$10 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 600
   },
   {
     "id": 373,
-    "name": "422"
+    "image": "https://media.alienwarearena.com/media/4c4a2237147d2c58e34b7edc49b42930.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$20 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 1150
   },
   {
     "id": 374,
-    "name": "422"
+    "image": "https://media.alienwarearena.com/media/45c622bfa7f868c2e19edcce92bc055f.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$30 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 1650
   },
   {
     "id": 375,
-    "name": "422"
+    "image": "https://media.alienwarearena.com/media/5789a8edb1000eb61a19d7a2e8d320ad.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$40 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 2100
   },
   {
     "id": 376,
