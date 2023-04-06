@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro build && astro preview",
     "astro": "astro",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "generate-favicons": "real-favicon generate favicon.config.json faviconData.json ./public"
   },
   "devDependencies": {
     "@astrojs/image": "^0.16.5",
@@ -17,6 +18,7 @@
     "astro": "^2.2.0",
     "astro-compress": "^1.1.35",
     "astro-critters": "^1.1.31",
+    "cli-real-favicon": "^0.0.8",
     "gh-pages": "^5.0.0",
     "sharp": "^0.31.3",
     "tailwindcss": "^3.3.1"
