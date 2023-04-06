@@ -16,7 +16,7 @@ export default defineConfig({
       },
     }),
     critters(),
-    compress(),
+    compress({ img: false }),
     sitemap(),
     image({
       serviceEntryPoint: "@astrojs/image/sharp",
