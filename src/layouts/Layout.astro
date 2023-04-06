@@ -1,4 +1,6 @@
 ---
+import { getRealURL } from "@/utils/url";
+
 import "@/css/global.css";
 
 export interface Props {
@@ -21,7 +23,7 @@ const { title, description } = Astro.props;
   <body>
     <main class="max-w-4xl mx-auto p-6">
       <h1 class="text-center text-5xl/relaxed font-black">
-        <a href="/"
+        <a href={getRealURL("/")}
           >Alienware Arena<br />
           <span
             class="bg-clip-text bg-accent-gradient [-webkit-text-fill-color:_transparent] bg-size-400 bg-position-0"

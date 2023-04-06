@@ -1,0 +1,1 @@
+export { getRealURL } from "./url";

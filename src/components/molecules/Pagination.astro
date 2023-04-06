@@ -1,6 +1,8 @@
 ---
 import Pill from "@/atoms/Pill.astro";
 
+import { getRealURL } from "@/utils/url";
+
 import type { Page } from "astro";
 import type { TypeClass } from "@/types/TypeClass";
 
@@ -12,18 +14,32 @@ const { page, class: className = "" } = Astro.props;
 ---
 
 <div class={`grid grid-cols-6 gap-2 ${className}`}>
-  <Pill as="a" aria-disabled={page.currentPage === 1} href="1">&lt;&lt;</Pill>
+  <Pill as="a" aria-disabled={page.currentPage === 1} href={getRealURL("/1")}>
+    &lt;&lt;
+  </Pill>
 
-  <Pill as="a" aria-disabled={!page.url.prev} href={page.url.prev}>&lt;</Pill>
+  <Pill
+    as="a"
+    aria-disabled={!page.url.prev}
+    href={getRealURL(page.url.prev ?? "")}
+  >
+    &lt;
+  </Pill>
 
   <Pill class="col-span-2">{page.currentPage} / {page.lastPage}</Pill>
 
-  <Pill as="a" aria-disabled={!page.url.next} href={page.url.next}>&gt;</Pill>
+  <Pill
+    as="a"
+    aria-disabled={!page.url.next}
+    href={getRealURL(page.url.next ?? "")}
+  >
+    &gt;
+  </Pill>
 
   <Pill
     as="a"
     aria-disabled={page.currentPage === page.lastPage}
-    href={page.lastPage}
+    href={getRealURL(`/${page.lastPage}`)}
   >
     &gt;&gt;
   </Pill>

@@ -7,6 +7,8 @@ import marketplace from "@/db/marketplace.json";
 import fragments from "@/db/fragments.json";
 import artifacts from "@/db/artifacts.json";
 
+import { getRealURL } from "@/utils/url";
+
 import type { TypeMarketItem } from "@/types";
 
 const itemsToSearch = [...fragments, ...artifacts];
@@ -24,7 +26,9 @@ const items: TypeMarketItem[] = marketplace.filter((item) =>
     />
     To see the entire list of products that are in the <strong
       >Alienware Arena</strong
-    > marketplace go to <a href="/1" class="font-bold text-accent">the list</a>.
+    > marketplace go to <a href={getRealURL("/1")} class="font-bold text-accent"
+      >the list</a
+    >.
   </Instruction>
 
   <Grid items={items} />
