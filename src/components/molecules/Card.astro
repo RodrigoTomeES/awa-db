@@ -26,12 +26,12 @@ const { title, body, image, price, id } = Astro.props;
     <Image
       src={image ?? getRealURL("/unknown.png")}
       alt={title ?? "Unknown item"}
-      width={140}
-      height={140}
+      width={280}
+      height={280}
       aspectRatio={1}
       fit="cover"
       format="webp"
-      class="mx-auto"
+      class="mx-auto h-36 w-36"
     />
 
     <h2
