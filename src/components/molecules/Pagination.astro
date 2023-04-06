@@ -11,35 +11,27 @@ export interface Props extends TypeClass {
 }
 
 const { page, class: className = "" } = Astro.props;
+const firstPage = getRealURL("/1");
+const prevPage = getRealURL(page.url.prev ?? firstPage);
+const lastPage = getRealURL(`/${page.lastPage}`);
+const nextPage = getRealURL(page.url.next ?? lastPage);
 ---
 
 <div class={`grid grid-cols-6 gap-2 ${className}`}>
-  <Pill as="a" aria-disabled={page.currentPage === 1} href={getRealURL("/1")}>
+  <Pill as="a" aria-disabled={page.currentPage === 1} href={firstPage}>
     &lt;&lt;
   </Pill>
 
-  <Pill
-    as="a"
-    aria-disabled={!page.url.prev}
-    href={getRealURL(page.url.prev ?? "")}
-  >
-    &lt;
-  </Pill>
+  <Pill as="a" aria-disabled={!page.url.prev} href={prevPage}>&lt;</Pill>
 
   <Pill class="col-span-2">{page.currentPage} / {page.lastPage}</Pill>
 
-  <Pill
-    as="a"
-    aria-disabled={!page.url.next}
-    href={getRealURL(page.url.next ?? "")}
-  >
-    &gt;
-  </Pill>
+  <Pill as="a" aria-disabled={!page.url.next} href={nextPage}>&gt;</Pill>
 
   <Pill
     as="a"
     aria-disabled={page.currentPage === page.lastPage}
-    href={getRealURL(`/${page.lastPage}`)}
+    href={lastPage}
   >
     &gt;&gt;
   </Pill>
