@@ -18,20 +18,30 @@ const nextPage = getRealURL(page.url.next ?? lastPage);
 ---
 
 <div class={`grid grid-cols-6 gap-2 ${className}`}>
-  <Pill as="a" aria-disabled={page.currentPage === 1} href={firstPage}>
+  <Pill
+    as="a"
+    aria-disabled={page.currentPage === 1}
+    href={firstPage}
+    class="py-1.5"
+  >
     &lt;&lt;
   </Pill>
 
-  <Pill as="a" aria-disabled={!page.url.prev} href={prevPage}>&lt;</Pill>
+  <Pill as="a" aria-disabled={!page.url.prev} href={prevPage} class="py-1.5">
+    &lt;
+  </Pill>
 
-  <Pill class="col-span-2">{page.currentPage} / {page.lastPage}</Pill>
+  <Pill class="col-span-2 py-1.5">{page.currentPage} / {page.lastPage}</Pill>
 
-  <Pill as="a" aria-disabled={!page.url.next} href={nextPage}>&gt;</Pill>
+  <Pill as="a" aria-disabled={!page.url.next} href={nextPage} class="py-1.5">
+    &gt;
+  </Pill>
 
   <Pill
     as="a"
     aria-disabled={page.currentPage === page.lastPage}
     href={lastPage}
+    class="py-1.5"
   >
     &gt;&gt;
   </Pill>

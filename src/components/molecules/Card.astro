@@ -19,7 +19,7 @@ const { title, body, image, price, id } = Astro.props;
   class="link-card flex p-1 bg-white bg-none bg-size-400 bg-position-100 rounded-[0.6rem] h-full group hover:bg-position-0 hover:bg-accent-gradient focus-within:bg-position-0 focus-within:bg-accent-gradient transition-all duration-500 shadow-md"
 >
   <div
-    class="relative flex flex-col gap-3 w-full text-very-dark bg-white opacity-80 rounded-[0.35rem] leading-snug px-4 py-5"
+    class="relative flex flex-col gap-3 w-full text-very-dark bg-white rounded-[0.35rem] leading-snug px-4 py-5"
   >
     <Pill class="absolute right-1 top-1">{id}</Pill>
 
@@ -31,20 +31,20 @@ const { title, body, image, price, id } = Astro.props;
       aspectRatio={1}
       fit="cover"
       format="webp"
-      class="mx-auto h-36 w-36"
+      class="mx-auto h-36 w-36 opacity-80"
     />
 
     <h2
-      class="line-clamp-2 text-xl transition-colors duration-500 group-hover:text-accent group-focus-within:text-accent"
+      class="line-clamp-2 text-xl transition-colors duration-500 group-hover:text-accent group-focus-within:text-accent opacity-80"
     >
       {title}
     </h2>
 
     <div
-      class="hyphens-auto line-clamp-3 grow text-medium-dark"
+      class="hyphens-auto line-clamp-3 grow text-medium-dark opacity-80"
       set:html={body ?? "Unknown"}
     />
 
-    <span class="ml-auto font-semibold">{price ?? "???"} ARP</span>
+    <span class="ml-auto font-semibold opacity-80">{price ?? "???"} ARP</span>
   </div>
 </div>
