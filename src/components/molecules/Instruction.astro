@@ -1,0 +1,16 @@
+---
+import type { TypeClass } from "@/types/TypeClass";
+
+export interface Props<T extends HTMLElement> extends TypeClass {
+  as?: T;
+}
+
+const { class: className = "", as: Element = "p", ...props } = Astro.props;
+---
+
+<Element
+  class={`border border-accent/25 bg-white p-4 rounded-lg leading-6 ${className}`}
+  {...props}
+>
+  <slot />
+</Element>

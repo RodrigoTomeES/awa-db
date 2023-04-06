@@ -1,0 +1,36 @@
+---
+import "@/css/global.css";
+
+export interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="bg-white-smoke">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <main class="max-w-4xl mx-auto p-6">
+      <h1 class="text-center text-5xl/relaxed font-black">
+        <a href="/"
+          >Alienware Arena<br />
+          <span
+            class="bg-clip-text bg-accent-gradient [-webkit-text-fill-color:_transparent] bg-size-400 bg-position-0"
+            >Marketplace DB</span
+          >
+        </a>
+      </h1>
+
+      <slot />
+    </main>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+---
+import Instruction from "@/molecules/Instruction.astro";
+import Grid from "@/organisms/Grid.astro";
+import Layout from "@/layouts/Layout.astro";
+
+import marketplace from "@/db/marketplace.json";
+import fragments from "@/db/fragments.json";
+import artifacts from "@/db/artifacts.json";
+
+import type { TypeMarketItem } from "@/types";
+
+const itemsToSearch = [...fragments, ...artifacts];
+const items: TypeMarketItem[] = marketplace.filter((item) =>
+  itemsToSearch.some((i) => i.id === item.id)
+);
+---
+
+<Layout
+  title="Alienware Arena Marketplace DB"
+  description="Contain all items that was release in the Alienware Arena Marketplace"
+>
+  <Instruction class="my-4">
+    Here is the list of <code>artifacts</code> released to date on the marketplace.<br
+    />
+    To see the entire list of products that are in the <strong
+      >Alienware Arena</strong
+    > marketplace go to <a href="/1" class="font-bold text-accent">the list</a>.
+  </Instruction>
+
+  <Grid items={items} />
+</Layout>

@@ -1,0 +1,30 @@
+---
+import Card from "@/molecules/Card.astro";
+
+import type { TypeClass, TypeMarketItem } from "@/types";
+
+export interface Props extends TypeClass {
+  items: TypeMarketItem[];
+}
+
+const { items, class: className = "" } = Astro.props;
+---
+
+<ul
+  role="list"
+  class={`grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ${className}`}
+>
+  {
+    items.map((item) => (
+      <li>
+        <Card
+          title={item.name}
+          body={item.description}
+          image={item.image}
+          id={item.id}
+          price={item.price}
+        />
+      </li>
+    ))
+  }
+</ul>

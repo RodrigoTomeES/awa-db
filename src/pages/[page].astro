@@ -1,0 +1,39 @@
+---
+import Pagination from "@/molecules/Pagination.astro";
+import Instruction from "@/molecules/Instruction.astro";
+import Grid from "@/organisms/Grid.astro";
+import Layout from "@/layouts/Layout.astro";
+
+import marketplace from "@/db/marketplace.json";
+
+import type { Page } from "astro";
+import type { TypeMarketItem } from "@/types";
+
+export interface Props {
+  page: Page<TypeMarketItem>;
+}
+
+export async function getStaticPaths({
+  paginate,
+}: {
+  paginate: (
+    items: TypeMarketItem[],
+    config: { pageSize: number }
+  ) => Page<TypeMarketItem>;
+}) {
+  const marketplaceItems: TypeMarketItem[] = marketplace;
+
+  return paginate(marketplaceItems, { pageSize: 9 });
+}
+
+const { page } = Astro.props;
+---
+
+<Layout
+  title={`Page ${page.currentPage} of the Alienware Arena Marketplace list.`}
+  description={`List of all items that was released in Alienware Arena Marketplace, page ${page.currentPage} of ${page.lastPage}`}
+>
+  <Grid items={page.data} class="mt-4" />
+
+  <Pagination page={page} class="mt-4" />
+</Layout>

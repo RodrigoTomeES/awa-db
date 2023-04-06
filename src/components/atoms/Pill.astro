@@ -1,0 +1,18 @@
+---
+import type { TypeClass } from "@/types/TypeClass";
+
+export interface Props<T extends HTMLElement> extends TypeClass {
+  as?: T;
+}
+
+const { class: className = "", as: Element = "span", ...props } = Astro.props;
+const hoverClass =
+  Element === "a" || Element === "button" ? "hover:opacity-80" : "";
+---
+
+<Element
+  class={`bg-accent text-white text-center text-sm font-mono px-3 py-0.5 rounded-full aria-disabled:opacity-30 aria-disabled:pointer-events-none select-none inline-flex justify-center items-center ${hoverClass} ${className}`}
+  {...props}
+>
+  <slot />
+</Element>
