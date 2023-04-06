@@ -1,4 +1,6 @@
 ---
+import { Image } from "@astrojs/image/components";
+
 import Pill from "@/atoms/Pill.astro";
 import { getRealURL } from "@/utils/url";
 
@@ -21,13 +23,15 @@ const { title, body, image, price, id } = Astro.props;
   >
     <Pill class="absolute right-1 top-1">{id}</Pill>
 
-    <img
+    <Image
       src={image ?? getRealURL("/unknown.png")}
       alt={title ?? "Unknown item"}
-      width="140"
-      height="140"
-      loading="lazy"
-      class="mx-auto aspect-square object-cover"
+      width={140}
+      height={140}
+      aspectRatio={1}
+      fit="cover"
+      format="webp"
+      class="mx-auto"
     />
 
     <h2

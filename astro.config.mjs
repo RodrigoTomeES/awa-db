@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import critters from "astro-critters";
 import compress from "astro-compress";
 import sitemap from "@astrojs/sitemap";
+import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,5 +18,8 @@ export default defineConfig({
     critters(),
     compress(),
     sitemap(),
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
   ],
 });
