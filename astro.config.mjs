@@ -8,7 +8,6 @@ import image from "@astrojs/image";
 // https://astro.build/config
 export default defineConfig({
   site: "https://rodrigotomees.github.io",
-  base: "/awa-db",
   integrations: [
     tailwind({
       config: {
