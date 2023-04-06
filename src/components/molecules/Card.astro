@@ -1,5 +1,6 @@
 ---
 import Pill from "@/atoms/Pill.astro";
+import { getRealURL } from "@/utils/url";
 
 export interface Props {
   id: number;
@@ -21,7 +22,7 @@ const { title, body, image, price, id } = Astro.props;
     <Pill class="absolute right-1 top-1">{id}</Pill>
 
     <img
-      src={image ?? "/unknown.png"}
+      src={image ?? getRealURL("/unknown.png")}
       alt={title ?? "Unknown item"}
       width="140"
       height="140"

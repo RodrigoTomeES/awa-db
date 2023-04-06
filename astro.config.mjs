@@ -6,8 +6,8 @@ const env = loadEnv(import.meta.env.MODE, process.cwd(), "");
 
 // https://astro.build/config
 export default defineConfig({
-  site: `https://${env.USERNAME}.github.io`,
-  base: env.BASE_REPO_URL,
+  site: "https://rodrigotomees.github.io",
+  base: "/alienware-arena-marketplace",
   integrations: [
     tailwind({
       config: { applyBaseStyles: false },
