@@ -10,12 +10,13 @@
     "astro": "astro",
     "deploy": "gh-pages -d dist"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@astrojs/sitemap": "^1.2.2",
     "@astrojs/tailwind": "^3.1.1",
     "astro": "^2.1.9",
+    "astro-compress": "^1.1.35",
+    "astro-critters": "^1.1.31",
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
