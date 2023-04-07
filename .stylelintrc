@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-tailwindcss",
+    "stylelint-config-idiomatic-order"
+  ],
+  "rules": {
+    "selector-class-pattern": "[a-z0-9]+(?:-[a-z0-9]+)*",
+    "selector-pseudo-class-no-unknown": [
+      true,
+      {
+        "ignorePseudoClasses": ["global", "export", "import", "local"]
+      }
+    ],
+    "at-rule-no-unknown": [
+      true,
+      {
+        "ignoreAtRules": ["layer", "tailwind", "extend", "screen"]
+      }
+    ],
+    "function-no-unknown": [true, { "ignoreFunctions": ["hextorgb"] }]
+  }
+}

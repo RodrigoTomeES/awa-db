@@ -1,13 +1,13 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
-import critters from "astro-critters";
-import compress from "astro-compress";
-import sitemap from "@astrojs/sitemap";
-import image from "@astrojs/image";
+import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import critters from 'astro-critters';
+import compress from 'astro-compress';
+import sitemap from '@astrojs/sitemap';
+import image from '@astrojs/image';
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://rodrigotomees.github.io",
+  site: 'https://rodrigotomees.github.io',
   integrations: [
     tailwind({
       config: {
@@ -18,7 +18,7 @@ export default defineConfig({
     compress({ img: false }),
     sitemap(),
     image({
-      serviceEntryPoint: "@astrojs/image/sharp",
+      serviceEntryPoint: '@astrojs/image/sharp',
     }),
   ],
 });
