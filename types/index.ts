@@ -1,2 +1,2 @@
-export type { TypeClass } from "./TypeClass";
-export type { TypeMarketItem } from "./TypeMarketItem";
+export type { TypeClass } from './TypeClass';
+export type { TypeMarketItem } from './TypeMarketItem';

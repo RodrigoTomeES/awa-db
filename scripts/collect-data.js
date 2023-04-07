@@ -1,4 +1,4 @@
-const ALIENWARE_DATA = "marketplace-alienware";
+const ALIENWARE_DATA = 'marketplace-alienware';
 
 const recoverData = () => {
   const storageData = localStorage.getItem(ALIENWARE_DATA);
@@ -11,7 +11,7 @@ const saveData = (data) => {
 };
 
 const getData = () => {
-  const elements = document.querySelectorAll("[data-product-id]:not(.timer)");
+  const elements = document.querySelectorAll('[data-product-id]:not(.timer)');
 
   return Array.from(elements).map((element) => ({
     id: parseInt(element.dataset.productId),
@@ -24,7 +24,7 @@ const getData = () => {
 
 const getDataAllPages = () => {
   const data = recoverData();
-  const linkToNextPage = document.getElementsByClassName("page-item next");
+  const linkToNextPage = document.getElementsByClassName('page-item next');
   const newData = getData();
 
   saveData([...data, ...newData]);

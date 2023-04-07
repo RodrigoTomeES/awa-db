@@ -1,8 +1,8 @@
 ---
-import { Image } from "@astrojs/image/components";
+import { Image } from '@astrojs/image/components';
 
-import Pill from "@/atoms/Pill.astro";
-import { getRealURL } from "@/utils/url";
+import Pill from '@/atoms/Pill.astro';
+import { getRealURL } from '@/utils/url';
 
 export interface Props {
   id: number;
@@ -16,16 +16,16 @@ const { title, body, image, price, id } = Astro.props;
 ---
 
 <div
-  class="link-card flex p-1 bg-white bg-none bg-size-400 bg-position-100 rounded-[0.6rem] h-full group hover:bg-position-0 hover:bg-accent-gradient focus-within:bg-position-0 focus-within:bg-accent-gradient transition-all duration-500 shadow-md"
+  class="link-card group flex h-full rounded-[0.6rem] bg-white bg-none bg-size-400 bg-position-100 p-1 shadow-md transition-all duration-500 focus-within:bg-accent-gradient focus-within:bg-position-0 hover:bg-accent-gradient hover:bg-position-0"
 >
   <div
-    class="relative flex flex-col gap-3 w-full text-very-dark bg-white rounded-[0.35rem] leading-snug px-4 py-5"
+    class="relative flex w-full flex-col gap-3 rounded-[0.35rem] bg-white px-4 py-5 leading-snug text-very-dark"
   >
     <Pill class="absolute right-1 top-1">{id}</Pill>
 
     <Image
-      src={image ?? getRealURL("/unknown.png")}
-      alt={title ?? "Unknown item"}
+      src={image ?? getRealURL('/unknown.png')}
+      alt={title ?? 'Unknown item'}
       width={280}
       height={280}
       aspectRatio={1}
@@ -35,16 +35,16 @@ const { title, body, image, price, id } = Astro.props;
     />
 
     <h2
-      class="line-clamp-2 text-xl transition-colors duration-500 group-hover:text-accent group-focus-within:text-accent opacity-80"
+      class="line-clamp-2 text-xl opacity-80 transition-colors duration-500 group-focus-within:text-accent group-hover:text-accent"
     >
       {title}
     </h2>
 
     <div
-      class="hyphens-auto line-clamp-3 grow text-medium-dark opacity-80"
-      set:html={body ?? "Unknown"}
+      class="line-clamp-3 grow hyphens-auto text-medium-dark opacity-80"
+      set:html={body ?? 'Unknown'}
     />
 
-    <span class="ml-auto font-semibold opacity-80">{price ?? "???"} ARP</span>
+    <span class="ml-auto font-semibold opacity-80">{price ?? '???'} ARP</span>
   </div>
 </div>

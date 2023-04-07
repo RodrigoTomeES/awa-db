@@ -1,13 +1,13 @@
 ---
-import Card from "@/molecules/Card.astro";
+import Card from '@/molecules/Card.astro';
 
-import type { TypeClass, TypeMarketItem } from "@/types";
+import type { TypeClass, TypeMarketItem } from '@/types';
 
 export interface Props extends TypeClass {
   items: TypeMarketItem[];
 }
 
-const { items, class: className = "" } = Astro.props;
+const { items, class: className = '' } = Astro.props;
 ---
 
 <ul

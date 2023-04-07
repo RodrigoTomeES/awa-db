@@ -24,4 +24,5 @@ const findMissingNumbers = (arr) => {
 const db = [];
 const data = recoverData();
 const uniqueData = getUniqueData(data, db);
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const missingIDs = findMissingNumbers(uniqueData.ids);

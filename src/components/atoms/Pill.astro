@@ -1,13 +1,13 @@
 ---
-import type { TypeClass } from "@/types/TypeClass";
+import type { TypeClass } from '@/types/TypeClass';
 
 export interface Props<T extends HTMLElement> extends TypeClass {
   as?: T;
 }
 
-const { class: className = "", as: Element = "span", ...props } = Astro.props;
+const { class: className = '', as: Element = 'span', ...props } = Astro.props;
 const hoverClass =
-  Element === "a" || Element === "button" ? "hover:opacity-80" : "";
+  Element === 'a' || Element === 'button' ? 'hover:opacity-80' : '';
 ---
 
 <Element

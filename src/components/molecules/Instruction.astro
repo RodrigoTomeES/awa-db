@@ -1,11 +1,11 @@
 ---
-import type { TypeClass } from "@/types/TypeClass";
+import type { TypeClass } from '@/types/TypeClass';
 
 export interface Props<T extends HTMLElement> extends TypeClass {
   as?: T;
 }
 
-const { class: className = "", as: Element = "p", ...props } = Astro.props;
+const { class: className = '', as: Element = 'p', ...props } = Astro.props;
 ---
 
 <Element

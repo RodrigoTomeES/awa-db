@@ -1,1 +1,1 @@
-export { getRealURL } from "./url";
+export { getRealURL } from './url';

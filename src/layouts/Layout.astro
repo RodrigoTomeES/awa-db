@@ -1,7 +1,7 @@
 ---
-import { getRealURL } from "@/utils/url";
+import { getRealURL } from '@/utils/url';
 
-import "@/css/global.css";
+import '@/css/global.css';
 
 export interface Props {
   title: string;
@@ -17,27 +17,27 @@ const { title, description } = Astro.props;
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href={getRealURL("/apple-touch-icon.png")}
+      href={getRealURL('/apple-touch-icon.png')}
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href={getRealURL("/favicon-32x32.png")}
+      href={getRealURL('/favicon-32x32.png')}
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href={getRealURL("/favicon-16x16.png")}
+      href={getRealURL('/favicon-16x16.png')}
     />
-    <link rel="manifest" href={getRealURL("/site.webmanifest")} />
+    <link rel="manifest" href={getRealURL('/site.webmanifest')} />
     <link
       rel="mask-icon"
-      href={getRealURL("/safari-pinned-tab.svg")}
+      href={getRealURL('/safari-pinned-tab.svg')}
       color="#5c14d8"
     />
-    <link rel="icon" type="image/svg+xml" href={getRealURL("/favicon.svg")} />
+    <link rel="icon" type="image/svg+xml" href={getRealURL('/favicon.svg')} />
     <title>{title} | Alienware Arena Marketplace DB</title>
     <meta name="description" content={description} />
     <meta charset="UTF-8" />
@@ -50,12 +50,12 @@ const { title, description } = Astro.props;
     />
   </head>
   <body>
-    <main class="max-w-4xl mx-auto p-6">
-      <h1 class="text-center text-4xl/tight md:text-5xl/relaxed font-black">
-        <a href={getRealURL("/")}>
+    <main class="mx-auto max-w-4xl p-6">
+      <h1 class="text-center text-4xl/tight font-black md:text-5xl/relaxed">
+        <a href={getRealURL('/')}>
           Alienware Arena<br />
           <span
-            class="bg-clip-text bg-accent-gradient [-webkit-text-fill-color:_transparent] bg-size-400 bg-position-0"
+            class="bg-accent-gradient bg-size-400 bg-clip-text bg-position-0 [-webkit-text-fill-color:_transparent]"
           >
             Marketplace DB
           </span>

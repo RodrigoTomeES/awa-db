@@ -1,17 +1,17 @@
 ---
-import Pill from "@/atoms/Pill.astro";
+import Pill from '@/atoms/Pill.astro';
 
-import { getRealURL } from "@/utils/url";
+import { getRealURL } from '@/utils/url';
 
-import type { Page } from "astro";
-import type { TypeClass } from "@/types/TypeClass";
+import type { Page } from 'astro';
+import type { TypeClass } from '@/types/TypeClass';
 
 export interface Props extends TypeClass {
   page: Page;
 }
 
-const { page, class: className = "" } = Astro.props;
-const firstPage = getRealURL("/1");
+const { page, class: className = '' } = Astro.props;
+const firstPage = getRealURL('/1');
 const prevPage = getRealURL(page.url.prev ?? firstPage);
 const lastPage = getRealURL(`/${page.lastPage}`);
 const nextPage = getRealURL(page.url.next ?? lastPage);
