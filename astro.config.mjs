@@ -1,9 +1,9 @@
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import critters from 'astro-critters';
-import compress from 'astro-compress';
-import sitemap from '@astrojs/sitemap';
 import image from '@astrojs/image';
+import sitemap from '@astrojs/sitemap';
+import tailwind from '@astrojs/tailwind';
+import compress from 'astro-compress';
+import critters from 'astro-critters';
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
