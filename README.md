@@ -57,3 +57,12 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 
 - [Favicon](https://commons.wikimedia.org/wiki/File:Alien01.svg)
 - [Image unknown item](https://commons.wikimedia.org/wiki/File:GHS-pictogram-unknown.svg)
+
+## TODO
+
+- Use Typescript in [Tailwind](https://tailwindcss.com/blog/tailwindcss-v3-3#esm-and-typescript-support) config file
+
+## Bugs
+
+- Prettier: importOrder don't put external types first
+- Critters: critical CSS is not removed from the CSS file
