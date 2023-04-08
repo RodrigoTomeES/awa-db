@@ -15,7 +15,26 @@
   "plugins": [
     "prettier-stylelint",
     "prettier-plugin-astro",
+    "@ianvs/prettier-plugin-sort-imports",
     "prettier-plugin-tailwindcss"
   ],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/atoms/(.*)$",
+    "^@/molecules/(.*)$",
+    "^@/organisms/(.*)$",
+    "^@/templates/(.*)$",
+    "^@/pages/(.*)$",
+    "^@/layouts/(.*)$",
+    "",
+    "^@/db/(.*)$",
+    "^@/utils/(.*)$",
+    "^[./]",
+    "",
+    "<TYPES>",
+    "<TYPES>^[./]"
+  ],
+  "importOrderMergeDuplicateImports": true,
   "pluginSearchDirs": false
 }
