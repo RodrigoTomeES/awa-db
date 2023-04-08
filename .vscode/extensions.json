@@ -3,6 +3,7 @@
     "astro-build.astro-vscode",
     "unifiedjs.vscode-mdx",
     "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
     "bradlc.vscode-tailwindcss",
     "gruntfuggly.todo-tree",
     "redhat.vscode-xml",
