@@ -77,7 +77,7 @@
     "name": "Hypnotic Rainbow Border (Animated)",
     "description": "Gaze into infinity!",
     "price": 400,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 36,
@@ -85,7 +85,7 @@
     "name": "Dancing Crab Border (Animated)",
     "description": "All Hail The Crab",
     "price": 350,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 37,
@@ -93,7 +93,7 @@
     "name": "Blinking Cat Border (Animated)",
     "description": "#Judging",
     "price": 300,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 38,
@@ -101,7 +101,7 @@
     "name": "Hacker Border (Animated)",
     "description": "Red pill or blue pill?",
     "price": 300,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 39,
@@ -109,7 +109,7 @@
     "name": "Schrödinger's Cat Frame (Animated)",
     "description": "The cat is running inside and outside the frame simultaneously.",
     "price": 250,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 40,
@@ -117,7 +117,7 @@
     "name": "Summer Lantern Border",
     "description": "Just needs some firelies.",
     "price": 15,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 41,
@@ -125,7 +125,7 @@
     "name": "Blade of Destiny Badge",
     "description": "Legend holds that there's a really dope sword out there, somewhere.",
     "price": 150,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 42,
@@ -133,7 +133,7 @@
     "name": "Crown Badge",
     "description": "Swear fealty!",
     "price": 50,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 43,
@@ -141,7 +141,7 @@
     "name": "Street Art Badge",
     "description": "Rep the streets.",
     "price": 25,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 44,
@@ -149,7 +149,7 @@
     "name": "Impressionism Badge",
     "description": "Museum-worthy.",
     "price": 25,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 45,
@@ -157,7 +157,7 @@
     "name": "Dog Badge",
     "description": "Match our Cat Month badge with a badge dedicated to man's best friend!",
     "price": 25,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 46,
@@ -165,7 +165,7 @@
     "name": "Stone Age Badge",
     "description": "That's a neat rock.",
     "price": 15,
-    "categories": ["Avatar"]
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 119,
@@ -732,35 +732,40 @@
     "image": "https://media.alienwarearena.com/media/0f7a5a5cec7ba98f3d31304a0148df65.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Time Jumper Border",
     "description": "Tick tock.",
-    "price": 400
+    "price": 400,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 196,
     "image": "https://media.alienwarearena.com/media/7c160d4c7656432ee299df4fcb592072.png?fit=crop&width=300&height=300&quality=75",
     "name": "DIY Border",
     "description": "Do it yourself!",
-    "price": 75
+    "price": 75,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 197,
     "image": "https://media.alienwarearena.com/media/7c6f76917d44fe4862581e653b2c5295.png?fit=crop&width=300&height=300&quality=75",
     "name": "Spring Cleaning",
     "description": "Looking cleeeeeeeeeaaaaaaaaaaaaaan.",
-    "price": 25
+    "price": 25,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 198,
     "image": "https://media.alienwarearena.com/media/d64e5fd06775a984dc038d13e90ae908.png?fit=crop&width=300&height=300&quality=75",
     "name": "Daisy Border",
     "description": "Look as fresh as a daisy with this cutesy border.",
-    "price": 50
+    "price": 50,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 199,
     "image": "https://media.alienwarearena.com/media/c677a5ff2539b5a0579d57f229620ebf.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Goldfish Border",
     "description": "His name is Harold, and he likes to jump.",
-    "price": 450
+    "price": 450,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 200,
@@ -799,21 +804,24 @@
     "image": "https://media.alienwarearena.com/media/e80115ad38fe13b2b9402e07e2bccef4.png?fit=crop&width=300&height=300&quality=75",
     "name": "Ocean Waves Badge",
     "description": "Peaceful waves, crested by a setting sun.",
-    "price": 20
+    "price": 20,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 212,
     "image": "https://media.alienwarearena.com/media/98ac4cfed40d102cbec217c80829f788.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Shooting Stars Border (Animated)",
     "description": "Make a wish.",
-    "price": 85
+    "price": 85,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 213,
     "image": "https://media.alienwarearena.com/media/3f011a6c4fbd9d6efffb44f387f93671.png?fit=crop&width=300&height=300&quality=75",
     "name": "Morning Light Border",
     "description": "It's a brand new day",
-    "price": 40
+    "price": 40,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 214,
@@ -884,7 +892,8 @@
     "image": "https://media.alienwarearena.com/media/4d8d57f487a6c5d0403f1a71b65cbbc4.png?fit=crop&width=300&height=300&quality=75",
     "name": "Grill Master BBQ",
     "description": "Only the Master Griller can be honored with such a badge. Or, you know, you can buy it too.",
-    "price": 30
+    "price": 30,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 223,
@@ -907,14 +916,16 @@
     "image": "https://media.alienwarearena.com/media/16423ed8d0ca35c12704d045e952a91a.png?fit=crop&width=300&height=300&quality=75",
     "name": "Tabletop Dice",
     "description": "Let's hope it's a Nat 20.",
-    "price": 20
+    "price": 20,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 226,
     "image": "https://media.alienwarearena.com/media/44b41f82006c3952cdbf565a25897b99.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Flower Petal Animated Border",
     "description": "All we are are petals in the wind.",
-    "price": 350
+    "price": 350,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 227,
@@ -977,21 +988,24 @@
     "image": "https://media.alienwarearena.com/media/ee9701058dafe378783594026bde3e15.png?fit=crop&width=300&height=300&quality=75",
     "name": "Ink Well Border",
     "description": "Ample ink to pen all your deepest thoughts.",
-    "price": 45
+    "price": 45,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 241,
     "image": "https://media.alienwarearena.com/media/6683e6472c10a20a2a39d003d3d685dc.png?fit=crop&width=300&height=300&quality=75",
     "name": "Smart Plant Badge",
     "description": "His name is Hector. He wears glasses, eats sunlight, and tells you fun facts about grass.",
-    "price": 30
+    "price": 30,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 242,
     "image": "https://media.alienwarearena.com/media/7cfcb7411d5979a1dd65261ae0363803.png?fit=crop&width=300&height=300&quality=75",
     "name": "Chess Border",
     "description": "The game of kings, scholars, and paupers.",
-    "price": 35
+    "price": 35,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 243,
@@ -1094,21 +1108,24 @@
     "image": "https://media.alienwarearena.com/media/458125fbd5a6e9f86b717cd41e371967.png?fit=crop&width=300&height=300&quality=75",
     "name": "Ancient Skull Badge",
     "description": "This skull calls out across the expanse of time.",
-    "price": 100
+    "price": 100,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 256,
     "image": "https://media.alienwarearena.com/media/b69e095ffcea143ce61601a0d9040662.png?fit=crop&width=300&height=300&quality=75",
     "name": "Cosmic Stone Stein",
     "description": "Skald!",
-    "price": 50
+    "price": 50,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 257,
     "image": "https://media.alienwarearena.com/media/43554ac915e6c24c028b52726d2b0b1f.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Skull Bonfire Border",
     "description": "Makes for some excellent smores roasting.",
-    "price": 350
+    "price": 350,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 260,
@@ -1259,7 +1276,8 @@
     "image": "https://media.alienwarearena.com/media/e54ad9a2d489ba3f5b07961e6761773e.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Candlelight Border",
     "description": "Light the way with a flickering flame.",
-    "price": 150
+    "price": 150,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 284,
@@ -1386,14 +1404,16 @@
     "image": "https://media.alienwarearena.com/media/a425bb192b7577adb4f2e1d4d53074d1.png?fit=crop&width=300&height=300&quality=75",
     "name": "Nature Calls Border",
     "description": "I want to go where nature calls me.",
-    "price": 75
+    "price": 75,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 300,
     "image": "https://media.alienwarearena.com/media/607e3e30fd4ec85a7b3b31fbcf333ce8.png?fit=crop&width=300&height=300&quality=75",
     "name": "Killer Kitty Badge",
     "description": "We always knew the robots would turn against us, but never in such cuddly, feline form!",
-    "price": 35
+    "price": 35,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 305,
@@ -1456,28 +1476,32 @@
     "image": "https://media.alienwarearena.com/media/629d68af44f25af14b72af9792460904.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Winter Lights Border (Animated)",
     "description": "Glow up the frosty nights with a rainbow show!",
-    "price": 450
+    "price": 450,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 317,
     "image": "https://media.alienwarearena.com/media/50654c1a02dc4bc8917a5a945aeccf7e.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Snow Storm Border (Animated)",
     "description": "Bundle up.",
-    "price": 350
+    "price": 350,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 318,
     "image": "https://media.alienwarearena.com/media/1999d3141ab4e50581a6b11284ec887f.png?fit=crop&width=300&height=300&quality=75",
     "name": "Holiday Fire Badge",
     "description": "Warm your bones and alight your spirit.",
-    "price": 50
+    "price": 50,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 319,
     "image": "https://media.alienwarearena.com/media/2a12a636dbc6f99c4f0705cbc354805c.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Dead by Daylight Huntress Border (Animated)",
     "description": "Let your hatchet fly.",
-    "price": 500
+    "price": 500,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 320,
@@ -1500,21 +1524,24 @@
     "image": "https://media.alienwarearena.com/media/dc32e8600c07a5c0d002730cf68d24bf.png?fit=crop&width=300&height=300&quality=75",
     "name": "Swirl Guitar Badge",
     "description": "Those are some elegant riffs.",
-    "price": 45
+    "price": 45,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 326,
     "image": "https://media.alienwarearena.com/media/8f73542f9f594ad42610be730bb1a50d.gif?fit=crop&width=300&height=300&quality=75",
     "name": "Pinball Machine (Animated)",
     "description": "Become the Pinball Wizard.",
-    "price": 425
+    "price": 425,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 327,
     "image": "https://media.alienwarearena.com/media/1ecbb494f14b3ce67e401b8eae2f7a41.png?fit=crop&width=300&height=300&quality=75",
     "name": "Morning Coffee Border",
     "description": "It's a peaceful life.",
-    "price": 75
+    "price": 75,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 328,
@@ -1617,21 +1644,24 @@
     "image": "https://media.alienwarearena.com/media/3a47c127a671127aff0e04cc42b63b66.png?fit=crop&width=300&height=300&quality=75",
     "name": "Chocolate Box Border",
     "description": "Equal parts tasty and tasteful.",
-    "price": 75
+    "price": 75,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 346,
     "image": "https://media.alienwarearena.com/media/9599bcaaac5ab60188ce21cb369430e6.png?fit=crop&width=300&height=300&quality=75",
     "name": "Golden Concerto Border",
     "description": "What is that melody?",
-    "price": 85
+    "price": 85,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 347,
     "image": "https://media.alienwarearena.com/media/7e41429d4037f27ca6223bf827cfb21d.png?fit=crop&width=300&height=300&quality=75",
     "name": "Tea Time Badge",
     "description": "Care for a spot of Earl Grey?",
-    "price": 50
+    "price": 50,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 352,
@@ -1759,7 +1789,8 @@
     "image": "https://media.alienwarearena.com/media/758a7dacc94a053e545bb550452ca57d.png?fit=crop&width=300&height=300&quality=75",
     "name": "Rainbow Valley Badge",
     "description": "Ride the Rainbow!",
-    "price": 35
+    "price": 35,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 370,
@@ -1980,7 +2011,8 @@
     "image": "https://media.alienwarearena.com/media/9cdd77dd7fa0e17966145acc9cf3ae5f.png?fit=crop&width=300&height=300&quality=75",
     "name": "Sunny Tulips",
     "description": "Golden Hour!",
-    "price": 25
+    "price": 25,
+    "categories": ["Badges & Borders"]
   },
   {
     "id": 405,
