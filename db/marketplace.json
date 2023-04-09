@@ -4,63 +4,72 @@
     "image": "https://media.alienwarearena.com/media/408d41e8f13bd69a70235fd0c7ef5365.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Sticker Pack",
     "description": "Perfect for decking out a water bottle or gaming laptop.",
-    "price": 300
+    "price": 300,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 12,
     "image": "https://media.alienwarearena.com/media/93c93d4a236fd42219699110f6892454.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Lanyard",
     "description": "The coolest key holder in the West.",
-    "price": 400
+    "price": 400,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 13,
     "image": "https://media.alienwarearena.com/media/8d942f449c1f7d40f703ae8cf90448f9.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Banner",
     "description": "Represent the best.",
-    "price": 900
+    "price": 900,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 14,
     "image": "https://media.alienwarearena.com/media/d52c33c813a72772a260544020e24002.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Wristband",
     "description": "Gain a +1 to unarmed attacks.",
-    "price": 800
+    "price": 800,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 15,
     "image": "https://media.alienwarearena.com/media/a90300397ed9ef29ce1a5da9c4b9a2a1.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Keychain",
     "description": "It's a good luck charm.",
-    "price": 800
+    "price": 800,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 16,
     "image": "https://media.alienwarearena.com/media/4fc8ddf50cbf09911ff7dbf131dfe290.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Socks",
     "description": "Because no gaming session is complete without cozy toes.",
-    "price": 1200
+    "price": 1200,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 17,
     "image": "https://media.alienwarearena.com/media/8bd3033c61e878f56eba6ed2f957afb9.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Pin",
     "description": "The equivalent of a VIP badge.",
-    "price": 500
+    "price": 500,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 18,
     "image": "https://media.alienwarearena.com/media/4ce1af8dde146ce0158ee80a41be274b.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Hat",
     "description": "This is the best hat out there, no cap.",
-    "price": 1800
+    "price": 1800,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 19,
     "image": "https://media.alienwarearena.com/media/9f52b04db08b1710a1dd1da4ae50c99e.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Beanie",
     "description": "Clear eyes, cozy head, can't lose.",
-    "price": 2000
+    "price": 2000,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 35,
@@ -1243,21 +1252,24 @@
     "image": "https://media.alienwarearena.com/media/7fcb642e03736419c3bbddfe6a5e52a8.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware XL Mousepad",
     "description": "XL is 14x27.5\" (36x70mm)\n\nYour mouse will thank you.",
-    "price": 1600
+    "price": 1600,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 306,
     "image": "https://media.alienwarearena.com/media/d7f7c4c355c7051ca46153080e2f705c.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Mouse Pad",
     "description": "12x13.5\" (30x34mm)\n\nA smooth runway for your mouse.",
-    "price": 1400
+    "price": 1400,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 307,
     "image": "https://media.alienwarearena.com/media/08421bcce64f4898e210f3ac121e91af.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Fidget Spinner",
     "description": "You spin me right round, like a record, right round, round round.",
-    "price": 1450
+    "price": 1450,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 312,
@@ -1474,27 +1486,33 @@
     "image": "https://media.alienwarearena.com/media/48d34ed0be4922fa82ee7597deca9a1c.png?fit=crop&width=300&height=300&quality=75",
     "name": "Fragments",
     "description": "Ten(10) Fragments used to upgrade your Chaotic Artifacts.",
-    "price": 100
+    "price": 100,
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 355,
-    "name": "Broken Sylphin Fission Blade"
+    "name": "Broken Sylphin Fission Blade",
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 356,
-    "name": "Dead by Daylight: Tools of Torment"
+    "name": "Dead by Daylight: Tools of Torment",
+    "categories": ["Game Vault"]
   },
   {
     "id": 357,
-    "name": "Embers Adrift"
+    "name": "Embers Adrift",
+    "categories": ["Game Vault"]
   },
   {
     "id": 358,
-    "name": "Hunt: Showdown"
+    "name": "Hunt: Showdown",
+    "categories": ["Game Vault"]
   },
   {
     "id": 359,
-    "name": "Have a Nice Death"
+    "name": "Have a Nice Death",
+    "categories": ["Game Vault"]
   },
   {
     "id": 360,
@@ -1568,7 +1586,8 @@
   },
   {
     "id": 370,
-    "name": "Pn295 Fusion"
+    "name": "Pn295 Fusion",
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 371,
@@ -1582,32 +1601,37 @@
     "image": "https://media.alienwarearena.com/media/7e7b31aff5b27a08c5f9df5d8581c155.png?fit=crop&width=300&height=300&quality=75",
     "name": "$10 Dell Reward",
     "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
-    "price": 600
+    "price": 600,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 373,
     "image": "https://media.alienwarearena.com/media/4c4a2237147d2c58e34b7edc49b42930.png?fit=crop&width=300&height=300&quality=75",
     "name": "$20 Dell Reward",
     "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
-    "price": 1150
+    "price": 1150,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 374,
     "image": "https://media.alienwarearena.com/media/45c622bfa7f868c2e19edcce92bc055f.png?fit=crop&width=300&height=300&quality=75",
     "name": "$30 Dell Reward",
     "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
-    "price": 1650
+    "price": 1650,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 375,
     "image": "https://media.alienwarearena.com/media/5789a8edb1000eb61a19d7a2e8d320ad.png?fit=crop&width=300&height=300&quality=75",
     "name": "$40 Dell Reward",
     "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
-    "price": 2100
+    "price": 2100,
+    "categories": ["Dell Rewards"]
   },
   {
     "id": 376,
-    "name": "Demon Artifact"
+    "name": "Demon Artifact",
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 377,
@@ -1646,49 +1670,56 @@
     "image": "https://media.alienwarearena.com/media/28966a3df8b371b518b4ef0e0b642e22.jpg?quality=75",
     "name": "Kerbal Space Program 2",
     "description": "<p>Kerbal Space Program 2 is the sequel to the acclaimed space-flight simulation game Kerbal Space Program. Enter the next generation of space adventure with exciting new parts, stunning visuals, fully revamped UI and Map View, and rich new environments to explore.</p>\n\n<p>For Steam.</p>",
-    "price": 2900
+    "price": 2900,
+    "categories": ["Game Vault"]
   },
   {
     "id": 386,
     "image": "https://media.alienwarearena.com/media/29e7cdce3f935b06b77da443e74b44d7.jpg?quality=75",
     "name": "Crime Boss: Rockay City",
     "description": "<p>Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker - a man with his sights set on becoming the new King of Rockay City, one crime at a time…</p>\n\n<p>For Epic</p>",
-    "price": 3200
+    "price": 3200,
+    "categories": ["Game Vault"]
   },
   {
     "id": 387,
     "image": "https://media.alienwarearena.com/media/3db8bae94e1dda39bb9d4bcfc307b8ca.jpg?quality=75",
     "name": "System Shock Enhanced Edition",
     "description": "<p>Re-discover what made System Shock the first of it's kind, a ground breaking immersive sim that would inspire a generation of games to come....</p>\n\n<p>For Steam</p>",
-    "price": 2100
+    "price": 2100,
+    "categories": ["Game Vault"]
   },
   {
     "id": 388,
     "image": "https://media.alienwarearena.com/media/5579385ca1fda6ae59ec77c44f996b42.jpg?quality=75",
     "name": "Hotel Renovator",
     "description": "<p>Unleash your inner designer and renovate the hotel of your dreams! Embark on a makeover journey to turn this worn-out place into a successful getaway. Play with thousands of furniture pieces and accessories, and manage the hotel to get 5-star reviews!</p>\n\n<p>For Steam</p>",
-    "price": 2400
+    "price": 2400,
+    "categories": ["Game Vault"]
   },
   {
     "id": 389,
     "image": "https://media.alienwarearena.com/media/1f5dea3cd514ab525ee8fb110ac0f30a.jpg?quality=75",
     "name": "Jurassic World Evolution 2: Feathered Species Pack",
     "description": "<p>Expand your Jurassic World with the incredible Jurassic World Evolution 2: Feathered Species Pack. Featuring three land-dwelling dinosaurs and one flying reptile, these four new eye-catching prehistoric species all exhibit magnificent plumage, ranging from dense coverings to fine coats. Evolve your park like never before and give your guests an experience they won't forget with these captivating feathered additions.</p>\n\n<p>For Steam</p>",
-    "price": 1900
+    "price": 1900,
+    "categories": ["Game Vault"]
   },
   {
     "id": 390,
     "image": "https://media.alienwarearena.com/media/0591a67c60147628160f39610725d1aa.jpg?quality=75",
     "name": "Deceive Inc.",
     "description": "<p>Go undercover as the world's greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.</p>\n\n<p>For Steam.</p>",
-    "price": 2500
+    "price": 2500,
+    "categories": ["Game Vault"]
   },
   {
     "id": 391,
     "image": "https://media.alienwarearena.com/media/5be9e21e892c7517fe9363532e7f300f.jpg?quality=75",
     "name": "Voodolls",
     "description": "<p>Voodolls is a co-op tower defence experience steeped in the dark &amp; mysterious world of voodoo. Trapped in the jaws of hell, four souls are given the chance of freedom by a mysterious Puppet Master who distils their essence into Voodolls. Take up their offer and begin your break for freedom!</p>\n\n<p>For Steam.</p>\n\n<p>Note: This game will be released on May 11th, 2023. You can activate your key early.</p>",
-    "price": 2300
+    "price": 2300,
+    "categories": ["Game Vault"]
   },
   {
     "id": 392,
@@ -1771,20 +1802,23 @@
     "image": "https://media.alienwarearena.com/media/d333919cbecdb5134160e50fce717d65.png?fit=crop&width=300&height=300&quality=75",
     "name": "Mysterious Text",
     "description": "Origins of the mysterious language have eluded us. We are unable to decipher this text.",
-    "price": 1
+    "price": 1,
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 406,
     "image": "https://media.alienwarearena.com/media/c7b7972d0629d5957dd879d5e076af83.png?fit=crop&width=300&height=300&quality=75",
     "name": "H`erkow Warrior Script",
     "description": "This chant is used before battle to calm anxiety. Attempts to increase its power have failed to this point.",
-    "price": 1
+    "price": 1,
+    "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 407,
     "image": "https://media.alienwarearena.com/media/9a3f83fb08f076b57c4d729fd82f87bc.png?fit=crop&width=300&height=300&quality=75",
     "name": "Scion of the Light",
     "description": "[Expedition Team Report] Our attempts to research this celestial body has proven difficult. We are unable to approach it without experiencing massive trauma. Symptoms include hallucinations and eventually an intercranial hematoma.",
-    "price": 1
+    "price": 1,
+    "categories": ["Artifacts & Fragments"]
   }
 ]
