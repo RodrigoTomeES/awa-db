@@ -16,15 +16,14 @@ const { items, class: className = '' } = Astro.props;
 >
   {
     items.map((item) => (
-      <li>
-        <Card
-          title={item.name}
-          body={item.description}
-          image={item.image}
-          id={item.id}
-          price={item.price}
-        />
-      </li>
+      <Card
+        as="li"
+        title={item.name}
+        body={item.description}
+        image={item.image}
+        id={item.id}
+        price={item.price}
+      />
     ))
   }
 </ul>
