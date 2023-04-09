@@ -1,9 +1,7 @@
 ---
-import type { TypeClass } from '@/types/TypeClass';
+import type { TypeClass, TypeAs } from '@/types';
 
-export interface Props<T extends HTMLElement> extends TypeClass {
-  as?: T;
-}
+export interface Props<T extends HTMLElement> extends TypeClass, TypeAs<T> {}
 
 const { class: className = '', as: Element = 'span', ...props } = Astro.props;
 const hoverClass =
@@ -11,7 +9,7 @@ const hoverClass =
 ---
 
 <Element
-  class={`bg-dark-accent/80 text-white text-center text-sm font-mono px-3 py-0.5 rounded-full aria-disabled:opacity-40 aria-disabled:pointer-events-none select-none inline-flex justify-center items-center ${hoverClass} ${className}`}
+  class={`bg-accent text-white text-center text-sm font-mono px-3 py-0.5 rounded-full aria-disabled:opacity-40 aria-disabled:pointer-events-none select-none inline-flex justify-center items-center ${hoverClass} ${className}`}
   {...props}
 >
   <slot />

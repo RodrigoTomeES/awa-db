@@ -5,7 +5,9 @@ import Pill from '@/atoms/Pill.astro';
 
 import { getRealURL } from '@/utils/url';
 
-export interface Props {
+import type { TypeClass, TypeAs } from '@/types';
+
+export interface Props<T extends HTMLElement> extends TypeClass, TypeAs<T> {
   id: number;
   image?: string;
   title: string;
@@ -13,16 +15,24 @@ export interface Props {
   price?: number;
 }
 
-const { title, body, image, price, id } = Astro.props;
+const {
+  title,
+  body,
+  image,
+  price,
+  id,
+  class: className = '',
+  as: Element = 'div',
+} = Astro.props;
 ---
 
-<div
-  class="link-card group flex h-full rounded-[0.6rem] bg-white bg-none bg-size-400 bg-position-100 p-1 shadow-md transition-all duration-500 focus-within:bg-accent-gradient focus-within:bg-position-0 hover:bg-accent-gradient hover:bg-position-0"
+<Element
+  class={`link-card group flex h-full rounded-[0.6rem] bg-white bg-none bg-size-400 bg-position-100 p-1 shadow-md transition-all duration-500 focus-within:bg-accent-gradient focus-within:bg-position-0 hover:bg-accent-gradient hover:bg-position-0 ${className}`}
 >
   <div
-    class="relative flex w-full flex-col gap-3 rounded-[0.35rem] bg-white px-4 py-5 leading-snug text-very-dark"
+    class="relative flex w-full flex-col gap-3 rounded-[0.35rem] bg-white px-4 py-5 leading-snug text-very-dark opacity-80"
   >
-    <Pill class="absolute right-1 top-1">{id}</Pill>
+    <Pill class="absolute right-1 top-1 !bg-dark-accent/90">{id}</Pill>
 
     <Image
       src={image ?? getRealURL('/unknown.png')}
@@ -32,20 +42,20 @@ const { title, body, image, price, id } = Astro.props;
       aspectRatio={1}
       fit="cover"
       format="webp"
-      class="mx-auto h-36 w-36 opacity-80"
+      class="mx-auto h-36 w-36"
     />
 
     <h2
-      class="line-clamp-2 text-xl opacity-80 transition-colors duration-500 group-focus-within:text-accent group-hover:text-accent"
+      class="line-clamp-2 text-xl transition-colors duration-500 group-focus-within:text-accent group-hover:text-accent"
     >
       {title}
     </h2>
 
     <div
-      class="line-clamp-3 grow hyphens-auto text-medium-dark opacity-80"
+      class="line-clamp-3 grow hyphens-auto text-medium-dark"
       set:html={body ?? 'Unknown'}
     />
 
-    <span class="ml-auto font-semibold opacity-80">{price ?? '???'} ARP</span>
+    <span class="ml-auto font-semibold">{price ?? '???'} ARP</span>
   </div>
-</div>
+</Element>

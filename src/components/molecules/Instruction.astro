@@ -1,9 +1,7 @@
 ---
-import type { TypeClass } from '@/types/TypeClass';
+import type { TypeClass, TypeAs } from '@/types';
 
-export interface Props<T extends HTMLElement> extends TypeClass {
-  as?: T;
-}
+export interface Props<T extends HTMLElement> extends TypeClass, TypeAs<T> {}
 
 const { class: className = '', as: Element = 'p', ...props } = Astro.props;
 ---
