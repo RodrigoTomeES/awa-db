@@ -20,9 +20,7 @@ export async function getStaticPaths({
     config: { pageSize: number }
   ) => Page<TypeMarketItem>;
 }) {
-  const marketplaceItems: TypeMarketItem[] = marketplace;
-
-  return paginate(marketplaceItems, { pageSize: 9 });
+  return paginate(marketplace as TypeMarketItem[], { pageSize: 9 });
 }
 
 const { page } = Astro.props;

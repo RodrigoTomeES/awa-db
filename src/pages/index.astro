@@ -3,16 +3,13 @@ import Instruction from '@/molecules/Instruction.astro';
 import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
-import artifacts from '@/db/artifacts.json';
-import fragments from '@/db/fragments.json';
 import marketplace from '@/db/marketplace.json';
 import { getRealURL } from '@/utils/url';
 
 import type { TypeMarketItem } from '@/types';
 
-const itemsToSearch = [...fragments, ...artifacts];
-const items: TypeMarketItem[] = marketplace.filter((item) =>
-  itemsToSearch.some((i) => i.id === item.id)
+const items = (marketplace as TypeMarketItem[]).filter((item) =>
+  item.categories.includes('Artifacts & Fragments')
 );
 ---
 
