@@ -4,6 +4,9 @@ import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
 import marketplace from '@/db/marketplace.json';
+import { routes } from '@/utils/routes';
+import { getRealURL } from '@/utils/url';
+import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
 import type { Page } from 'astro';
@@ -20,17 +23,37 @@ export async function getStaticPaths({
     config: { pageSize: number }
   ) => Page<TypeMarketItem>;
 }) {
-  return paginate(marketplace as TypeMarketItem[], { pageSize: 9 });
+  return paginate(marketplace as TypeMarketItem[], {
+    pageSize: NUM_ITEMS_BY_PAGE,
+  });
 }
 
 const { page } = Astro.props;
+
+if (Astro.url.pathname === getRealURL('/2')) page.url.prev = getRealURL('/');
 ---
 
 <Layout
-  title={`Page ${page.currentPage} of the item list.`}
+  title={`Marketplace, page ${page.currentPage} of ${page.lastPage}.`}
   description={`List of all items that was released in Alienware Arena Marketplace, page ${page.currentPage} of ${page.lastPage}`}
 >
-  <Grid items={page.data} class="mt-4" />
-
-  <Pagination page={page} class="mt-4" />
+  {
+    page.currentPage === 1 && (
+      <link
+        rel="canonical"
+        href={`${Astro.url}`.replace(
+          Astro.url.pathname,
+          getRealURL(routes.index)
+        )}
+        slot="head"
+      />
+    )
+  }
+  <Grid items={page.data} class="mb-4" />
+  <Pagination
+    currentPage={page.currentPage}
+    firstPage="/"
+    lastPage={page.lastPage}
+    url={{ prev: page.url.prev, next: page.url.next }}
+  />
 </Layout>

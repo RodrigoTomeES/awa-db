@@ -1,31 +1,43 @@
 ---
-import Instruction from '@/molecules/Instruction.astro';
+import Pagination from '@/molecules/Pagination.astro';
 import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
 import marketplace from '@/db/marketplace.json';
-import { getRealURL } from '@/utils/url';
+import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
+import type { Page } from 'astro';
 
-const items = (marketplace as TypeMarketItem[]).filter((item) =>
-  item.categories.includes('Artifacts & Fragments')
-);
+export interface Props {
+  page: Page<TypeMarketItem>;
+}
+
+const page = {
+  data: (marketplace as TypeMarketItem[]).slice(0, NUM_ITEMS_BY_PAGE),
+  start: 0,
+  end: 8,
+  total: marketplace.length,
+  currentPage: 1,
+  size: NUM_ITEMS_BY_PAGE,
+  lastPage: Math.ceil(marketplace.length / NUM_ITEMS_BY_PAGE),
+  url: {
+    current: '/',
+    next: '/2',
+    prev: undefined,
+  },
+};
 ---
 
 <Layout
-  title="Welcome"
-  description="Contain all items that was release in the Alienware Arena Marketplace"
+  title={`Marketplace, Page ${page.currentPage} of the item list.`}
+  description={`List of all items that was released in Alienware Arena Marketplace, page ${page.currentPage} of ${page.lastPage}`}
 >
-  <Instruction class="my-4">
-    Here is the list of <code>artifacts</code> released to date on the marketplace.<br
-    />
-    To see the entire list of products that are in the <strong
-      >Alienware Arena</strong
-    > marketplace go to <a href={getRealURL('/1')} class="font-bold text-accent"
-      >the list</a
-    >.
-  </Instruction>
-
-  <Grid items={items} />
+  <Grid items={page.data} class="mb-4" />
+  <Pagination
+    currentPage={page.currentPage}
+    firstPage={1}
+    lastPage={page.lastPage}
+    url={{ prev: page.url.prev, next: page.url.next }}
+  />
 </Layout>

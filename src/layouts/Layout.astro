@@ -1,4 +1,6 @@
 ---
+import Instruction from '@/molecules/Instruction.astro';
+
 import { getRealURL } from '@/utils/url';
 
 import '@/css/global.css';
@@ -24,7 +26,7 @@ const { title, description } = Astro.props;
       )
     }
     <meta name="viewport" content="width=device-width" />
-    <title>{title} | Alienware Arena Marketplace DB</title>
+    <title>{title} | AWA DB</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -52,6 +54,7 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#f6f6f6" />
+    <slot name="head" />
   </head>
   <body>
     <main class="mx-auto max-w-4xl p-6">
@@ -65,6 +68,29 @@ const { title, description } = Astro.props;
           </span>
         </a>
       </h1>
+
+      <nav>
+        <ul>
+          <li><a href="/artifacts/1">Artifacts & Fragments</a></li>
+          <li><a href="/avatars/1">Avatars</a></li>
+          <li><a href="/badges-and-borders/1">Badges and Borders</a></li>
+          <li><a href="/dell-rewards/1">Dell Rewards</a></li>
+          <li><a href="/game-vault/1">Game Vault</a></li>
+        </ul>
+      </nav>
+
+      <Instruction class="my-4">
+        List of all items released on the marketplace. If you want to
+        collaborate adding missing data you can contact me through <code>
+          <a
+            href="https://github.com/RodrigoTomeES"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            GitHub</a
+          ></code
+        >.
+      </Instruction>
 
       <slot />
     </main>

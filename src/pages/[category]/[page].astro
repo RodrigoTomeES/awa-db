@@ -1,0 +1,56 @@
+---
+import Pagination from '@/molecules/Pagination.astro';
+import Grid from '@/organisms/Grid.astro';
+import Layout from '@/layouts/Layout.astro';
+
+import marketplace from '@/db/marketplace.json';
+import { MARKET_ITEMS_CATEGORIES } from '@/types';
+import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
+
+import type { TypeMarketItem } from '@/types';
+import type { Page } from 'astro';
+
+export interface Props {
+  page: Page<TypeMarketItem>;
+}
+
+export const getStaticPaths = ({
+  paginate,
+}: {
+  paginate: (
+    items: TypeMarketItem[],
+    config: {
+      pageSize: number;
+      params?: Record<string, string>;
+      props?: Record<string, string>;
+    }
+  ) => Page<TypeMarketItem>;
+}) => {
+  return MARKET_ITEMS_CATEGORIES.map((category) => {
+    const filteredItems = (marketplace as TypeMarketItem[]).filter((item) =>
+      item.categories.includes(category.name)
+    );
+
+    return paginate(filteredItems, {
+      params: { category: category.slug.replace('/', '') },
+      props: { category: category.name },
+      pageSize: NUM_ITEMS_BY_PAGE,
+    });
+  });
+};
+
+const { page, category } = Astro.props;
+---
+
+<Layout
+  title={`${category}, page ${page.currentPage} of ${page.lastPage}.`}
+  description={`List of all items in the category ${category}, page ${page.currentPage} of ${page.lastPage}`}
+>
+  <Grid items={page.data} class="mb-4" />
+  <Pagination
+    currentPage={page.currentPage}
+    firstPage={1}
+    lastPage={page.lastPage}
+    url={{ prev: page.url.prev, next: page.url.next }}
+  />
+</Layout>

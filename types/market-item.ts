@@ -1,4 +1,38 @@
-type TypeMarketItemCategory =
+import { routes } from '@/utils';
+
+const ARTIFACTS = 'Artifacts & Fragments';
+const AVATAR = 'Avatar';
+const BADGES = 'Badges & Borders';
+const GAME_VAULT = 'Game Vault';
+const DELL_REWARDS = 'Dell Rewards';
+
+export const MARKET_ITEMS_CATEGORIES: {
+  name: TypeMarketItemCategory;
+  slug: string;
+}[] = [
+  {
+    name: ARTIFACTS,
+    slug: routes.artifacts.index,
+  },
+  {
+    name: AVATAR,
+    slug: routes.avatar.index,
+  },
+  {
+    name: BADGES,
+    slug: routes.badges.index,
+  },
+  {
+    name: GAME_VAULT,
+    slug: routes.gameVault.index,
+  },
+  {
+    name: DELL_REWARDS,
+    slug: routes.dellRewards.index,
+  },
+];
+
+export type TypeMarketItemCategory =
   | 'Artifacts & Fragments'
   | 'Avatar'
   | 'Badges & Borders'

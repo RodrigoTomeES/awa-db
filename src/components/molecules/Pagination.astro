@@ -7,40 +7,58 @@ import type { TypeClass } from '@/types';
 import type { Page } from 'astro';
 
 export interface Props extends TypeClass {
-  page: Page;
+  currentPage: Page['currentPage'];
+  lastPage: Page['lastPage'];
+  firstPage: number | string;
+  url: {
+    prev: Page['url']['prev'];
+    next: Page['url']['next'];
+  };
 }
 
-const { page, class: className = '' } = Astro.props;
-const firstPage = getRealURL('/1');
-const prevPage = getRealURL(page.url.prev ?? firstPage);
-const lastPage = getRealURL(`/${page.lastPage}`);
-const nextPage = getRealURL(page.url.next ?? lastPage);
+const {
+  currentPage,
+  firstPage,
+  lastPage,
+  url,
+  class: className = '',
+} = Astro.props;
 ---
 
 <div class={`grid grid-cols-6 gap-2 ${className}`}>
   <Pill
     as="a"
-    aria-disabled={page.currentPage === 1}
-    href={firstPage}
+    aria-disabled={currentPage === 1}
+    href={getRealURL(firstPage)}
     class="py-1.5"
   >
     &lt;&lt;
   </Pill>
 
-  <Pill as="a" aria-disabled={!page.url.prev} href={prevPage} class="py-1.5">
+  <Pill
+    as="a"
+    aria-disabled={!url.prev}
+    href={getRealURL(url.prev ?? firstPage)}
+    class="py-1.5"
+  >
     &lt;
   </Pill>
 
-  <Pill class="col-span-2 py-1.5">{page.currentPage} / {page.lastPage}</Pill>
+  <Pill class="col-span-2 py-1.5">{currentPage} / {lastPage}</Pill>
 
-  <Pill as="a" aria-disabled={!page.url.next} href={nextPage} class="py-1.5">
+  <Pill
+    as="a"
+    aria-disabled={!url.next}
+    href={getRealURL(url.next ?? lastPage)}
+    class="py-1.5"
+  >
     &gt;
   </Pill>
 
   <Pill
     as="a"
-    aria-disabled={page.currentPage === page.lastPage}
-    href={lastPage}
+    aria-disabled={currentPage === lastPage}
+    href={getRealURL(lastPage)}
     class="py-1.5"
   >
     &gt;&gt;
