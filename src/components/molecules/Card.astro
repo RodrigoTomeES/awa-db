@@ -4,6 +4,7 @@ import { Image } from '@astrojs/image/components';
 import Pill from '@/atoms/Pill.astro';
 
 import { getRealURL } from '@/utils/url';
+import { getUrlExtension, isJPG } from '@/utils/utils';
 
 import type { TypeClass, TypeAs } from '@/types';
 
@@ -24,25 +25,29 @@ const {
   class: className = '',
   as: Element = 'div',
 } = Astro.props;
+const urlWithFallback = image ?? getRealURL('/unknown.png');
+const isJPGImage = isJPG(getUrlExtension(urlWithFallback));
 ---
 
 <Element
   class={`link-card group flex h-full rounded-[0.6rem] bg-white bg-none bg-size-400 bg-position-100 p-1 shadow-md transition-all duration-500 focus-within:bg-accent-gradient focus-within:bg-position-0 hover:bg-accent-gradient hover:bg-position-0 ${className}`}
 >
   <div
-    class="relative flex w-full flex-col gap-3 rounded-[0.35rem] bg-white px-4 py-5 leading-snug text-very-dark opacity-80"
+    class="relative flex w-full flex-col gap-3 rounded-[0.35rem] bg-white p-2 leading-snug text-very-dark opacity-80 sm:px-4 sm:py-5"
   >
     <Pill class="absolute right-1 top-1 !bg-dark-accent/90">{id}</Pill>
 
     <Image
-      src={image ?? getRealURL('/unknown.png')}
+      src={urlWithFallback}
       alt={title ?? 'Unknown item'}
       width={280}
       height={280}
       aspectRatio={1}
-      fit="cover"
+      fit={isJPGImage ? 'cover' : 'contain'}
       format="webp"
-      class="mx-auto h-36 w-36"
+      class={`mx-auto h-36 w-36 ${
+        isJPGImage ? 'object-cover' : 'object-contain'
+      }`}
     />
 
     <h2
