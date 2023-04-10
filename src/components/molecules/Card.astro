@@ -40,8 +40,8 @@ const isJPGImage = isJPG(getUrlExtension(urlWithFallback));
     <Image
       src={urlWithFallback}
       alt={title ?? 'Unknown item'}
-      width={280}
-      height={280}
+      width={240}
+      height={240}
       aspectRatio={1}
       fit={isJPGImage ? 'cover' : 'contain'}
       format="webp"
