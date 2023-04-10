@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // @see https://github.com/tailwindlabs/tailwindcss/discussions/7317
@@ -6,6 +8,15 @@ module.exports = {
   },
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    screens: {
+      /*
+       * Adding smaller breakpoints
+       * @see https://tailwindcss.com/docs/screens#adding-smaller-breakpoints
+       */
+      xs: '400px',
+      ...defaultTheme.screens,
+      '2xl': '1440px',
+    },
     colors: {
       accent: 'rgb(var(--color-accent) / <alpha-value>)',
       'dark-accent': '#5c14d8',
