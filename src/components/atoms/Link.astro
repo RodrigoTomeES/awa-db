@@ -18,8 +18,8 @@ const hasIcon = Astro.slots.has('icon');
 ---
 
 <Element
-  class={`before:absolute before:bottom-0 before:left-0 before:right-0 before:block before:h-px before:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:block after:h-px after:w-0 after:bg-accent after:transition-all after:duration-[800ms] after:ease-in-out after:content-[''] hover:after:w-full px-1 text-[18px] leading-8 tracking-tight inline-block relative ${
-    hasIcon ? 'inline-flex gap-2 items-center' : ''
+  class={`before:absolute before:bottom-0 before:left-0 before:right-0 before:block before:h-px before:content-[''] after:absolute after:bottom-0 after:left-0 after:right-0 after:block after:h-px after:w-0 after:bg-accent after:transition-all after:duration-[800ms] after:ease-in-out after:content-[''] hover:after:w-full px-1 text-[18px] leading-8 tracking-tight text-center relative ${
+    hasIcon ? 'inline-flex gap-2 items-center' : 'inline-block'
   } ${active ? 'before:bg-accent' : 'before:bg-accent/25'} ${className}`}
   {...props}
 >
