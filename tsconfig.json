@@ -7,6 +7,8 @@
       "@/css": ["css/"],
       "@/db/*": ["db/*"],
       "@/db": ["db/"],
+      "@/public/*": ["public/*"],
+      "@/public": ["public/"],
       "@/types/*": ["types/*"],
       "@/types": ["types/"],
       "@/utils/*": ["utils/*"],

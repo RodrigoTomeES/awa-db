@@ -1,0 +1,68 @@
+---
+import SVG from '@jasikpark/astro-svg-loader';
+
+import Link from '@/atoms/Link.astro';
+
+import { routes } from '@/utils/routes';
+import { getRealURL } from '@/utils/url';
+
+import type { TypeClass } from '@/types';
+
+export interface Props extends TypeClass {
+  /**
+   * Should be active the link?
+   */
+  items: {
+    /**
+     * Label of the item
+     */
+    label: string;
+    /**
+     * Link of the item
+     */
+    href: string;
+  }[];
+}
+
+const { class: className = '', items } = Astro.props;
+---
+
+<header>
+  <a
+    href={getRealURL(routes.index)}
+    class="flex items-center justify-center gap-2 text-4xl/tight font-black md:text-5xl/relaxed"
+  >
+    <SVG
+      src={import('@/public/favicon.svg?raw')}
+      aria-label="AWA DB logo"
+      width={40}
+      height={40}
+      class="!fill-very-dark dark:[&_path]:!fill-very-dark"
+    />
+
+    AWA <span
+      class="bg-accent-gradient bg-size-400 bg-clip-text bg-position-0 [-webkit-text-fill-color:_transparent]"
+      >DB</span
+    >
+  </a>
+
+  <nav class="-mx-4">
+    <ul
+      class="mt-4 flex items-center justify-between gap-6 overflow-x-auto font-mono text-lg font-semibold"
+    >
+      {
+        items.map((item, index) => (
+          <li
+            class={`flex-shrink-0 ${index === 0 ? 'ml-4' : ''} ${
+              index === items.length - 1 ? 'mr-4' : ''
+            }`}
+          >
+            <Link href={item.href} active={Astro.url.pathname === item.href}>
+              {item.label}
+            </Link>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>

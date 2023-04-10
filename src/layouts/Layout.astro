@@ -1,9 +1,11 @@
 ---
 import Instruction from '@/molecules/Instruction.astro';
+import Header from '@/organisms/Header.astro';
 
 import { getRealURL } from '@/utils/url';
 
 import '@/css/global.css';
+import { routes } from '@/utils/routes';
 
 export interface Props {
   title: string;
@@ -11,6 +13,17 @@ export interface Props {
 }
 
 const { title, description } = Astro.props;
+
+const items = [
+  {
+    href: routes.artifacts.page(1),
+    label: 'Artifacts & Fragments',
+  },
+  { href: routes.avatar.page(1), label: 'Avatars' },
+  { href: routes.badges.page(1), label: 'Badges and Borders' },
+  { href: routes.dellRewards.page(1), label: 'Dell Rewards' },
+  { href: routes.gameVault.page(1), label: 'Game Vault' },
+];
 ---
 
 <!DOCTYPE html>
@@ -21,7 +34,7 @@ const { title, description } = Astro.props;
       !import.meta.env.DEV && (
         <meta
           http-equiv="Content-Security-Policy"
-          content="default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'unsafe-inline'; style-src 'self'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self'; img-src 'self'; font-src 'none'; connect-src 'none'; media-src 'self'; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'self'"
+          content="default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'unsafe-inline'; style-src 'self'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self'; img-src 'self'; font-src 'none'; connect-src 'none'; media-src 'self'; object-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'self'"
         />
       )
     }
@@ -56,29 +69,10 @@ const { title, description } = Astro.props;
     <meta name="theme-color" content="#f6f6f6" />
     <slot name="head" />
   </head>
-  <body>
-    <main class="mx-auto max-w-4xl p-6 px-4">
-      <h1 class="text-center text-4xl/tight font-black md:text-5xl/relaxed">
-        <a href={getRealURL('/')}>
-          Alienware Arena<br />
-          <span
-            class="bg-accent-gradient bg-size-400 bg-clip-text bg-position-0 [-webkit-text-fill-color:_transparent]"
-          >
-            Marketplace DB
-          </span>
-        </a>
-      </h1>
+  <body class="mx-auto max-w-4xl p-6 px-4">
+    <Header items={items} />
 
-      <nav>
-        <ul>
-          <li><a href="/artifacts/1">Artifacts & Fragments</a></li>
-          <li><a href="/avatars/1">Avatars</a></li>
-          <li><a href="/badges-and-borders/1">Badges and Borders</a></li>
-          <li><a href="/dell-rewards/1">Dell Rewards</a></li>
-          <li><a href="/game-vault/1">Game Vault</a></li>
-        </ul>
-      </nav>
-
+    <main>
       <Instruction class="my-4">
         List of all items released on the marketplace. If you want to
         collaborate adding missing data you can contact me through <code>

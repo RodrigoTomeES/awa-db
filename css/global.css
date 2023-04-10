@@ -5,6 +5,7 @@
 @layer base {
   :root {
     --color-accent: 124 58 237;
+    --color-dark-accent: 92 20 216;
   }
 
   code {
@@ -14,5 +15,13 @@
     color: rgb(var(--color-accent));
     font-size: 0.875em;
     font-weight: bold;
+    transition-duration: 150ms;
+    transition-property: color, background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  code:hover {
+    background: rgba(var(--color-accent) / 16%);
+    color: rgb(var(--color-dark-accent));
   }
 }

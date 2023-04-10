@@ -21,6 +21,7 @@
     "@astrojs/tailwind": "^3.1.1",
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "@jasikpark/astro-svg-loader": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "astro": "^2.2.1",
