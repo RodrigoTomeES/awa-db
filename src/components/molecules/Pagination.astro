@@ -24,7 +24,9 @@ const {
   class: className = '',
 } = Astro.props;
 const currentPath = removeLastDirectoryURL(Astro.url.pathname);
-const fistPageURL = getRealURL(`${currentPath}/${firstPage}`);
+const fistPageURL = getRealURL(
+  `${currentPath ? `${currentPath}/` : ''}${firstPage}`
+);
 const lastPageURL = getRealURL(`${currentPath}/${lastPage}`);
 const prevPageURL = getRealURL(url.prev ?? fistPageURL);
 const nextPageURL = getRealURL(url.next ?? lastPageURL);
