@@ -38,4 +38,5 @@ module.exports = {
       'size-400': '400%',
     },
   },
+  plugins: [require('tailwind-scrollbar-hide')],
 };
