@@ -14,6 +14,17 @@ const { title, description } = Astro.props;
 <!DOCTYPE html>
 <html lang="en" class="bg-white-smoke">
   <head>
+    <meta charset="UTF-8" />
+    {
+      !import.meta.env.DEV && (
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'unsafe-inline'; style-src 'self'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self'; img-src 'self'; font-src 'none'; connect-src 'none'; media-src 'self'; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'self'"
+        />
+      )
+    }
+    <meta name="viewport" content="width=device-width" />
+    <title>{title} | Alienware Arena Marketplace DB</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -38,16 +49,9 @@ const { title, description } = Astro.props;
       color="#5c14d8"
     />
     <link rel="icon" type="image/svg+xml" href={getRealURL('/favicon.svg')} />
-    <title>{title} | Alienware Arena Marketplace DB</title>
     <meta name="description" content={description} />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="theme-color" content="#f6f6f6" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'none'; script-src 'none'; script-src-elem 'none'; script-src-attr 'unsafe-inline'; style-src 'self'; style-src-elem 'self' 'unsafe-inline'; style-src-attr 'self'; img-src 'self'; font-src 'none'; connect-src 'none'; media-src 'self'; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; block-all-mixed-content; base-uri 'self'; manifest-src 'self'"
-    />
   </head>
   <body>
     <main class="mx-auto max-w-4xl p-6">
