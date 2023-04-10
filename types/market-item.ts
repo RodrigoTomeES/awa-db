@@ -12,23 +12,23 @@ export const MARKET_ITEMS_CATEGORIES: {
 }[] = [
   {
     name: ARTIFACTS,
-    slug: routes.artifacts.index,
+    slug: routes.artifacts.slug,
   },
   {
     name: AVATAR,
-    slug: routes.avatar.index,
+    slug: routes.avatar.slug,
   },
   {
     name: BADGES,
-    slug: routes.badges.index,
+    slug: routes.badges.slug,
   },
   {
     name: GAME_VAULT,
-    slug: routes.gameVault.index,
+    slug: routes.gameVault.slug,
   },
   {
     name: DELL_REWARDS,
-    slug: routes.dellRewards.index,
+    slug: routes.dellRewards.slug,
   },
 ];
 
