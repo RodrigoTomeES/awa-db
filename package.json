@@ -1,5 +1,6 @@
 {
   "name": "awa-db",
+  "packageManager": "yarn@3.5.0",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,8 +13,9 @@
     "generate-favicons": "real-favicon generate favicon.config.json faviconData.json ./public",
     "prepare": "husky install",
     "lint": "eslint --fix \"**/*.{ts,tsx,js,cjs,mjs,jsx,astro}\"",
-    "lint:styles": "npx stylelint --fix \"**/*.css\"",
-    "commit": "cz"
+    "lint:styles": "stylelint --fix \"**/*.css\"",
+    "commit": "cz",
+    "update": "yarn set version stable"
   },
   "devDependencies": {
     "@astrojs/image": "^0.16.6",
@@ -21,10 +23,11 @@
     "@astrojs/tailwind": "^3.1.1",
     "@commitlint/cli": "^17.5.1",
     "@commitlint/config-conventional": "^17.4.4",
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@jasikpark/astro-svg-loader": "^0.1.0",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",
-    "astro": "^2.2.2",
+    "astro": "^2.3.2",
     "astro-compress": "^1.1.35",
     "astro-critters": "^1.1.31",
     "cli-real-favicon": "^0.0.8",
