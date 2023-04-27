@@ -2050,5 +2050,29 @@
     "description": "[Expedition Team Report] Our attempts to research this celestial body has proven difficult. We are unable to approach it without experiencing massive trauma. Symptoms include hallucinations and eventually an intercranial hematoma.",
     "price": 1,
     "categories": ["Artifacts & Fragments"]
+  },
+  {
+    "id": 408,
+    "image": "https://media.alienwarearena.com/media/90765e766d2f104390afd0a0d98daf70.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Flower Dress",
+    "description": "Perfect for vacation!",
+    "price": 65,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 409,
+    "image": "https://media.alienwarearena.com/media/6b1745d8f11ec2dbf50db80b985d3a57.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Flower Hat",
+    "description": "Fresh picked this morning.",
+    "price": 35,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 410,
+    "image": "https://media.alienwarearena.com/media/4f8ce067f7b5412510db7dd8a992b6ce.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Flower Dress Loafers",
+    "description": "Are these washable?",
+    "price": 25,
+    "categories": ["Avatar"]
   }
 ]
