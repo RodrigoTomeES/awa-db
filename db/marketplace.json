@@ -2074,5 +2074,77 @@
     "description": "Are these washable?",
     "price": 25,
     "categories": ["Avatar"]
+  },
+  {
+    "id": 415,
+    "image": "https://media.alienwarearena.com/media/103da8bc053a6e0895f653345a385d83.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Cheeseburger Suit",
+    "description": "Yes, I want fries with that.",
+    "price": 75,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 416,
+    "image": "https://media.alienwarearena.com/media/d1f6feffdca6b21dbf1a384c7f7b47aa.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Toothpick",
+    "description": "Just a garnish.",
+    "price": 20,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 417,
+    "image": "https://media.alienwarearena.com/media/ea8c74dce8040edbca410a8e5d1cd009.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dark Alien Helmet",
+    "description": "Listen, We're Not Just Doing This For Money",
+    "price": 35,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 418,
+    "image": "https://media.alienwarearena.com/media/61842d37d3c9ab001348ac2fa30fca18.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dark Alien Suit",
+    "description": "Oh, No. Not Again.",
+    "price": 75,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 419,
+    "image": "https://media.alienwarearena.com/media/e60836f0306152cdb2a00ba3ac6c9de0.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dark Alien Gloves",
+    "description": "I Am Your Father's Brother's Nephew's Cousin's Former Roommate.",
+    "price": 20,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 420,
+    "image": "https://media.alienwarearena.com/media/e06ea121c52858ff8b0edf3224017c71.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Dark Alien Boots",
+    "description": "We're At Now, Now.",
+    "price": 20,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 421,
+    "image": "https://media.alienwarearena.com/media/a72fa920f8e5c2ae012fd478483c3f0f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Watering Can",
+    "description": "Just a sprinkle!",
+    "price": 25,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 422,
+    "image": "https://media.alienwarearena.com/media/4637ad7557189b9afc203b125312b9b7.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Tie Dye",
+    "description": "Radical!",
+    "price": 20,
+    "categories": ["Badges & Borders"]
+  },
+  {
+    "id": 423,
+    "image": "https://media.alienwarearena.com/media/8f6d9912b51e6d6824370e3a0ae468d1.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Succulent Border",
+    "description": "How succulent!",
+    "price": 35,
+    "categories": ["Badges & Borders"]
   }
 ]
