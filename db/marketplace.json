@@ -2076,6 +2076,39 @@
     "categories": ["Avatar"]
   },
   {
+    "id": 411,
+    "image": "https://media.alienwarearena.com/media/38c2d5243c902d328311ea57f6f10ce8.jpg?quality=75",
+    "name": "The Last of Us - Part 1",
+    "description": "<h3><u><strong>The Last of Us - Part 1</strong></u></h3>\n\n<p>Experience the emotional storytelling and unforgettable characters in The Last of Us™, winner of over 200 Game of the Year awards.<br />\nIn a ravaged civilization, where infected and hardened survivors run rampant, Joel, a weary protagonist, is hired to smuggle 14-year-old Ellie out of a military quarantine zone. However, what starts as a small job soon transforms into a brutal cross-country journey.</p>\n\n<p>For Steam</p>",
+    "price": 3800,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 412,
+    "image": "https://media.alienwarearena.com/media/445cd612c0d0e6d71ae34059788d4b9e.jpg?quality=75",
+    "name": "EVERSPACE 2",
+    "description": "<h3><u><strong>EVERSPACE 2</strong></u></h3>\n\n<p>EVERSPACE 2 is a fast-paced single-player spaceship shooter with exploration in space and on planets, tons of loot, RPG elements, mining, and crafting. Experience an exciting sci-fi story set in a vivid, handcrafted open world full of secrets, puzzles, and perils.</p>\n\n<p>For Steam</p>",
+    "price": 3500,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 413,
+    "image": "https://media.alienwarearena.com/media/561ac20c6513cd81adec1b82a8467dc5.jpg?quality=75",
+    "name": "Tchia",
+    "description": "<h3><u><strong>Tchia</strong></u></h3>\n\n<p>Join Tchia on her tropical open-world adventure as she sets off to rescue her father from the cruel tyrant, Meavora, ruler of the archipelago. Climb, glide, swim, and sail your boat around beautiful islands as you explore a physics-driven sandbox. Face the fabric soldiers created by Meavora in open encounters where your creativity gives you the edge. Take control of any animal or object you can find, make new friends and jam on your fully playable Ukulele. A poetic coming-of-age story inspired by New Caledonia.</p>\n\n<p>For Epic</p>",
+    "price": 2800,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 414,
+    "image": "https://media.alienwarearena.com/media/d31f7d6a5ec1786b149fb5a4cce0486c.jpg?quality=75",
+    "name": "Rogue Spirit",
+    "description": "<h3><u><strong>Rogue Spirit</strong></u></h3>\n\n<p>Rogue Spirit is a 3D rogue-lite action game with light stealth elements. Play as the Ghost of the Prince of the Kingdom of Midra, possess enemy characters and absorb their unique skills to fight the evil presence that has corrupted your land.</p>\n\n<p>For Steam.</p>",
+    "price": 2500,
+    "categories": ["Game Vault"]
+  },
+
+  {
     "id": 415,
     "image": "https://media.alienwarearena.com/media/103da8bc053a6e0895f653345a385d83.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Cheeseburger Suit",
@@ -2146,5 +2179,13 @@
     "description": "How succulent!",
     "price": 35,
     "categories": ["Badges & Borders"]
+  },
+  {
+    "id": 424,
+    "image": "https://media.alienwarearena.com/media/48d34ed0be4922fa82ee7597deca9a1c.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Fragments",
+    "description": "Used to upgrade Artifacts",
+    "price": 100,
+    "categories": ["Artifacts & Fragments"]
   }
 ]
