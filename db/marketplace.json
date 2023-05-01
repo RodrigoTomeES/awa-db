@@ -1,5 +1,55 @@
 [
   {
+    "id": 1,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 2,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 3,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 4,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 5,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 6,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 7,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 8,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 9,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 10,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
     "id": 11,
     "image": "https://media.alienwarearena.com/media/408d41e8f13bd69a70235fd0c7ef5365.png?fit=crop&width=300&height=300&quality=75",
     "name": "Alienware Sticker Pack",
@@ -70,6 +120,81 @@
     "description": "Clear eyes, cozy head, can't lose.",
     "price": 2000,
     "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 20,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 21,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 22,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 23,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 24,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 25,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 26,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 27,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 28,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 29,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 30,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 31,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 32,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 33,
+    "name": "You are not allow to purchase this product",
+    "categories": []
+  },
+  {
+    "id": 34,
+    "name": "You are not allow to purchase this product",
+    "categories": []
   },
   {
     "id": 35,
@@ -400,6 +525,11 @@
     "categories": ["Avatar"]
   },
   {
+    "id": 149,
+    "name": "Not enought ARP",
+    "categories": []
+  },
+  {
     "id": 150,
     "image": "https://media.alienwarearena.com/media/7a870751807fc556660fc5e8a428348d.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Knight Helm",
@@ -726,6 +856,21 @@
     "description": "It's a belt, and it is handy. Pretty neat!",
     "price": 35,
     "categories": ["Avatar"]
+  },
+  {
+    "id": 192,
+    "name": "Not enought ARP",
+    "categories": []
+  },
+  {
+    "id": 193,
+    "name": "Not enought ARP",
+    "categories": []
+  },
+  {
+    "id": 194,
+    "name": "Not enought ARP",
+    "categories": []
   },
   {
     "id": 195,
