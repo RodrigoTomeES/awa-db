@@ -25,8 +25,8 @@ export const getStaticPaths = ({
       props?: Record<string, string>;
     }
   ) => Page<TypeMarketItem>;
-}) =>
-  MARKET_ITEMS_CATEGORIES.map((category) => {
+}) => {
+  return MARKET_ITEMS_CATEGORIES.map((category) => {
     const filteredItems = (marketplace as TypeMarketItem[]).filter((item) =>
       item.categories.includes(category.name)
     );
@@ -37,6 +37,7 @@ export const getStaticPaths = ({
       pageSize: NUM_ITEMS_BY_PAGE,
     });
   });
+};
 
 const { page, category } = Astro.props;
 ---
