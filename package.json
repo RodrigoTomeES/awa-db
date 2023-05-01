@@ -42,7 +42,7 @@
     "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-tailwindcss": "^0.2.8",
     "prettier-stylelint": "^0.4.2",
-    "sharp": "^0.31.3",
+    "sharp": "^0.32.1",
     "stylelint": "^15.6.0",
     "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^33.0.0",
