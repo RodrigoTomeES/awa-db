@@ -28,4 +28,9 @@ export const routes = {
     slug: 'dell-rewards',
     page: (page: number) => getRealURL(`/dell-rewards/${page}`),
   },
+  unknown: {
+    index: getRealURL('/unknown'),
+    slug: 'unknown',
+    page: (page: number) => getRealURL(`/unknown/${page}`),
+  },
 };

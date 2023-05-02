@@ -4,7 +4,7 @@ import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
 import marketplace from '@/db/marketplace.json';
-import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
+import { NUM_ITEMS_BY_PAGE, removeUknownItems } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
 import type { Page } from 'astro';
@@ -14,7 +14,9 @@ export interface Props {
 }
 
 const page = {
-  data: (marketplace as TypeMarketItem[]).slice(0, NUM_ITEMS_BY_PAGE),
+  data: (marketplace as TypeMarketItem[])
+    .filter(removeUknownItems)
+    .slice(0, NUM_ITEMS_BY_PAGE),
   start: 0,
   end: 8,
   total: marketplace.length,

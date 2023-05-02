@@ -5,6 +5,7 @@ const AVATAR = 'Avatar';
 const BADGES = 'Badges & Borders';
 const GAME_VAULT = 'Game Vault';
 const DELL_REWARDS = 'Dell Rewards';
+const UNKNOWN = 'Unknown';
 
 export const MARKET_ITEMS_CATEGORIES: {
   name: TypeMarketItemCategory;
@@ -30,6 +31,10 @@ export const MARKET_ITEMS_CATEGORIES: {
     name: DELL_REWARDS,
     slug: routes.dellRewards.slug,
   },
+  {
+    name: UNKNOWN,
+    slug: routes.unknown.slug,
+  },
 ];
 
 export type TypeMarketItemCategory =
@@ -37,7 +42,8 @@ export type TypeMarketItemCategory =
   | 'Avatar'
   | 'Badges & Borders'
   | 'Game Vault'
-  | 'Dell Rewards';
+  | 'Dell Rewards'
+  | 'Unknown';
 
 export type TypeMarketItem = {
   /**

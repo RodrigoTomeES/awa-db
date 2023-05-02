@@ -6,7 +6,7 @@ import Layout from '@/layouts/Layout.astro';
 import marketplace from '@/db/marketplace.json';
 import { routes } from '@/utils/routes';
 import { getRealURL } from '@/utils/url';
-import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
+import { NUM_ITEMS_BY_PAGE, removeUknownItems } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
 import type { Page } from 'astro';
@@ -23,7 +23,7 @@ export async function getStaticPaths({
     config: { pageSize: number }
   ) => Page<TypeMarketItem>;
 }) {
-  return paginate(marketplace as TypeMarketItem[], {
+  return paginate((marketplace as TypeMarketItem[]).filter(removeUknownItems), {
     pageSize: NUM_ITEMS_BY_PAGE,
   });
 }
