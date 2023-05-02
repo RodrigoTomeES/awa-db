@@ -2,52 +2,52 @@
   {
     "id": 1,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 2,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 3,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 4,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 5,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 6,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 7,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 8,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 9,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 10,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 11,
@@ -124,77 +124,77 @@
   {
     "id": 20,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 21,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 22,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 23,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 24,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 25,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 26,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 27,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 28,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 29,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 30,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 31,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 32,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 33,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 34,
     "name": "You are not allow to purchase this product",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 35,
@@ -291,6 +291,367 @@
     "description": "That's a neat rock.",
     "price": 15,
     "categories": ["Badges & Borders"]
+  },
+  {
+    "id": 47,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 48,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 49,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 50,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 51,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 52,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 53,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 54,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 55,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 56,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 57,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 58,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 59,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 60,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 61,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 62,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 63,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 64,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 65,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 66,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 67,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 68,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 69,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 70,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 71,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 72,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 73,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 74,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 75,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 76,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 77,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 78,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 79,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 80,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 81,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 82,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 83,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 84,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 85,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 86,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 87,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 88,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 89,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 90,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 91,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 92,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 93,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 94,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 95,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 96,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 97,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 98,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 99,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 100,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 101,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 102,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 103,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 104,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 105,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 106,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 107,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 108,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 109,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 110,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 111,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 112,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 113,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 114,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+
+  {
+    "id": 115,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 116,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 117,
+    "name": "We cannot accept your purchase at this time. Thank you for your interest.",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 118,
+    "name": "404",
+    "categories": ["Unknown"]
   },
   {
     "id": 119,
@@ -527,7 +888,7 @@
   {
     "id": 149,
     "name": "Not enought ARP",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 150,
@@ -860,17 +1221,17 @@
   {
     "id": 192,
     "name": "Not enought ARP",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 193,
     "name": "Not enought ARP",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 194,
     "name": "Not enought ARP",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 195,
@@ -1990,42 +2351,42 @@
   {
     "id": 377,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 378,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 379,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 380,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 381,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 382,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 383,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 384,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 385,
@@ -2086,27 +2447,27 @@
   {
     "id": 392,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 393,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 394,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 395,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 396,
     "name": "404",
-    "categories": []
+    "categories": ["Unknown"]
   },
   {
     "id": 397,
