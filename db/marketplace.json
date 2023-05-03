@@ -632,7 +632,6 @@
     "name": "404",
     "categories": ["Unknown"]
   },
-
   {
     "id": 115,
     "name": "Not enought ARP",
@@ -645,7 +644,7 @@
   },
   {
     "id": 117,
-    "name": "We cannot accept your purchase at this time. Thank you for your interest.",
+    "name": "Not enought ARP",
     "categories": ["Unknown"]
   },
   {
@@ -740,6 +739,11 @@
     "description": "The most popular outfit in Castle Volkihar",
     "price": 45,
     "categories": ["Avatar"]
+  },
+  {
+    "id": 130,
+    "name": "404",
+    "categories": ["Unknown"]
   },
   {
     "id": 131,
@@ -1203,6 +1207,11 @@
     "categories": ["Avatar"]
   },
   {
+    "id": 189,
+    "name": "404",
+    "categories": ["Unknown"]
+  },
+  {
     "id": 190,
     "image": "https://media.alienwarearena.com/media/7dad8ee05c595bb6cc54eb1701cad9af.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Handyman Top",
@@ -1306,12 +1315,47 @@
     "categories": ["Avatar"]
   },
   {
+    "id": 204,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 205,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 206,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
     "id": 207,
     "image": "https://media.alienwarearena.com/media/e80115ad38fe13b2b9402e07e2bccef4.png?fit=crop&width=300&height=300&quality=75",
     "name": "Ocean Waves Badge",
     "description": "Peaceful waves, crested by a setting sun.",
     "price": 20,
     "categories": ["Badges & Borders"]
+  },
+  {
+    "id": 208,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 209,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 210,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
+  },
+  {
+    "id": 211,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
   },
   {
     "id": 212,
@@ -1488,6 +1532,11 @@
     "description": "You can fight crime and look good while doing it.",
     "price": 35,
     "categories": ["Avatar"]
+  },
+  {
+    "id": 234,
+    "name": "Not enought ARP",
+    "categories": ["Unknown"]
   },
   {
     "id": 240,
