@@ -1,5 +1,6 @@
 {
   "name": "awa-db",
+  "packageManager": "yarn@3.5.0",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,8 +13,9 @@
     "generate-favicons": "real-favicon generate favicon.config.json faviconData.json ./public",
     "prepare": "husky install",
     "lint": "eslint --fix \"**/*.{ts,tsx,js,cjs,mjs,jsx,astro}\"",
-    "lint:styles": "npx stylelint --fix \"**/*.css\"",
-    "commit": "cz"
+    "lint:styles": "stylelint --fix \"**/*.css\"",
+    "commit": "cz",
+    "update": "yarn set version stable"
   },
   "devDependencies": {
     "@astrojs/image": "^0.16.7",
