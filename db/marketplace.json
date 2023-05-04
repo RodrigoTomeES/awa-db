@@ -2822,7 +2822,6 @@
     "price": 2500,
     "categories": ["Game Vault"]
   },
-
   {
     "id": 415,
     "image": "https://media.alienwarearena.com/media/103da8bc053a6e0895f653345a385d83.jpg?fit=crop&width=300&height=300&quality=75",
@@ -2901,6 +2900,46 @@
     "name": "Fragments",
     "description": "Used to upgrade Artifacts",
     "price": 100,
+    "categories": ["Artifacts & Fragments"]
+  },
+  {
+    "id": 425,
+    "image": "https://media.alienwarearena.com/media/9d8e19a8ec336f6f97aed369d236862e.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$40 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 2100,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 426,
+    "image": "https://media.alienwarearena.com/media/9339ec9ee979d2a74e03feede1ce20c3.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$30 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 1650,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 427,
+    "image": "https://media.alienwarearena.com/media/acda37644c23c07a9142de4fc8909aa3.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$20 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 1150,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 428,
+    "image": "https://media.alienwarearena.com/media/2a14d996b80ffa7a218aeabe9e83d82e.png?fit=crop&width=300&height=300&quality=75",
+    "name": "$10 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Spend it on anything at Dell.com",
+    "price": 600,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 429,
+    "image": "https://media.alienwarearena.com/media/d34953e507f461fc22175cf5b14b98a7.png?fit=crop&width=300&height=300&quality=75",
+    "name": "Chai Stones",
+    "description": "Chai Stones\n| These ritual stones used by the H`erkow seem to have an effect on my daily discoveries. |",
+    "price": 800,
     "categories": ["Artifacts & Fragments"]
   }
 ]
