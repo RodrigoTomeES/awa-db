@@ -6,7 +6,7 @@ import Pill from '@/atoms/Pill.astro';
 import { getRealURL } from '@/utils/url';
 import { getUrlExtension, isJPG } from '@/utils/utils';
 
-import type { TypeClass, TypeAs } from '@/types';
+import type { TypeAs, TypeClass } from '@/types';
 
 export interface Props<T extends HTMLElement> extends TypeClass, TypeAs<T> {
   id: number;

@@ -3,7 +3,11 @@ const getUniqueData = (...args) => {
 
   args.forEach((data) =>
     data.forEach((item) => {
-      if (!uniqueData.has(item.id)) uniqueData.set(item.id, item);
+      const exists = uniqueData.has(item.id);
+      const uniqueItem = uniqueData.get(item.id);
+
+      if (exists) uniqueData.set(item.id, { ...uniqueItem, ...item });
+      else uniqueData.set(item.id, item);
     })
   );
 
@@ -23,6 +27,6 @@ const findMissingNumbers = (arr) => {
 
 const db = [];
 const data = recoverData();
-const uniqueData = getUniqueData(data, db);
+const uniqueData = getUniqueData(db, data);
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const missingIDs = findMissingNumbers(uniqueData.ids);
