@@ -118,13 +118,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/sitemap@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@astrojs/sitemap@npm:1.2.2"
+"@astrojs/sitemap@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@astrojs/sitemap@npm:1.3.0"
   dependencies:
     sitemap: ^7.1.1
     zod: ^3.17.3
-  checksum: 19211ac62716fe366f722324d01f10e894e219c6a7a29fbd994a16179e933c189a019a6461653472b09e92b6e6cd6bd73ffb3b16bb8185d290677cf71f2720bf
+  checksum: 50a78d9d4613545cf56c8b57a51e019241e13c014c30518f146e68daf413a8791efe703e17addac72dcd3642d4949ab843436b9488f1c194cb6b44213e7bc9b3
   languageName: node
   linkType: hard
 
@@ -446,12 +446,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^17.6.1":
-  version: 17.6.1
-  resolution: "@commitlint/cli@npm:17.6.1"
+"@commitlint/cli@npm:^17.6.3":
+  version: 17.6.3
+  resolution: "@commitlint/cli@npm:17.6.3"
   dependencies:
     "@commitlint/format": ^17.4.4
-    "@commitlint/lint": ^17.6.1
+    "@commitlint/lint": ^17.6.3
     "@commitlint/load": ^17.5.0
     "@commitlint/read": ^17.5.1
     "@commitlint/types": ^17.4.4
@@ -462,16 +462,16 @@ __metadata:
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: ec559e1f529c8bdc680d71527d2eb591dc7d264fcc8a70cf7ee12d5b833c385374ae41943f7a8e8346423c51f8900dded5041b6e719586295573882e366c41ba
+  checksum: e5a597ef453b74b243d1a479746a14938fc68f3fa5ac0210c9f1b5895b6507860b2761c27742e3c1a069ee64de69ef12bea76bcde6a7cb80d6d07bf1b4272c14
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^17.6.1":
-  version: 17.6.1
-  resolution: "@commitlint/config-conventional@npm:17.6.1"
+"@commitlint/config-conventional@npm:^17.6.3":
+  version: 17.6.3
+  resolution: "@commitlint/config-conventional@npm:17.6.3"
   dependencies:
     conventional-changelog-conventionalcommits: ^5.0.0
-  checksum: a854bae11f76b22e188af2fabe4048b5054f56b7f270e6364ab1ed807670fa38192e1a2628d626a9b759785f64874a0b33b560080b34208f69f401ef70d91562
+  checksum: 2dbe26cfafdd320141373ed7a7c656d35279300658b4474509bbcace80887701bc493247f57b27284e435029ade8680a822aeb454a7587d89fa42a0e7a774ce1
   languageName: node
   linkType: hard
 
@@ -516,25 +516,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^17.4.4":
-  version: 17.4.4
-  resolution: "@commitlint/is-ignored@npm:17.4.4"
+"@commitlint/is-ignored@npm:^17.6.3":
+  version: 17.6.3
+  resolution: "@commitlint/is-ignored@npm:17.6.3"
   dependencies:
     "@commitlint/types": ^17.4.4
-    semver: 7.3.8
-  checksum: 716631ecd6aece8642d76c1a99e1cdc24bad79f22199d1d4bad73d9b12edb3578ed7d6f23947ca28d4bb637e08a1738e55dd693c165a2d395c10560a988ffc05
+    semver: 7.5.0
+  checksum: db664b7e6b7154a514ab235353b18ac4131586e019655ccefd557d78ed81e374eddcdb5af166668836bc854922e79c6261de01c41e5868eab2ba8b24c7d4a322
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^17.6.1":
-  version: 17.6.1
-  resolution: "@commitlint/lint@npm:17.6.1"
+"@commitlint/lint@npm:^17.6.3":
+  version: 17.6.3
+  resolution: "@commitlint/lint@npm:17.6.3"
   dependencies:
-    "@commitlint/is-ignored": ^17.4.4
+    "@commitlint/is-ignored": ^17.6.3
     "@commitlint/parse": ^17.4.4
     "@commitlint/rules": ^17.6.1
     "@commitlint/types": ^17.4.4
-  checksum: 990f6940fe277f252087e1d11d1042cfc034fa66b6355d451a0d7d8a24a0f0c381fd88f03556edb9a187c19e6d2a22a575b10c8d6db2f8342578c06396f10285
+  checksum: f033d25fd37f8bf4d95d3783648edbc1ec61eaa277f698765925f973bc3395558fc36eb308a57b1f9ed7ff64d53cfd2055c4c6573a16b2bf9b79a422aee7286d
   languageName: node
   linkType: hard
 
@@ -2185,9 +2185,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^2.3.4":
-  version: 2.4.0
-  resolution: "astro@npm:2.4.0"
+"astro@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "astro@npm:2.4.1"
   dependencies:
     "@astrojs/compiler": ^1.4.0
     "@astrojs/language-server": ^1.0.0
@@ -2249,7 +2249,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 5ae7bba55662a8531093baf29776eb77bbac56aa3e3cb382a4ab5c44d6ce08b0dbbbef3b9badef0c130c221ccac961e788e7ded07b2a9838e7dfb7b895b163fb
+  checksum: f574afda06aac866213b366c8a845dd46434034474fe3a0b15cdb8f73ed477464319d4b525b87a295a18689c4bf71084cad7e8dd5039a66299879af5360420f4
   languageName: node
   linkType: hard
 
@@ -2324,15 +2324,15 @@ __metadata:
   resolution: "awa-db@workspace:."
   dependencies:
     "@astrojs/image": ^0.16.7
-    "@astrojs/sitemap": ^1.2.2
+    "@astrojs/sitemap": ^1.3.0
     "@astrojs/tailwind": ^3.1.2
-    "@commitlint/cli": ^17.6.1
-    "@commitlint/config-conventional": ^17.6.1
+    "@commitlint/cli": ^17.6.3
+    "@commitlint/config-conventional": ^17.6.3
     "@ianvs/prettier-plugin-sort-imports": ^3.7.2
     "@jasikpark/astro-svg-loader": ^0.1.0
     "@typescript-eslint/eslint-plugin": ^5.59.2
     "@typescript-eslint/parser": ^5.59.2
-    astro: ^2.3.4
+    astro: ^2.4.1
     astro-compress: ^1.1.42
     astro-critters: ^1.1.34
     cli-real-favicon: ^0.0.8
@@ -10618,14 +10618,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.3.8":
-  version: 7.3.8
-  resolution: "semver@npm:7.3.8"
+"semver@npm:7.5.0, semver@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "semver@npm:7.5.0"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: ba9c7cbbf2b7884696523450a61fee1a09930d888b7a8d7579025ad93d459b2d1949ee5bbfeb188b2be5f4ac163544c5e98491ad6152df34154feebc2cc337c1
+  checksum: 2d266937756689a76f124ffb4c1ea3e1bbb2b263219f90ada8a11aebebe1280b13bb76cca2ca96bdee3dbc554cbc0b24752eb895b2a51577aa644427e9229f2b
   languageName: node
   linkType: hard
 
@@ -10646,17 +10646,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: debf7f4d6fa36fdc5ef82bd7fc3603b6412165c8a3963a30be0c45a587be1a49e7681e80aa109da1875765741af24edc6e021cee1ba16ae96f649d06c5df296d
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.5.0":
-  version: 7.5.0
-  resolution: "semver@npm:7.5.0"
-  dependencies:
-    lru-cache: ^6.0.0
-  bin:
-    semver: bin/semver.js
-  checksum: 2d266937756689a76f124ffb4c1ea3e1bbb2b263219f90ada8a11aebebe1280b13bb76cca2ca96bdee3dbc554cbc0b24752eb895b2a51577aa644427e9229f2b
   languageName: node
   linkType: hard
 
