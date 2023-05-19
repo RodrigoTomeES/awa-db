@@ -1,6 +1,6 @@
 export type TypeClass = {
   /**
-   * Clase que se le agregará al componente
+   * CSS Class that will be rendered
    */
   class?: string;
 };

@@ -47,27 +47,27 @@ export type TypeMarketItemCategory =
 
 export type TypeMarketItem = {
   /**
-   * ID del item
+   * Item ID
    */
   id: number;
   /**
-   * Imagen del item
+   * Item image
    */
   image?: string;
   /**
-   * Nombre del item
+   * Item name
    */
   name: string;
   /**
-   * Descripción del item
+   * Item description
    */
   description?: string;
   /**
-   * Precio del item
+   * Item price
    */
   price?: number;
   /**
-   * Categoría del item
+   * Item categories
    */
   categories: Array<TypeMarketItemCategory>;
 };
