@@ -9,24 +9,16 @@ import { getRealURL } from '@/utils/url';
 import { NUM_ITEMS_BY_PAGE, removeUknownItems } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
-import type { Page } from 'astro';
+import type { GetStaticPaths, Page } from 'astro';
 
-export interface Props {
-  page: Page<TypeMarketItem>;
-}
-
-export async function getStaticPaths({
-  paginate,
-}: {
-  paginate: (
-    items: TypeMarketItem[],
-    config: { pageSize: number }
-  ) => Page<TypeMarketItem>;
-}) {
-  return paginate((marketplace as TypeMarketItem[]).filter(removeUknownItems), {
+export const getStaticPaths = (async ({ paginate }) =>
+  paginate((marketplace as TypeMarketItem[]).filter(removeUknownItems), {
     pageSize: NUM_ITEMS_BY_PAGE,
-  });
-}
+  })) satisfies GetStaticPaths;
+
+export type Props = {
+  page: Page<TypeMarketItem>;
+};
 
 const { page } = Astro.props;
 

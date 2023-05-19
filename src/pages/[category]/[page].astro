@@ -8,26 +8,10 @@ import { MARKET_ITEMS_CATEGORIES } from '@/types';
 import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
 
 import type { TypeMarketItem } from '@/types';
-import type { Page } from 'astro';
+import type { GetStaticPaths, Page } from 'astro';
 
-export interface Props {
-  page: Page<TypeMarketItem>;
-  category: string;
-}
-
-export function getStaticPaths({
-  paginate,
-}: {
-  paginate: (
-    items: TypeMarketItem[],
-    config: {
-      pageSize: number;
-      params?: Record<string, string>;
-      props?: Record<string, string>;
-    }
-  ) => Page<TypeMarketItem>;
-}) {
-  return MARKET_ITEMS_CATEGORIES.map((category) => {
+export const getStaticPaths = (async ({ paginate }) =>
+  MARKET_ITEMS_CATEGORIES.map((category) => {
     const filteredItems = (marketplace as TypeMarketItem[]).filter((item) =>
       item.categories.includes(category.name)
     );
@@ -37,8 +21,12 @@ export function getStaticPaths({
       props: { category: category.name },
       pageSize: NUM_ITEMS_BY_PAGE,
     });
-  });
-}
+  })) satisfies GetStaticPaths;
+
+export type Props = {
+  page: Page<TypeMarketItem>;
+  category: string;
+};
 
 const { page, category } = Astro.props;
 ---
