@@ -1,7 +1,8 @@
 ---
 import type { TypeAs, TypeClass } from '@/types';
+import type { HTMLTag, Polymorphic } from 'astro/types';
 
-export interface Props<T extends HTMLElement> extends TypeClass, TypeAs<T> {}
+export type Props<T extends HTMLTag> = Polymorphic<TypeAs<T>> & TypeClass;
 
 const { class: className = '', as: Element = 'p', ...props } = Astro.props;
 ---

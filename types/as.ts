@@ -1,6 +1,6 @@
 export type TypeAs<T> = {
   /**
-   * Etiqueta html que utilizará el componente
+   * HTML Tag that will be rendered
    */
-  as?: T;
+  as: T;
 };
