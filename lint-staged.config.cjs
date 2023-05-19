@@ -7,7 +7,7 @@ const config = {
   ],
 
   '**/*.css': (filenames) => [
-    `yarn stylelint --fix  ${filenames.join(' ')}`,
+    `yarn stylelint --fix ${filenames.join(' ')}`,
     `yarn prettier --write  ${filenames.join(' ')}`,
   ],
 
