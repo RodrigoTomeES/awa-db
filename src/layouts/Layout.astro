@@ -7,10 +7,10 @@ import { getRealURL } from '@/utils/url';
 import '@/css/global.css';
 import { routes } from '@/utils/routes';
 
-export interface Props {
+export type Props = {
   title: string;
   description: string;
-}
+};
 
 const { title, description } = Astro.props;
 
