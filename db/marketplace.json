@@ -2941,5 +2941,77 @@
     "description": "Chai Stones\n| These ritual stones used by the H`erkow seem to have an effect on my daily discoveries. |",
     "price": 800,
     "categories": ["Artifacts & Fragments"]
+  },
+  {
+    "id": 430,
+    "image": "https://media.alienwarearena.com/media/579a042b5745e398b5f91529446b9bc9.png?fit=crop&width=300&height=300&quality=75",
+    "name": "4000 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Use it on any purchase above £100.",
+    "price": 2100,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 431,
+    "image": "https://media.alienwarearena.com/media/3fb522d06ad8703e7918fb0f2dee1be2.png?fit=crop&width=300&height=300&quality=75",
+    "name": "3000 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Use it on any purchase above £100.",
+    "price": 1650,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 432,
+    "image": "https://media.alienwarearena.com/media/4cb76d9bdeaa1be83318471f6d701d6e.png?fit=crop&width=300&height=300&quality=75",
+    "name": "2000 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Use it on any purchase above £100.",
+    "price": 1150,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 434,
+    "image": "https://media.alienwarearena.com/media/053a11c3d243ecf51c12c0bd552679c6.png?fit=crop&width=300&height=300&quality=75",
+    "name": "1500 Dell Reward",
+    "description": "Claim your Dell Rewards Money! Use it on any purchase above £100.",
+    "price": 800,
+    "categories": ["Dell Rewards"]
+  },
+  {
+    "id": 435,
+    "image": "https://media.alienwarearena.com/media/a135a4bb3093bd5ee6d6b85e1dd1275f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sailor Hat",
+    "description": "Rough seas out there!",
+    "price": 24,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 436,
+    "image": "https://media.alienwarearena.com/media/2050ec6260e24e965c383e6ca38425bf.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sailor Pants",
+    "description": "The perfect amount of flair",
+    "price": 35,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 437,
+    "image": "https://media.alienwarearena.com/media/96f6d9dcc8b80f8a52a69a490363d815.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sailor Accessories",
+    "description": "All those daily vitamins!",
+    "price": 25,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 438,
+    "image": "https://media.alienwarearena.com/media/746cc931b8ed1cf3420b15741f0453b2.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sailor Shoes",
+    "description": "Best for scrubbing the deck",
+    "price": 20,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 439,
+    "image": "https://media.alienwarearena.com/media/7a535cce1ab5e144ff413ae8a9b17cda.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Sailor Shirt",
+    "description": "\"I yam what I yam an' tha's all I yam\"",
+    "price": 45,
+    "categories": ["Avatar"]
   }
 ]
