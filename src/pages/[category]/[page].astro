@@ -7,21 +7,22 @@ import marketplace from '@/db/marketplace.json';
 import { MARKET_ITEMS_CATEGORIES } from '@/types';
 import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
 
-import type { TypeMarketItem } from '@/types';
+import type { TypeMarketItem, TypeMarketItemCategoryWithSlug } from '@/types';
 import type { GetStaticPaths, Page } from 'astro';
 
-export const getStaticPaths = (async ({ paginate }) =>
-  MARKET_ITEMS_CATEGORIES.map((category) => {
-    const filteredItems = (marketplace as TypeMarketItem[]).filter((item) =>
-      item.categories.includes(category.name)
-    );
+const marketplaceByCategory = (category: TypeMarketItemCategoryWithSlug) =>
+  (marketplace as TypeMarketItem[]).filter((item) =>
+    item.categories.includes(category.name)
+  );
 
-    return paginate(filteredItems, {
+export const getStaticPaths = (async ({ paginate }) =>
+  MARKET_ITEMS_CATEGORIES.map((category) =>
+    paginate(marketplaceByCategory(category), {
       params: { category: category.slug },
       props: { category: category.name },
       pageSize: NUM_ITEMS_BY_PAGE,
-    });
-  })) satisfies GetStaticPaths;
+    })
+  )) satisfies GetStaticPaths;
 
 export type Props = {
   page: Page<TypeMarketItem>;

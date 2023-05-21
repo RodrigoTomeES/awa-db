@@ -7,10 +7,12 @@ const GAME_VAULT = 'Game Vault';
 const DELL_REWARDS = 'Dell Rewards';
 const UNKNOWN = 'Unknown';
 
-export const MARKET_ITEMS_CATEGORIES: {
+export type TypeMarketItemCategoryWithSlug = {
   name: TypeMarketItemCategory;
   slug: string;
-}[] = [
+};
+
+export const MARKET_ITEMS_CATEGORIES: TypeMarketItemCategoryWithSlug[] = [
   {
     name: ARTIFACTS,
     slug: routes.artifacts.slug,
