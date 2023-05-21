@@ -46,7 +46,7 @@ if (Astro.url.pathname === getRealURL('/2')) page.url.prev = getRealURL('/');
   <Grid items={page.data} class="mb-4" />
   <Pagination
     currentPage={page.currentPage}
-    firstPage="/"
+    firstPage={routes.index}
     lastPage={page.lastPage}
     url={{ prev: page.url.prev, next: page.url.next }}
   />

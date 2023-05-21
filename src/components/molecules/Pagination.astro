@@ -25,11 +25,13 @@ const {
 } = Astro.props;
 const currentPath = removeLastDirectoryURL(Astro.url.pathname);
 const fistPageURL = getRealURL(
-  `${currentPath ? `${currentPath}/` : ''}${firstPage}`
+  `${currentPath ? `${currentPath}/` : ''}${
+    firstPage === '/' ? '' : firstPage
+  }/`
 );
-const lastPageURL = getRealURL(`${currentPath}/${lastPage}`);
-const prevPageURL = getRealURL(url.prev ?? fistPageURL);
-const nextPageURL = getRealURL(url.next ?? lastPageURL);
+const lastPageURL = getRealURL(`${currentPath}/${lastPage}/`);
+const prevPageURL = getRealURL(url.prev ? `${url.prev}/` : fistPageURL);
+const nextPageURL = getRealURL(url.next ? `${url.next}/` : lastPageURL);
 ---
 
 <div class={`grid grid-cols-6 gap-2 ${className}`}>
