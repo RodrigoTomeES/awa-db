@@ -13,16 +13,20 @@ export type Props = {
   page: Page<TypeMarketItem>;
 };
 
+const marketplaceWithoutUnknownItems = (marketplace as TypeMarketItem[]).filter(
+  removeUknownItems
+);
+
 const page = {
-  data: (marketplace as TypeMarketItem[])
-    .filter(removeUknownItems)
-    .slice(0, NUM_ITEMS_BY_PAGE),
+  data: marketplaceWithoutUnknownItems.slice(0, NUM_ITEMS_BY_PAGE),
   start: 0,
   end: 8,
-  total: marketplace.length,
+  total: marketplaceWithoutUnknownItems.length,
   currentPage: 1,
   size: NUM_ITEMS_BY_PAGE,
-  lastPage: Math.ceil(marketplace.length / NUM_ITEMS_BY_PAGE),
+  lastPage: Math.ceil(
+    marketplaceWithoutUnknownItems.length / NUM_ITEMS_BY_PAGE
+  ),
   url: {
     current: '/',
     next: '/2',
