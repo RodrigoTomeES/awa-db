@@ -3,11 +3,10 @@ import Pagination from '@/molecules/Pagination.astro';
 import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
-import { NUM_ITEMS_BY_PAGE } from '@/utils';
+import { NUM_ITEMS_BY_PAGE, marketplaceWithoutUnknownItems } from '@/utils';
 
 import type { TypeMarketItem } from '@/types';
 import type { Page } from 'astro';
-import { marketplaceWithoutUnknownItems } from '@/utils';
 
 export type Props = {
   page: Page<TypeMarketItem>;
