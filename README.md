@@ -1,68 +1,28 @@
-# Astro Starter Kit: Basics
+![Website](./doc/website.jpg)
 
-```
-npm create astro@latest -- --template basics
-```
+# Alienware Arena Marketplace DB
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Description
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credits
-
-- [Favicon](https://commons.wikimedia.org/wiki/File:Alien01.svg)
-- [Image unknown item](https://commons.wikimedia.org/wiki/File:GHS-pictogram-unknown.svg)
+This project serves as a comprehensive database for the Alienware Arena Marketplace. It is a dedicated website designed to facilitate item search and provide pricing information. The website encompasses an extensive collection of items available on the Alienware Arena Marketplace, including both currently available items, those that have been removed from the marketplace, and items that are limited to specific markets such as Alienware Arena Rewards exclusive to the United States and the United Kingdom.
 
 ## TODO
 
 - Use Typescript in [Tailwind](https://tailwindcss.com/blog/tailwindcss-v3-3#esm-and-typescript-support) config file
+- Dark mode
+- Price history
+- Search items by name and id
 
 ## Bugs
 
 - Prettier: importOrder don't put external types first
 - Critters: critical CSS is not removed from the CSS file
+
+## Licence
+
+The codebase of this project is distributed under the [GNU General Public License (GPL) version 3.0](LICENCE). However, it is important to note that certain resources utilized within the project may be subject to different licenses. It is recommended to review the specific licenses associated with each resource to ensure compliance with their respective terms and conditions.
+
+## Credits
+
+- [Favicon](https://commons.wikimedia.org/wiki/File:Alien01.svg)
+- [Image unknown item](https://commons.wikimedia.org/wiki/File:GHS-pictogram-unknown.svg)
