@@ -3,17 +3,12 @@ import Pagination from '@/molecules/Pagination.astro';
 import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
-import marketplace from '@/db/marketplace.json';
 import { MARKET_ITEMS_CATEGORIES } from '@/types';
-import { NUM_ITEMS_BY_PAGE } from '@/utils/utils';
+import { NUM_ITEMS_BY_PAGE } from '@/utils';
 
-import type { TypeMarketItem, TypeMarketItemCategoryWithSlug } from '@/types';
+import type { TypeMarketItem } from '@/types';
 import type { GetStaticPaths, Page } from 'astro';
-
-const marketplaceByCategory = (category: TypeMarketItemCategoryWithSlug) =>
-  (marketplace as TypeMarketItem[]).filter((item) =>
-    item.categories.includes(category.name)
-  );
+import { marketplaceByCategory } from '@/utils';
 
 export const getStaticPaths = (async ({ paginate }) =>
   MARKET_ITEMS_CATEGORIES.map((category) =>

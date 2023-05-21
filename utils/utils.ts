@@ -1,5 +1,3 @@
-import type { TypeMarketItem } from '../types';
-
 export const NUM_ITEMS_BY_PAGE = 12;
 
 // eslint-disable-next-line arrow-body-style
@@ -10,6 +8,3 @@ export const getUrlExtension = (url: string): string => {
 
 export const isJPG = (extension: string): boolean =>
   extension?.toLowerCase() === 'jpg' || extension?.toLowerCase() === 'jpeg';
-
-export const removeUknownItems = (item: TypeMarketItem) =>
-  !item.categories.includes('Unknown');

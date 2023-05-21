@@ -3,19 +3,15 @@ import Pagination from '@/molecules/Pagination.astro';
 import Grid from '@/organisms/Grid.astro';
 import Layout from '@/layouts/Layout.astro';
 
-import marketplace from '@/db/marketplace.json';
-import { NUM_ITEMS_BY_PAGE, removeUknownItems } from '@/utils/utils';
+import { NUM_ITEMS_BY_PAGE } from '@/utils';
 
 import type { TypeMarketItem } from '@/types';
 import type { Page } from 'astro';
+import { marketplaceWithoutUnknownItems } from '@/utils';
 
 export type Props = {
   page: Page<TypeMarketItem>;
 };
-
-const marketplaceWithoutUnknownItems = (marketplace as TypeMarketItem[]).filter(
-  removeUknownItems
-);
 
 const page = {
   data: marketplaceWithoutUnknownItems.slice(0, NUM_ITEMS_BY_PAGE),
