@@ -2,7 +2,9 @@
   "name": "awa-db",
   "packageManager": "yarn@3.5.0",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "license": "GPL-3.0+",
+  "author": "Rodrigo Tomé <hi@rodrigotome.es>",
   "scripts": {
     "dev": "astro dev",
     "start": "astro preview",
