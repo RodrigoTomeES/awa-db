@@ -24,13 +24,13 @@ const {
   class: className = '',
 } = Astro.props;
 const currentPath = removeLastDirectoryURL(Astro.url.pathname);
-const fistPageURL = getRealURL(
+const firstPageURL = getRealURL(
   `${currentPath ? `${currentPath}/` : ''}${
     firstPage === '/' ? '' : firstPage
   }/`
 );
 const lastPageURL = getRealURL(`${currentPath}/${lastPage}/`);
-const prevPageURL = getRealURL(url.prev ? `${url.prev}/` : fistPageURL);
+const prevPageURL = getRealURL(url.prev ? `${url.prev}/` : firstPageURL);
 const nextPageURL = getRealURL(url.next ? `${url.next}/` : lastPageURL);
 ---
 
@@ -38,7 +38,7 @@ const nextPageURL = getRealURL(url.next ? `${url.next}/` : lastPageURL);
   <Pill
     as="a"
     aria-disabled={currentPage === 1}
-    href={fistPageURL}
+    href={firstPageURL}
     class="py-1.5"
   >
     &lt;&lt;
