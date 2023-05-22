@@ -9,7 +9,8 @@
     "redhat.vscode-xml",
     "wix.vscode-import-cost",
     "usernamehw.errorlens",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "joshbolduc.commitlint"
   ],
   "unwantedRecommendations": []
 }
