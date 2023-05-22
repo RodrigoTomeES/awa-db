@@ -3,7 +3,7 @@ import { Image } from '@astrojs/image/components';
 
 import Pill from '@/atoms/Pill.astro';
 
-import { getRealURL, getUrlExtension, isJPG } from '@/utils';
+import { getRealURL } from '@/utils';
 
 import type { TypeAs, TypeClass } from '@/types';
 import type { HTMLTag, Polymorphic } from 'astro/types';
@@ -27,7 +27,6 @@ const {
   as: Element = 'div',
 } = Astro.props;
 const urlWithFallback = image ?? getRealURL('/unknown.png');
-const isJPGImage = isJPG(getUrlExtension(urlWithFallback));
 ---
 
 <Element
@@ -44,11 +43,9 @@ const isJPGImage = isJPG(getUrlExtension(urlWithFallback));
       width={200}
       height={200}
       aspectRatio={1}
-      fit={isJPGImage ? 'cover' : 'contain'}
+      fit="contain"
       format="webp"
-      class={`mx-auto h-36 w-36 ${
-        isJPGImage ? 'object-cover' : 'object-contain'
-      }`}
+      class="mx-auto aspect-square h-36 w-36"
     />
 
     <h2
