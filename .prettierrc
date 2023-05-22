@@ -35,6 +35,6 @@
     "<TYPES>",
     "<TYPES>^[./]"
   ],
-  "importOrderMergeDuplicateImports": true,
+  "importOrderTypeScriptVersion": "5.0.4",
   "pluginSearchDirs": false
 }
