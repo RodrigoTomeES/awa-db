@@ -2404,27 +2404,34 @@
   },
   {
     "id": 355,
-    "name": "Broken Sylphin Fission Blade",
+    "image": "https://media.alienwarearena.com/media/830e2eab04cf1eb59f1d17aacd9b4131.jpg",
+    "name": "Sylphin Fission Blade",
+    "description": "Standard issue for the Sylphin defense corps. Light weight for quick strikes.",
+    "price": 900,
     "categories": ["Artifacts & Fragments"]
   },
   {
     "id": 356,
     "name": "Dead by Daylight: Tools of Torment",
+    "price": 2900,
     "categories": ["Game Vault"]
   },
   {
     "id": 357,
     "name": "Embers Adrift",
+    "price": 2700,
     "categories": ["Game Vault"]
   },
   {
     "id": 358,
     "name": "Hunt: Showdown",
+    "price": 3200,
     "categories": ["Game Vault"]
   },
   {
     "id": 359,
     "name": "Have a Nice Death",
+    "price": 3400,
     "categories": ["Game Vault"]
   },
   {
@@ -2509,7 +2516,10 @@
   },
   {
     "id": 370,
-    "name": "Pn295 Fusion",
+    "image": "https://media.alienwarearena.com/media/6fb509c03bff458b7288030b22327eab.jpg",
+    "name": "Pn295",
+    "description": "An extremely unstable element used in the construction of Sylphin armor.",
+    "price": 1,
     "categories": ["Artifacts & Fragments"]
   },
   {
@@ -2554,7 +2564,10 @@
   },
   {
     "id": 376,
+    "image": "https://media.alienwarearena.com/media/ef2606b6b9b6790cbe59bdf2c6e56b75.jpg",
     "name": "Demon Artifact",
+    "description": "[Broken Communication Recieved] ... *))*^ .... **)&&) ... &^ELP .. HELP&(__++ ... &()) ... WE NE&^ &ELP... ...IT'S HERE^%$$ ..... . [End Communication]",
+    "price": 10,
     "categories": ["Artifacts & Fragments"]
   },
   {
@@ -2599,7 +2612,7 @@
   },
   {
     "id": 385,
-    "image": "https://media.alienwarearena.com/media/28966a3df8b371b518b4ef0e0b642e22.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/28966a3df8b371b518b4ef0e0b642e22.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Kerbal Space Program 2",
     "description": "<p>Kerbal Space Program 2 is the sequel to the acclaimed space-flight simulation game Kerbal Space Program. Enter the next generation of space adventure with exciting new parts, stunning visuals, fully revamped UI and Map View, and rich new environments to explore.</p>\n\n<p>For Steam.</p>",
     "price": 2900,
@@ -2607,7 +2620,7 @@
   },
   {
     "id": 386,
-    "image": "https://media.alienwarearena.com/media/29e7cdce3f935b06b77da443e74b44d7.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/29e7cdce3f935b06b77da443e74b44d7.jpg?fit=crop&width=300&height=300&&quality=75",
     "name": "Crime Boss: Rockay City",
     "description": "<p>Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker - a man with his sights set on becoming the new King of Rockay City, one crime at a time…</p>\n\n<p>For Epic</p>",
     "price": 3200,
@@ -2615,7 +2628,7 @@
   },
   {
     "id": 387,
-    "image": "https://media.alienwarearena.com/media/3db8bae94e1dda39bb9d4bcfc307b8ca.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/3db8bae94e1dda39bb9d4bcfc307b8ca.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "System Shock Enhanced Edition",
     "description": "<p>Re-discover what made System Shock the first of it's kind, a ground breaking immersive sim that would inspire a generation of games to come....</p>\n\n<p>For Steam</p>",
     "price": 2100,
@@ -2623,7 +2636,7 @@
   },
   {
     "id": 388,
-    "image": "https://media.alienwarearena.com/media/5579385ca1fda6ae59ec77c44f996b42.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/5579385ca1fda6ae59ec77c44f996b42.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Hotel Renovator",
     "description": "<p>Unleash your inner designer and renovate the hotel of your dreams! Embark on a makeover journey to turn this worn-out place into a successful getaway. Play with thousands of furniture pieces and accessories, and manage the hotel to get 5-star reviews!</p>\n\n<p>For Steam</p>",
     "price": 2400,
@@ -2631,7 +2644,7 @@
   },
   {
     "id": 389,
-    "image": "https://media.alienwarearena.com/media/1f5dea3cd514ab525ee8fb110ac0f30a.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/1f5dea3cd514ab525ee8fb110ac0f30a.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Jurassic World Evolution 2: Feathered Species Pack",
     "description": "<p>Expand your Jurassic World with the incredible Jurassic World Evolution 2: Feathered Species Pack. Featuring three land-dwelling dinosaurs and one flying reptile, these four new eye-catching prehistoric species all exhibit magnificent plumage, ranging from dense coverings to fine coats. Evolve your park like never before and give your guests an experience they won't forget with these captivating feathered additions.</p>\n\n<p>For Steam</p>",
     "price": 1900,
@@ -2639,7 +2652,7 @@
   },
   {
     "id": 390,
-    "image": "https://media.alienwarearena.com/media/0591a67c60147628160f39610725d1aa.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/0591a67c60147628160f39610725d1aa.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Deceive Inc.",
     "description": "<p>Go undercover as the world's greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.</p>\n\n<p>For Steam.</p>",
     "price": 2500,
@@ -2647,7 +2660,7 @@
   },
   {
     "id": 391,
-    "image": "https://media.alienwarearena.com/media/5be9e21e892c7517fe9363532e7f300f.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/5be9e21e892c7517fe9363532e7f300f.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Voodolls",
     "description": "<p>Voodolls is a co-op tower defence experience steeped in the dark &amp; mysterious world of voodoo. Trapped in the jaws of hell, four souls are given the chance of freedom by a mysterious Puppet Master who distils their essence into Voodolls. Take up their offer and begin your break for freedom!</p>\n\n<p>For Steam.</p>\n\n<p>Note: This game will be released on May 11th, 2023. You can activate your key early.</p>",
     "price": 2300,
@@ -2792,7 +2805,7 @@
   },
   {
     "id": 411,
-    "image": "https://media.alienwarearena.com/media/38c2d5243c902d328311ea57f6f10ce8.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/38c2d5243c902d328311ea57f6f10ce8.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "The Last of Us - Part 1",
     "description": "<h3><u><strong>The Last of Us - Part 1</strong></u></h3>\n\n<p>Experience the emotional storytelling and unforgettable characters in The Last of Us™, winner of over 200 Game of the Year awards.<br />\nIn a ravaged civilization, where infected and hardened survivors run rampant, Joel, a weary protagonist, is hired to smuggle 14-year-old Ellie out of a military quarantine zone. However, what starts as a small job soon transforms into a brutal cross-country journey.</p>\n\n<p>For Steam</p>",
     "price": 3800,
@@ -2800,7 +2813,7 @@
   },
   {
     "id": 412,
-    "image": "https://media.alienwarearena.com/media/445cd612c0d0e6d71ae34059788d4b9e.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/445cd612c0d0e6d71ae34059788d4b9e.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "EVERSPACE 2",
     "description": "<h3><u><strong>EVERSPACE 2</strong></u></h3>\n\n<p>EVERSPACE 2 is a fast-paced single-player spaceship shooter with exploration in space and on planets, tons of loot, RPG elements, mining, and crafting. Experience an exciting sci-fi story set in a vivid, handcrafted open world full of secrets, puzzles, and perils.</p>\n\n<p>For Steam</p>",
     "price": 3500,
@@ -2808,7 +2821,7 @@
   },
   {
     "id": 413,
-    "image": "https://media.alienwarearena.com/media/561ac20c6513cd81adec1b82a8467dc5.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/561ac20c6513cd81adec1b82a8467dc5.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Tchia",
     "description": "<h3><u><strong>Tchia</strong></u></h3>\n\n<p>Join Tchia on her tropical open-world adventure as she sets off to rescue her father from the cruel tyrant, Meavora, ruler of the archipelago. Climb, glide, swim, and sail your boat around beautiful islands as you explore a physics-driven sandbox. Face the fabric soldiers created by Meavora in open encounters where your creativity gives you the edge. Take control of any animal or object you can find, make new friends and jam on your fully playable Ukulele. A poetic coming-of-age story inspired by New Caledonia.</p>\n\n<p>For Epic</p>",
     "price": 2800,
@@ -2816,7 +2829,7 @@
   },
   {
     "id": 414,
-    "image": "https://media.alienwarearena.com/media/d31f7d6a5ec1786b149fb5a4cce0486c.jpg?quality=75",
+    "image": "https://media.alienwarearena.com/media/d31f7d6a5ec1786b149fb5a4cce0486c.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Rogue Spirit",
     "description": "<h3><u><strong>Rogue Spirit</strong></u></h3>\n\n<p>Rogue Spirit is a 3D rogue-lite action game with light stealth elements. Play as the Ghost of the Prince of the Kingdom of Midra, possess enemy characters and absorb their unique skills to fight the evil presence that has corrupted your land.</p>\n\n<p>For Steam.</p>",
     "price": 2500,
