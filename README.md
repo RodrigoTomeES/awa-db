@@ -12,6 +12,8 @@ This project serves as a comprehensive database for the Alienware Arena Marketpl
 - Dark mode
 - Price history
 - Search items by name and id
+- Price history
+- Item details page
 
 ## Bugs
 
