@@ -31,3 +31,6 @@ faviconData.json
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Class Map
+class-map.json
