@@ -35,10 +35,9 @@ if (Astro.url.pathname === getRealURL('/2')) page.url.prev = getRealURL('/');
     page.currentPage === 1 && (
       <link
         rel="canonical"
-        href={`${Astro.url}`.replace(
-          Astro.url.pathname,
-          getRealURL(routes.index)
-        )}
+        href={Astro.url
+          .toString()
+          .replace(Astro.url.pathname, getRealURL(routes.index))}
         slot="head"
       />
     )
