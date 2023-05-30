@@ -17,7 +17,9 @@ export default defineConfig({
         applyBaseStyles: false,
       },
     }),
-    rename(),
+    rename({
+      targetExt: ['html'],
+    }),
     critters(),
     compress({ img: false }),
     sitemap(),
