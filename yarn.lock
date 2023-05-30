@@ -2481,6 +2481,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"astro-rename@npm:1.0.0":
+  version: 1.0.0
+  resolution: "astro-rename@npm:1.0.0"
+  dependencies:
+    md5: 2.3.0
+    postcss: 8.4.23
+    postcss-load-config: 4.0.1
+    postcss-rename: 0.6.1
+    pretty-bytes: 6.1.0
+  checksum: a36551ac2cb4e9de4ec6fb16af92e1b7633e2185204d1089ab7c42de03462a9a25352694aabf5d7a608045de50590648d1765e6883ed01c3b84eef73c2999a03
+  languageName: node
+  linkType: hard
+
 "astro@npm:2.5.3":
   version: 2.5.3
   resolution: "astro@npm:2.5.3"
@@ -2634,6 +2647,7 @@ __metadata:
     astro: 2.5.3
     astro-compress: 1.1.44
     astro-critters: 1.1.34
+    astro-rename: 1.0.0
     cli-real-favicon: 0.0.8
     cz-conventional-changelog: 3.3.0
     eslint: 8.41.0
@@ -2644,12 +2658,10 @@ __metadata:
     gh-pages: 5.0.0
     husky: 8.0.3
     lint-staged: 13.2.2
-    postcss-rename: ^0.6.1
     prettier: 2.8.8
     prettier-plugin-astro: 0.9.0
     prettier-plugin-tailwindcss: 0.3.0
     prettier-stylelint: 0.4.2
-    pretty-bytes: ^6.1.0
     sharp: 0.32.1
     stylelint: 15.6.2
     stylelint-config-idiomatic-order: 9.0.0
@@ -3170,6 +3182,13 @@ __metadata:
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
   checksum: 6fd5da1f5d18ff5712c1e0aed41da200d7c51c28f11b36ee3c7b483f3696dabc08927fc6b227735eb8f0e1215c9a8abd8154637f3eff8cada5959df7f58b024d
+  languageName: node
+  linkType: hard
+
+"charenc@npm:0.0.2":
+  version: 0.0.2
+  resolution: "charenc@npm:0.0.2"
+  checksum: 81dcadbe57e861d527faf6dd3855dc857395a1c4d6781f4847288ab23cffb7b3ee80d57c15bba7252ffe3e5e8019db767757ee7975663ad2ca0939bb8fcaf2e5
   languageName: node
   linkType: hard
 
@@ -3727,6 +3746,13 @@ __metadata:
     shebang-command: ^2.0.0
     which: ^2.0.1
   checksum: 671cc7c7288c3a8406f3c69a3ae2fc85555c04169e9d611def9a675635472614f1c0ed0ef80955d5b6d4e724f6ced67f0ad1bb006c2ea643488fcfef994d7f52
+  languageName: node
+  linkType: hard
+
+"crypt@npm:0.0.2":
+  version: 0.0.2
+  resolution: "crypt@npm:0.0.2"
+  checksum: baf4c7bbe05df656ec230018af8cf7dbe8c14b36b98726939cef008d473f6fe7a4fad906cfea4062c93af516f1550a3f43ceb4d6615329612c6511378ed9fe34
   languageName: node
   linkType: hard
 
@@ -6630,7 +6656,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-buffer@npm:^1.1.4, is-buffer@npm:^1.1.5":
+"is-buffer@npm:^1.1.4, is-buffer@npm:^1.1.5, is-buffer@npm:~1.1.6":
   version: 1.1.6
   resolution: "is-buffer@npm:1.1.6"
   checksum: 4a186d995d8bbf9153b4bd9ff9fd04ae75068fe695d29025d25e592d9488911eeece84eefbd8fa41b8ddcc0711058a71d4c466dcf6f1f6e1d83830052d8ca707
@@ -7942,6 +7968,17 @@ __metadata:
   version: 2.1.3
   resolution: "mathml-tag-names@npm:2.1.3"
   checksum: 1201a25a137d6b9e328facd67912058b8b45b19a6c4cc62641c9476195da28a275ca6e0eca070af5378b905c2b11abc1114676ba703411db0b9ce007de921ad0
+  languageName: node
+  linkType: hard
+
+"md5@npm:2.3.0":
+  version: 2.3.0
+  resolution: "md5@npm:2.3.0"
+  dependencies:
+    charenc: 0.0.2
+    crypt: 0.0.2
+    is-buffer: ~1.1.6
+  checksum: a63cacf4018dc9dee08c36e6f924a64ced735b37826116c905717c41cebeb41a522f7a526ba6ad578f9c80f02cb365033ccd67fe186ffbcc1a1faeb75daa9b6e
   languageName: node
   linkType: hard
 
@@ -9729,7 +9766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-load-config@npm:^4.0.1":
+"postcss-load-config@npm:4.0.1, postcss-load-config@npm:^4.0.1":
   version: 4.0.1
   resolution: "postcss-load-config@npm:4.0.1"
   dependencies:
@@ -9765,7 +9802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-rename@npm:^0.6.1":
+"postcss-rename@npm:0.6.1":
   version: 0.6.1
   resolution: "postcss-rename@npm:0.6.1"
   dependencies:
@@ -9896,6 +9933,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:8.4.23, postcss@npm:^8.4.23":
+  version: 8.4.23
+  resolution: "postcss@npm:8.4.23"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 8bb9d1b2ea6e694f8987d4f18c94617971b2b8d141602725fedcc2222fdc413b776a6e1b969a25d627d7b2681ca5aabb56f59e727ef94072e1b6ac8412105a2f
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^5.2.16":
   version: 5.2.18
   resolution: "postcss@npm:5.2.18"
@@ -9927,17 +9975,6 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: e39ac60ccd1542d4f9d93d894048aac0d686b3bb38e927d8386005718e6793dbbb46930f0a523fe382f1bbd843c6d980aaea791252bf5e176180e5a4336d9679
-  languageName: node
-  linkType: hard
-
-"postcss@npm:^8.4.23":
-  version: 8.4.23
-  resolution: "postcss@npm:8.4.23"
-  dependencies:
-    nanoid: ^3.3.6
-    picocolors: ^1.0.0
-    source-map-js: ^1.0.2
-  checksum: 8bb9d1b2ea6e694f8987d4f18c94617971b2b8d141602725fedcc2222fdc413b776a6e1b969a25d627d7b2681ca5aabb56f59e727ef94072e1b6ac8412105a2f
   languageName: node
   linkType: hard
 
@@ -10135,17 +10172,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-bytes@npm:6.1.0":
+  version: 6.1.0
+  resolution: "pretty-bytes@npm:6.1.0"
+  checksum: cca3be45a299a28d1d3d95056ac709b8aeb01540aae7d906ed674c076b5f4b48cb6bf118f172d486c17e47b092a00e827b7f69608bc731ca35ca6f8d93e130f1
+  languageName: node
+  linkType: hard
+
 "pretty-bytes@npm:^5.3.0":
   version: 5.6.0
   resolution: "pretty-bytes@npm:5.6.0"
   checksum: 9c082500d1e93434b5b291bd651662936b8bd6204ec9fa17d563116a192d6d86b98f6d328526b4e8d783c07d5499e2614a807520249692da9ec81564b2f439cd
-  languageName: node
-  linkType: hard
-
-"pretty-bytes@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "pretty-bytes@npm:6.1.0"
-  checksum: cca3be45a299a28d1d3d95056ac709b8aeb01540aae7d906ed674c076b5f4b48cb6bf118f172d486c17e47b092a00e827b7f69608bc731ca35ca6f8d93e130f1
   languageName: node
   linkType: hard
 
