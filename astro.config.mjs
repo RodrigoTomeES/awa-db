@@ -11,6 +11,8 @@ export default defineConfig({
   site: 'https://rodrigotomees.github.io',
   compressHTML: true,
   output: 'static',
+  experimental: { redirects: true },
+  redirects: { '/1': '/' },
   integrations: [
     tailwind({
       config: {
