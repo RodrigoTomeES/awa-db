@@ -3026,5 +3026,61 @@
     "description": "\"I yam what I yam an' tha's all I yam\"",
     "price": 45,
     "categories": ["Avatar"]
+  },
+  {
+    "id": 440,
+    "image": "https://media.alienwarearena.com/media/afce9402cfa90e56e1244d9a18c68d70.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Snorkel Mask",
+    "description": "It's getting foggy...",
+    "price": 23,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 441,
+    "image": "https://media.alienwarearena.com/media/c414cbd58d7f6690356837ec43e9e89c.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Boogie Board",
+    "description": "Someone had a great time on the water!",
+    "price": 40,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 442,
+    "image": "https://media.alienwarearena.com/media/4f1e951b1b3653e3880004523f1efd88.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Swimming Trunks",
+    "description": "Pool day!",
+    "price": 35,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 449,
+    "image": "https://media.alienwarearena.com/media/0745bf331f2eccd42b49581d731e3557.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Oswald Face",
+    "description": "Childhood vibes!",
+    "price": 25,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 451,
+    "image": "https://media.alienwarearena.com/media/1973702af8e9584e1ac7af93d6a7c752.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Oswald Shoes",
+    "description": "How does he walk in those?",
+    "price": 20,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 452,
+    "image": "https://media.alienwarearena.com/media/f8bd7f4e6f933519c47b6c730cdf9f18.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Oswald Suit",
+    "description": "Gone but not forgotten.",
+    "price": 40,
+    "categories": ["Avatar"]
+  },
+  {
+    "id": 453,
+    "image": "https://media.alienwarearena.com/media/96145e27f69645f303fe888152dacd0a.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Oswald Hands",
+    "description": "Put those grippers away!",
+    "price": 20,
+    "categories": ["Avatar"]
   }
 ]
