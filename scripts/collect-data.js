@@ -10,14 +10,17 @@ const saveData = (data) => {
   localStorage.setItem(ALIENWARE_DATA, JSON.stringify(data));
 };
 
+// This replace Ã­\uad to í. \uad is a hidden character.
+const fixUTF8Encoding = (string) => string.replace(/Ã­/g, 'í');
+
 const getData = () => {
   const elements = document.querySelectorAll('[data-product-id]:not(.timer)');
 
   return Array.from(elements).map((element) => ({
     id: parseInt(element.dataset.productId),
     image: element.dataset.productImage,
-    name: element.dataset.productName,
-    description: element.dataset.productDescription,
+    name: fixUTF8Encoding(element.dataset.productName),
+    description: fixUTF8Encoding(element.dataset.productDescription),
     price: parseInt(element.dataset.productPrice),
   }));
 };
