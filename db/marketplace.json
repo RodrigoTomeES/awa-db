@@ -3052,6 +3052,54 @@
     "categories": ["Avatar"]
   },
   {
+    "id": 443,
+    "image": "https://media.alienwarearena.com/media/215f64d2edfd9f573f18758c652238df.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Lego 2K Drive",
+    "description": "<h3><strong><u>Lego 2K Drive</u></strong></h3>\n\n<p>Welcome to Bricklandia, home of a massive open-world LEGO® driving adventure. Race anywhere, play with anyone, build your dream rides, and defeat a cast of wild racing rivals for the coveted Sky Trophy!</p>\n\n<p>For Steam</p>",
+    "price": 4200,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 444,
+    "image": "https://media.alienwarearena.com/media/07ada8832251f183e7971f32cc8cb25f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "System Shock",
+    "description": "<h3><u><strong>System Shock</strong></u></h3>\n\n<p>System Shock is the fully fledged remake of the ground breaking original from 1994, combining cult gameplay with all-new HD visuals, updated controls, an overhauled interface and all-new sounds &amp; music; it even has the original voice actor of SHODAN, one of gaming’s most iconic villains. Witness the rebirth of one of the greatest and most influential games ever created.<br />\n </p>\n\n<p>For Steam</p>",
+    "price": 3900,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 445,
+    "image": "https://media.alienwarearena.com/media/36edf03eaa6a9e51c4f1bede9305d100.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "DBD: End Transmissions",
+    "description": "<h3><u><strong>DBD: End Transmissions</strong></u></h3>\n\n<p>Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed.</p>\n\n<p>For Steam</p>",
+    "price": 2500,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 446,
+    "image": "https://media.alienwarearena.com/media/93b22a3e0123d2da58aa2445fb27ad9f.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Warhammer 40,000: Boltgun",
+    "description": "<h3><u><strong>Warhammer 40,000: Boltgun</strong></u></h3>\n\n<p>Load up your Boltgun and unleash the awesome Space Marine arsenal to blast your way through an explosion of sprites, pixels and blood in a perfect blend of Warhammer 40,000, frenetic gameplay and the stylish visuals of 90’s retro shooters.</p>\n\n<p>For Steam</p>",
+    "price": 3500,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 447,
+    "image": "https://media.alienwarearena.com/media/ea296d9b0b6242038d18b881f15a2654.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Remnant from the Ashes",
+    "description": "<h3><u><strong>Remnant from the Ashes</strong></u></h3>\n\n<p>The world has been thrown into chaos by an ancient evil from another dimension. As one of the last remnants of humanity, you must set out alone or alongside up to two other survivors to face down hordes of deadly enemies to try to carve a foothold, rebuild, and retake what was lost.</p>\n\n<p>For Steam</p>",
+    "price": 3100,
+    "categories": ["Game Vault"]
+  },
+  {
+    "id": 448,
+    "image": "https://media.alienwarearena.com/media/f529896aaa9488d3da4b11ec76ed59a0.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Miasma Chronicles",
+    "description": "<h3><u><strong>Miasma Chronicles</strong></u></h3>\n\n<p>From the creators of Mutant Year Zero: Road to Eden comes a beautifully crafted tactical adventure you won’t forget. Embark on a quest across a post-apocalyptic wasteland torn apart by a savage force known only as the ‘Miasma’.</p>\n\n<p>For Steam</p>",
+    "price": 3700,
+    "categories": ["Game Vault"]
+  },
+  {
     "id": 449,
     "image": "https://media.alienwarearena.com/media/0745bf331f2eccd42b49581d731e3557.jpg?fit=crop&width=300&height=300&quality=75",
     "name": "Oswald Face",
