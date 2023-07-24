@@ -3233,5 +3233,26 @@
     "name": "Robin's Pants",
     "description": "Green with...?",
     "price": 35
+  },
+  {
+    "id": 469,
+    "image": "https://media.alienwarearena.com/media/fd2b87a4bf4bc61d1ce617f80ec53097.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Lobster Suit",
+    "description": "You're all my lobster <3",
+    "price": 100
+  },
+  {
+    "id": 470,
+    "image": "https://media.alienwarearena.com/media/777f4294a8e3b5e4ce81d5107bec9a7d.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Guitar",
+    "description": "Rock on!",
+    "price": 50
+  },
+  {
+    "id": 471,
+    "image": "https://media.alienwarearena.com/media/59d6c0963b4ef0b64579f73242b28774.jpg?fit=crop&width=300&height=300&quality=75",
+    "name": "Rock Expression",
+    "description": "Can't you hear it?",
+    "price": 20
   }
 ]
